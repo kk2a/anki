@@ -1,0 +1,13 @@
+[deck]
+id = 2601010101
+model_id = 2601010102
+name = "暦・干支"
+slug = "calendar"
+model_name = "Japanese Calendar Fact"
+data_file = "data/facts.tsv"
+sources_file = "data/sources.tsv"
+include_reverse = true
+
+[validation]
+expected_rows = 108
+required_categories = ["和風月名", "二十四節気", "十二支", "六十干支"]

@@ -1,0 +1,14 @@
+[deck]
+id = 2601030101
+model_id = 2601030102
+name = "星座（88星座）"
+slug = "constellation-name"
+model_name = "Constellation Fact"
+data_file = "../data/constellation-facts.tsv"
+sources_file = "../data/sources.tsv"
+categories = ["星座"]
+include_reverse = true
+
+[validation]
+expected_rows = 88
+required_categories = ["星座"]

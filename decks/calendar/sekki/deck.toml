@@ -1,0 +1,14 @@
+[deck]
+id = 2601010105
+model_id = 2601010106
+name = "二十四節気"
+slug = "sekki"
+model_name = "Japanese Calendar Fact"
+data_file = "../data/facts.tsv"
+sources_file = "../data/sources.tsv"
+categories = ["二十四節気"]
+include_reverse = true
+
+[validation]
+expected_rows = 24
+required_categories = ["二十四節気"]

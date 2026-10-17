@@ -1,0 +1,109 @@
+fact_id	category	prompt	answer	reading	detail	source_id	tags	reverse_prompt	reverse_answer
+month-01	和風月名	旧暦1月の和風月名は？	睦月	むつき	親族が集まり親しくする月という説	ndl_month	calendar japanese-month	睦月は何月？	旧暦1月
+month-02	和風月名	旧暦2月の和風月名は？	如月	きさらぎ	寒さが残り衣を重ね着する月という説	ndl_month	calendar japanese-month	如月は何月？	旧暦2月
+month-03	和風月名	旧暦3月の和風月名は？	弥生	やよい	草木が生い茂る月という説	ndl_month	calendar japanese-month	弥生は何月？	旧暦3月
+month-04	和風月名	旧暦4月の和風月名は？	卯月	うづき	卯の花の月という説	ndl_month	calendar japanese-month	卯月は何月？	旧暦4月
+month-05	和風月名	旧暦5月の和風月名は？	皐月	さつき	早苗を植える月という説	ndl_month	calendar japanese-month	皐月は何月？	旧暦5月
+month-06	和風月名	旧暦6月の和風月名は？	水無月	みなづき	田に水を引く水の月という説	ndl_month	calendar japanese-month	水無月は何月？	旧暦6月
+month-07	和風月名	旧暦7月の和風月名は？	文月	ふみづき	稲の穂が実る月という説	ndl_month	calendar japanese-month	文月は何月？	旧暦7月
+month-08	和風月名	旧暦8月の和風月名は？	葉月	はづき	木々の葉が落ちる月という説	ndl_month	calendar japanese-month	葉月は何月？	旧暦8月
+month-09	和風月名	旧暦9月の和風月名は？	長月	ながつき	夜が長くなる月という説	ndl_month	calendar japanese-month	長月は何月？	旧暦9月
+month-10	和風月名	旧暦10月の和風月名は？	神無月	かんなづき	神の月、または神々が出雲に集う月という説	ndl_month	calendar japanese-month	神無月は何月？	旧暦10月
+month-11	和風月名	旧暦11月の和風月名は？	霜月	しもつき	霜が降りる月という説	ndl_month	calendar japanese-month	霜月は何月？	旧暦11月
+month-12	和風月名	旧暦12月の和風月名は？	師走	しわす	師匠も走り回る月という説	ndl_month	calendar japanese-month	師走は何月？	旧暦12月
+sekki-01	二十四節気	太陽黄経315°の二十四節気は？	立春	りっしゅん	春 / 正月節 / 春の気配が感じられる頃	naoj_24sekki	calendar sekki spring	立春の太陽黄経は？	315°
+sekki-02	二十四節気	太陽黄経330°の二十四節気は？	雨水	うすい	春 / 正月中 / 雪や氷が水になり雨へ変わる頃	naoj_24sekki	calendar sekki spring	雨水の太陽黄経は？	330°
+sekki-03	二十四節気	太陽黄経345°の二十四節気は？	啓蟄	けいちつ	春 / 二月節 / 冬ごもりの虫が動き始める頃	naoj_24sekki	calendar sekki spring	啓蟄の太陽黄経は？	345°
+sekki-04	二十四節気	太陽黄経0°の二十四節気は？	春分	しゅんぶん	春 / 二月中 / 昼夜がほぼ等しくなる頃	naoj_24sekki	calendar sekki spring	春分の太陽黄経は？	0°
+sekki-05	二十四節気	太陽黄経15°の二十四節気は？	清明	せいめい	春 / 三月節 / 万物が生き生きと清らかに見える頃	naoj_24sekki	calendar sekki spring	清明の太陽黄経は？	15°
+sekki-06	二十四節気	太陽黄経30°の二十四節気は？	穀雨	こくう	春 / 三月中 / 穀物をうるおす春雨の頃	naoj_24sekki	calendar sekki spring	穀雨の太陽黄経は？	30°
+sekki-07	二十四節気	太陽黄経45°の二十四節気は？	立夏	りっか	夏 / 四月節 / 夏の気配が感じられる頃	naoj_24sekki	calendar sekki summer	立夏の太陽黄経は？	45°
+sekki-08	二十四節気	太陽黄経60°の二十四節気は？	小満	しょうまん	夏 / 四月中 / 万物が天地に満ち始める頃	naoj_24sekki	calendar sekki summer	小満の太陽黄経は？	60°
+sekki-09	二十四節気	太陽黄経75°の二十四節気は？	芒種	ぼうしゅ	夏 / 五月節 / 芒のある穀物を植える頃	naoj_24sekki	calendar sekki summer	芒種の太陽黄経は？	75°
+sekki-10	二十四節気	太陽黄経90°の二十四節気は？	夏至	げし	夏 / 五月中 / 昼が一年で最も長くなる頃	naoj_24sekki	calendar sekki summer	夏至の太陽黄経は？	90°
+sekki-11	二十四節気	太陽黄経105°の二十四節気は？	小暑	しょうしょ	夏 / 六月節 / 暑さが始まる頃	naoj_24sekki	calendar sekki summer	小暑の太陽黄経は？	105°
+sekki-12	二十四節気	太陽黄経120°の二十四節気は？	大暑	たいしょ	夏 / 六月中 / 暑さが最も厳しくなる頃	naoj_24sekki	calendar sekki summer	大暑の太陽黄経は？	120°
+sekki-13	二十四節気	太陽黄経135°の二十四節気は？	立秋	りっしゅう	秋 / 七月節 / 秋の気配が感じられる頃	naoj_24sekki	calendar sekki autumn	立秋の太陽黄経は？	135°
+sekki-14	二十四節気	太陽黄経150°の二十四節気は？	処暑	しょしょ	秋 / 七月中 / 暑さがおさまる頃	naoj_24sekki	calendar sekki autumn	処暑の太陽黄経は？	150°
+sekki-15	二十四節気	太陽黄経165°の二十四節気は？	白露	はくろ	秋 / 八月節 / 草に白露が宿る頃	naoj_24sekki	calendar sekki autumn	白露の太陽黄経は？	165°
+sekki-16	二十四節気	太陽黄経180°の二十四節気は？	秋分	しゅうぶん	秋 / 八月中 / 昼夜がほぼ等しくなる頃	naoj_24sekki	calendar sekki autumn	秋分の太陽黄経は？	180°
+sekki-17	二十四節気	太陽黄経195°の二十四節気は？	寒露	かんろ	秋 / 九月節 / 冷たい露が草に結ぶ頃	naoj_24sekki	calendar sekki autumn	寒露の太陽黄経は？	195°
+sekki-18	二十四節気	太陽黄経210°の二十四節気は？	霜降	そうこう	秋 / 九月中 / 霜が降り始める頃	naoj_24sekki	calendar sekki autumn	霜降の太陽黄経は？	210°
+sekki-19	二十四節気	太陽黄経225°の二十四節気は？	立冬	りっとう	冬 / 十月節 / 冬の気配が感じられる頃	naoj_24sekki	calendar sekki winter	立冬の太陽黄経は？	225°
+sekki-20	二十四節気	太陽黄経240°の二十四節気は？	小雪	しょうせつ	冬 / 十月中 / 雨が雪に変わり始める頃	naoj_24sekki	calendar sekki winter	小雪の太陽黄経は？	240°
+sekki-21	二十四節気	太陽黄経255°の二十四節気は？	大雪	たいせつ	冬 / 十一月節 / 雪が本格的に降り積もる頃	naoj_24sekki	calendar sekki winter	大雪の太陽黄経は？	255°
+sekki-22	二十四節気	太陽黄経270°の二十四節気は？	冬至	とうじ	冬 / 十一月中 / 昼が一年で最も短くなる頃	naoj_24sekki	calendar sekki winter	冬至の太陽黄経は？	270°
+sekki-23	二十四節気	太陽黄経285°の二十四節気は？	小寒	しょうかん	冬 / 十二月節 / 寒の入りで寒さが増す頃	naoj_24sekki	calendar sekki winter	小寒の太陽黄経は？	285°
+sekki-24	二十四節気	太陽黄経300°の二十四節気は？	大寒	だいかん	冬 / 十二月中 / 冷気が極まり寒さが最も厳しい頃	naoj_24sekki	calendar sekki winter	大寒の太陽黄経は？	300°
+zodiac-子	十二支	「ね」と読む十二支は？	子	ね	音読み：し / 動物：ねずみ / 五行：水	ndl_eto	calendar zodiac	「子」は何と読む？	ね
+zodiac-丑	十二支	「うし」と読む十二支は？	丑	うし	音読み：ちゅう / 動物：うし / 五行：土	ndl_eto	calendar zodiac	「丑」は何と読む？	うし
+zodiac-寅	十二支	「とら」と読む十二支は？	寅	とら	音読み：いん / 動物：とら / 五行：木	ndl_eto	calendar zodiac	「寅」は何と読む？	とら
+zodiac-卯	十二支	「う」と読む十二支は？	卯	う	音読み：ぼう / 動物：うさぎ / 五行：木	ndl_eto	calendar zodiac	「卯」は何と読む？	う
+zodiac-辰	十二支	「たつ」と読む十二支は？	辰	たつ	音読み：しん / 動物：たつ / 五行：土	ndl_eto	calendar zodiac	「辰」は何と読む？	たつ
+zodiac-巳	十二支	「み」と読む十二支は？	巳	み	音読み：し / 動物：へび / 五行：火	ndl_eto	calendar zodiac	「巳」は何と読む？	み
+zodiac-午	十二支	「うま」と読む十二支は？	午	うま	音読み：ご / 動物：うま / 五行：火	ndl_eto	calendar zodiac	「午」は何と読む？	うま
+zodiac-未	十二支	「ひつじ」と読む十二支は？	未	ひつじ	音読み：び / 動物：ひつじ / 五行：土	ndl_eto	calendar zodiac	「未」は何と読む？	ひつじ
+zodiac-申	十二支	「さる」と読む十二支は？	申	さる	音読み：しん / 動物：さる / 五行：金	ndl_eto	calendar zodiac	「申」は何と読む？	さる
+zodiac-酉	十二支	「とり」と読む十二支は？	酉	とり	音読み：ゆう / 動物：とり / 五行：金	ndl_eto	calendar zodiac	「酉」は何と読む？	とり
+zodiac-戌	十二支	「いぬ」と読む十二支は？	戌	いぬ	音読み：じゅつ / 動物：いぬ / 五行：土	ndl_eto	calendar zodiac	「戌」は何と読む？	いぬ
+zodiac-亥	十二支	「い」と読む十二支は？	亥	い	音読み：がい / 動物：いのしし / 五行：水	ndl_eto	calendar zodiac	「亥」は何と読む？	い
+eto-01	六十干支	六十干支の第1番を訓読みで読むと？	甲子	きのえね	音読み：こうし	ndl_eto	calendar eto	甲子は六十干支の第何番？	第1番
+eto-02	六十干支	六十干支の第2番を訓読みで読むと？	乙丑	きのとうし	音読み：いっちゅう	ndl_eto	calendar eto	乙丑は六十干支の第何番？	第2番
+eto-03	六十干支	六十干支の第3番を訓読みで読むと？	丙寅	ひのえとら	音読み：へいいん	ndl_eto	calendar eto	丙寅は六十干支の第何番？	第3番
+eto-04	六十干支	六十干支の第4番を訓読みで読むと？	丁卯	ひのとう	音読み：ていぼう	ndl_eto	calendar eto	丁卯は六十干支の第何番？	第4番
+eto-05	六十干支	六十干支の第5番を訓読みで読むと？	戊辰	つちのえたつ	音読み：ぼしん	ndl_eto	calendar eto	戊辰は六十干支の第何番？	第5番
+eto-06	六十干支	六十干支の第6番を訓読みで読むと？	己巳	つちのとみ	音読み：きし	ndl_eto	calendar eto	己巳は六十干支の第何番？	第6番
+eto-07	六十干支	六十干支の第7番を訓読みで読むと？	庚午	かのえうま	音読み：こうご	ndl_eto	calendar eto	庚午は六十干支の第何番？	第7番
+eto-08	六十干支	六十干支の第8番を訓読みで読むと？	辛未	かのとひつじ	音読み：しんび	ndl_eto	calendar eto	辛未は六十干支の第何番？	第8番
+eto-09	六十干支	六十干支の第9番を訓読みで読むと？	壬申	みずのえさる	音読み：じんしん	ndl_eto	calendar eto	壬申は六十干支の第何番？	第9番
+eto-10	六十干支	六十干支の第10番を訓読みで読むと？	癸酉	みずのととり	音読み：きゆう	ndl_eto	calendar eto	癸酉は六十干支の第何番？	第10番
+eto-11	六十干支	六十干支の第11番を訓読みで読むと？	甲戌	きのえいぬ	音読み：こうじゅつ	ndl_eto	calendar eto	甲戌は六十干支の第何番？	第11番
+eto-12	六十干支	六十干支の第12番を訓読みで読むと？	乙亥	きのとい	音読み：いつがい	ndl_eto	calendar eto	乙亥は六十干支の第何番？	第12番
+eto-13	六十干支	六十干支の第13番を訓読みで読むと？	丙子	ひのえね	音読み：へいしん	ndl_eto	calendar eto	丙子は六十干支の第何番？	第13番
+eto-14	六十干支	六十干支の第14番を訓読みで読むと？	丁丑	ひのとうし	音読み：ていちゅう	ndl_eto	calendar eto	丁丑は六十干支の第何番？	第14番
+eto-15	六十干支	六十干支の第15番を訓読みで読むと？	戊寅	つちのえとら	音読み：ぼいん	ndl_eto	calendar eto	戊寅は六十干支の第何番？	第15番
+eto-16	六十干支	六十干支の第16番を訓読みで読むと？	己卯	つちのとう	音読み：きぼう	ndl_eto	calendar eto	己卯は六十干支の第何番？	第16番
+eto-17	六十干支	六十干支の第17番を訓読みで読むと？	庚辰	かのえたつ	音読み：こうしん	ndl_eto	calendar eto	庚辰は六十干支の第何番？	第17番
+eto-18	六十干支	六十干支の第18番を訓読みで読むと？	辛巳	かのとみ	音読み：しんし	ndl_eto	calendar eto	辛巳は六十干支の第何番？	第18番
+eto-19	六十干支	六十干支の第19番を訓読みで読むと？	壬午	みずのえうま	音読み：じんご	ndl_eto	calendar eto	壬午は六十干支の第何番？	第19番
+eto-20	六十干支	六十干支の第20番を訓読みで読むと？	癸未	みずのとひつじ	音読み：きび	ndl_eto	calendar eto	癸未は六十干支の第何番？	第20番
+eto-21	六十干支	六十干支の第21番を訓読みで読むと？	甲申	きのえさる	音読み：こうしん	ndl_eto	calendar eto	甲申は六十干支の第何番？	第21番
+eto-22	六十干支	六十干支の第22番を訓読みで読むと？	乙酉	きのととり	音読み：いつゆう	ndl_eto	calendar eto	乙酉は六十干支の第何番？	第22番
+eto-23	六十干支	六十干支の第23番を訓読みで読むと？	丙戌	ひのえいぬ	音読み：へいじゅつ	ndl_eto	calendar eto	丙戌は六十干支の第何番？	第23番
+eto-24	六十干支	六十干支の第24番を訓読みで読むと？	丁亥	ひのとい	音読み：ていがい	ndl_eto	calendar eto	丁亥は六十干支の第何番？	第24番
+eto-25	六十干支	六十干支の第25番を訓読みで読むと？	戊子	つちのえね	音読み：ぼし	ndl_eto	calendar eto	戊子は六十干支の第何番？	第25番
+eto-26	六十干支	六十干支の第26番を訓読みで読むと？	己丑	つちのとうし	音読み：きちゅう	ndl_eto	calendar eto	己丑は六十干支の第何番？	第26番
+eto-27	六十干支	六十干支の第27番を訓読みで読むと？	庚寅	かのえとら	音読み：こういん	ndl_eto	calendar eto	庚寅は六十干支の第何番？	第27番
+eto-28	六十干支	六十干支の第28番を訓読みで読むと？	辛卯	かのとう	音読み：しんぼう	ndl_eto	calendar eto	辛卯は六十干支の第何番？	第28番
+eto-29	六十干支	六十干支の第29番を訓読みで読むと？	壬辰	みずのえたつ	音読み：じんしん	ndl_eto	calendar eto	壬辰は六十干支の第何番？	第29番
+eto-30	六十干支	六十干支の第30番を訓読みで読むと？	癸巳	みずのとみ	音読み：きし	ndl_eto	calendar eto	癸巳は六十干支の第何番？	第30番
+eto-31	六十干支	六十干支の第31番を訓読みで読むと？	甲午	きのえうま	音読み：こうご	ndl_eto	calendar eto	甲午は六十干支の第何番？	第31番
+eto-32	六十干支	六十干支の第32番を訓読みで読むと？	乙未	きのとひつじ	音読み：いつび	ndl_eto	calendar eto	乙未は六十干支の第何番？	第32番
+eto-33	六十干支	六十干支の第33番を訓読みで読むと？	丙申	ひのえさる	音読み：へいしん	ndl_eto	calendar eto	丙申は六十干支の第何番？	第33番
+eto-34	六十干支	六十干支の第34番を訓読みで読むと？	丁酉	ひのととり	音読み：ていゆう	ndl_eto	calendar eto	丁酉は六十干支の第何番？	第34番
+eto-35	六十干支	六十干支の第35番を訓読みで読むと？	戊戌	つちのえいぬ	音読み：ぼじゅつ	ndl_eto	calendar eto	戊戌は六十干支の第何番？	第35番
+eto-36	六十干支	六十干支の第36番を訓読みで読むと？	己亥	つちのとい	音読み：きがい	ndl_eto	calendar eto	己亥は六十干支の第何番？	第36番
+eto-37	六十干支	六十干支の第37番を訓読みで読むと？	庚子	かのえね	音読み：こうし	ndl_eto	calendar eto	庚子は六十干支の第何番？	第37番
+eto-38	六十干支	六十干支の第38番を訓読みで読むと？	辛丑	かのとうし	音読み：しんちゅう	ndl_eto	calendar eto	辛丑は六十干支の第何番？	第38番
+eto-39	六十干支	六十干支の第39番を訓読みで読むと？	壬寅	みずのえとら	音読み：じんいん	ndl_eto	calendar eto	壬寅は六十干支の第何番？	第39番
+eto-40	六十干支	六十干支の第40番を訓読みで読むと？	癸卯	みずのとう	音読み：きぼう	ndl_eto	calendar eto	癸卯は六十干支の第何番？	第40番
+eto-41	六十干支	六十干支の第41番を訓読みで読むと？	甲辰	きのえたつ	音読み：こうしん	ndl_eto	calendar eto	甲辰は六十干支の第何番？	第41番
+eto-42	六十干支	六十干支の第42番を訓読みで読むと？	乙巳	きのとみ	音読み：いつし	ndl_eto	calendar eto	乙巳は六十干支の第何番？	第42番
+eto-43	六十干支	六十干支の第43番を訓読みで読むと？	丙午	ひのえうま	音読み：へいご	ndl_eto	calendar eto	丙午は六十干支の第何番？	第43番
+eto-44	六十干支	六十干支の第44番を訓読みで読むと？	丁未	ひのとひつじ	音読み：ていび	ndl_eto	calendar eto	丁未は六十干支の第何番？	第44番
+eto-45	六十干支	六十干支の第45番を訓読みで読むと？	戊申	つちのえさる	音読み：ぼしん	ndl_eto	calendar eto	戊申は六十干支の第何番？	第45番
+eto-46	六十干支	六十干支の第46番を訓読みで読むと？	己酉	つちのととり	音読み：きゆう	ndl_eto	calendar eto	己酉は六十干支の第何番？	第46番
+eto-47	六十干支	六十干支の第47番を訓読みで読むと？	庚戌	かのえいぬ	音読み：こうじゅつ	ndl_eto	calendar eto	庚戌は六十干支の第何番？	第47番
+eto-48	六十干支	六十干支の第48番を訓読みで読むと？	辛亥	かのとい	音読み：しんがい	ndl_eto	calendar eto	辛亥は六十干支の第何番？	第48番
+eto-49	六十干支	六十干支の第49番を訓読みで読むと？	壬子	みずのえね	音読み：じんし	ndl_eto	calendar eto	壬子は六十干支の第何番？	第49番
+eto-50	六十干支	六十干支の第50番を訓読みで読むと？	癸丑	みずのとうし	音読み：きちゅう	ndl_eto	calendar eto	癸丑は六十干支の第何番？	第50番
+eto-51	六十干支	六十干支の第51番を訓読みで読むと？	甲寅	きのえとら	音読み：こういん	ndl_eto	calendar eto	甲寅は六十干支の第何番？	第51番
+eto-52	六十干支	六十干支の第52番を訓読みで読むと？	乙卯	きのとう	音読み：いつぼう	ndl_eto	calendar eto	乙卯は六十干支の第何番？	第52番
+eto-53	六十干支	六十干支の第53番を訓読みで読むと？	丙辰	ひのえたつ	音読み：へいしん	ndl_eto	calendar eto	丙辰は六十干支の第何番？	第53番
+eto-54	六十干支	六十干支の第54番を訓読みで読むと？	丁巳	ひのとみ	音読み：ていし	ndl_eto	calendar eto	丁巳は六十干支の第何番？	第54番
+eto-55	六十干支	六十干支の第55番を訓読みで読むと？	戊午	つちのえうま	音読み：ぼご	ndl_eto	calendar eto	戊午は六十干支の第何番？	第55番
+eto-56	六十干支	六十干支の第56番を訓読みで読むと？	己未	つちのとひつじ	音読み：きび	ndl_eto	calendar eto	己未は六十干支の第何番？	第56番
+eto-57	六十干支	六十干支の第57番を訓読みで読むと？	庚申	かのえさる	音読み：こうしん	ndl_eto	calendar eto	庚申は六十干支の第何番？	第57番
+eto-58	六十干支	六十干支の第58番を訓読みで読むと？	辛酉	かのととり	音読み：しんゆう	ndl_eto	calendar eto	辛酉は六十干支の第何番？	第58番
+eto-59	六十干支	六十干支の第59番を訓読みで読むと？	壬戌	みずのえいぬ	音読み：じんじゅつ	ndl_eto	calendar eto	壬戌は六十干支の第何番？	第59番
+eto-60	六十干支	六十干支の第60番を訓読みで読むと？	癸亥	みずのとい	音読み：きがい	ndl_eto	calendar eto	癸亥は六十干支の第何番？	第60番

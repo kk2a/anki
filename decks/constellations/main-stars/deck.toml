@@ -1,0 +1,13 @@
+[deck]
+id = 2601030301
+model_id = 2601030302
+name = "主要恒星"
+slug = "main-stars"
+model_name = "Main Star Fact"
+data_file = "../data/main-star-facts.tsv"
+sources_file = "../data/sources.tsv"
+include_reverse = true
+
+[validation]
+expected_rows = 27
+required_categories = ["主要恒星"]

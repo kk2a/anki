@@ -1,0 +1,14 @@
+[deck]
+id = 2601010103
+model_id = 2601010104
+name = "和風月名"
+slug = "japanese-months"
+model_name = "Japanese Calendar Fact"
+data_file = "../data/facts.tsv"
+sources_file = "../data/sources.tsv"
+categories = ["和風月名"]
+include_reverse = true
+
+[validation]
+expected_rows = 12
+required_categories = ["和風月名"]

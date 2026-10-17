@@ -1,0 +1,4 @@
+source_id	title	url	accessed_at	rights_note
+country_list	digtools 世界の国旗一覧・首都一覧（外務省公表196か国基準）	https://tools.digrart.jp/world-flags/	2026-10-17	日本語の国名・首都名を学習用に転記。最新情報は外務省の基礎データで再確認する。
+mofa_basic	外務省 キッズ外務省「世界の国々 基本情報を調べてみよう！」	https://www.mofa.go.jp/mofaj/kids/ichiran/basic.html	2026-10-17	国名・首都の照合用。外務省の注記を優先して個別カードの注記を更新する。
+flag_icons	flag-icons（MIT License）4:3 SVG flags v7.3.2	https://github.com/lipis/flag-icons/tree/v7.3.2/flags/4x3	2026-10-17	SVGは取得スクリプトで生成物として用意し、Gitでは管理しない。MIT Licenseに従う。

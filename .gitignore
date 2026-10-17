@@ -1,0 +1,9 @@
+.venv/
+.yomiyasu/
+__pycache__/
+*.py[cod]
+decks/**/build/*.apkg
+decks/kitauji/assets/member/*.webp
+decks/countries/assets/flags/*.svg
+decks/constellations/assets/charts/*.gif
+decks/constellations/assets/charts/*.png

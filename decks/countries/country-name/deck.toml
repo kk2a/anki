@@ -1,0 +1,13 @@
+[deck]
+id = 2601020101
+model_id = 2601020102
+name = "国名（世界196か国）"
+slug = "country-name"
+model_name = "Country Fact"
+data_file = "../data/country-name-facts.tsv"
+sources_file = "../data/sources.tsv"
+include_reverse = true
+
+[validation]
+expected_rows = 196
+required_categories = ["国名"]

@@ -1,0 +1,14 @@
+[deck]
+id = 2601010107
+model_id = 2601010108
+name = "干支"
+slug = "eto"
+model_name = "Japanese Calendar Fact"
+data_file = "../data/facts.tsv"
+sources_file = "../data/sources.tsv"
+categories = ["十二支", "六十干支"]
+include_reverse = true
+
+[validation]
+expected_rows = 72
+required_categories = ["十二支", "六十干支"]

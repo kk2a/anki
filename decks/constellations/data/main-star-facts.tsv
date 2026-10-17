@@ -1,0 +1,28 @@
+fact_id	category	prompt	answer	reading	detail	source_id	tags	reverse_prompt	reverse_answer	prompt_media	answer_media	reverse_prompt_media	reverse_answer_media
+main-star-arcturus	主要恒星	アークトゥルスは何座の何星？	うしかい座のα星	Arcturus	等級：-0.0／特徴：春の大三角をなす	nao_stars	constellation stars main-star	うしかい座のα星の固有名は？	アークトゥルス				
+main-star-acrux	主要恒星	アクルックスは何座の何星？	みなみじゅうじ座のα星	Acrux	等級：0.8	nao_stars	constellation stars main-star	みなみじゅうじ座のα星の固有名は？	アクルックス				
+main-star-achernar	主要恒星	アケルナルは何座の何星？	エリダヌス座のα星	Achernar	等級：0.5	nao_stars	constellation stars main-star	エリダヌス座のα星の固有名は？	アケルナル				
+main-star-adhara	主要恒星	アダーラは何座の何星？	おおいぬ座のε星	Adhara	等級：1.5	nao_stars	constellation stars main-star	おおいぬ座のε星の固有名は？	アダーラ				
+main-star-algol	主要恒星	アルゴルは何座の何星？	ペルセウス座のβ星	Algol	等級：2.1（極大）	nao_stars	constellation stars main-star	ペルセウス座のβ星の固有名は？	アルゴル				
+main-star-altair	主要恒星	アルタイルは何座の何星？	わし座のα星	Altair	等級：0.8／特徴：七夕伝説の彦星（牽牛星）、夏の大三角	nao_stars	constellation stars main-star	わし座のα星の固有名は？	アルタイル				
+main-star-aldebaran	主要恒星	アルデバランは何座の何星？	おうし座のα星	Aldebaran	等級：0.9	nao_stars	constellation stars main-star	おうし座のα星の固有名は？	アルデバラン				
+main-star-antares	主要恒星	アンタレスは何座の何星？	さそり座のα星	Antares	等級：0.9（極大）	nao_stars	constellation stars main-star	さそり座のα星の固有名は？	アンタレス				
+main-star-castor	主要恒星	カストルは何座の何星？	ふたご座のα星	Castor	等級：1.6	nao_stars	constellation stars main-star	ふたご座のα星の固有名は？	カストル				
+main-star-canopus	主要恒星	カノープスは何座の何星？	りゅうこつ座のα星	Canopus	等級：-0.7	nao_stars	constellation stars main-star	りゅうこつ座のα星の固有名は？	カノープス				
+main-star-capella	主要恒星	カペラは何座の何星？	ぎょしゃ座のα星	Capella	等級：0.1	nao_stars	constellation stars main-star	ぎょしゃ座のα星の固有名は？	カペラ				
+main-star-sirius	主要恒星	シリウスは何座の何星？	おおいぬ座のα星	Sirius	等級：-1.5／特徴：冬の大三角をなす	nao_stars	constellation stars main-star	おおいぬ座のα星の固有名は？	シリウス				
+main-star-spica	主要恒星	スピカは何座の何星？	おとめ座のα星	Spica	等級：1.0／特徴：春の大三角をなす	nao_stars	constellation stars main-star	おとめ座のα星の固有名は？	スピカ				
+main-star-deneb	主要恒星	デネブは何座の何星？	はくちょう座のα星	Deneb	等級：1.2／特徴：夏の大三角をなす	nao_stars	constellation stars main-star	はくちょう座のα星の固有名は？	デネブ				
+main-star-denebola	主要恒星	デネボラは何座の何星？	しし座のβ星	Denebola	等級：2.1／特徴：春の大三角をなす	nao_stars	constellation stars main-star	しし座のβ星の固有名は？	デネボラ				
+main-star-hadar	主要恒星	ハダルは何座の何星？	ケンタウルス座のβ星	Hadar	等級：0.6	nao_stars	constellation stars main-star	ケンタウルス座のβ星の固有名は？	ハダル				
+main-star-fomalhaut	主要恒星	フォーマルハウトは何座の何星？	みなみのうお座のα星	Fomalhaut	等級：1.2	nao_stars	constellation stars main-star	みなみのうお座のα星の固有名は？	フォーマルハウト				
+main-star-procyon	主要恒星	プロキオンは何座の何星？	こいぬ座のα星	Procyon	等級：0.4／特徴：冬の大三角をなす	nao_stars	constellation stars main-star	こいぬ座のα星の固有名は？	プロキオン				
+main-star-vega	主要恒星	ベガは何座の何星？	こと座のα星	Vega	等級：0.0／特徴：七夕伝説の織姫星、夏の大三角をなす	nao_stars	constellation stars main-star	こと座のα星の固有名は？	ベガ				
+main-star-betelgeuse	主要恒星	ベテルギウスは何座の何星？	オリオン座のα星	Betelgeuse	等級：0.0（極大）／特徴：冬の大三角をなす	nao_stars	constellation stars main-star	オリオン座のα星の固有名は？	ベテルギウス				
+main-star-pollux	主要恒星	ポルックスは何座の何星？	ふたご座のβ星	Pollux	等級：1.1	nao_stars	constellation stars main-star	ふたご座のβ星の固有名は？	ポルックス				
+main-star-mimosa	主要恒星	ミモザは何座の何星？	みなみじゅうじ座のβ星	Mimosa	等級：1.2	nao_stars	constellation stars main-star	みなみじゅうじ座のβ星の固有名は？	ミモザ				
+main-star-mira	主要恒星	ミラは何座の何星？	くじら座のo星	Mira	等級：2.0（極大）	nao_stars	constellation stars main-star	くじら座のo星の固有名は？	ミラ				
+main-star-rigil-kentaurus	主要恒星	リギル・ケンタウルスは何座の何星？	ケンタウルス座のα星	Rigil Kentaurus	等級：-0.3	nao_stars	constellation stars main-star	ケンタウルス座のα星の固有名は？	リギル・ケンタウルス				
+main-star-rigel	主要恒星	リゲルは何座の何星？	オリオン座のβ星	Rigel	等級：0.1	nao_stars	constellation stars main-star	オリオン座のβ星の固有名は？	リゲル				
+main-star-regulus	主要恒星	レグルスは何座の何星？	しし座のα星	Regulus	等級：1.4	nao_stars	constellation stars main-star	しし座のα星の固有名は？	レグルス				
+main-star-polaris	主要恒星	北極星は何座の何星？	こぐま座のα星	Polaris	等級：2.0	nao_stars	constellation stars main-star	こぐま座のα星の固有名は？	北極星				

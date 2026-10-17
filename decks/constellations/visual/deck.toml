@@ -1,0 +1,15 @@
+[deck]
+id = 2601030201
+model_id = 2601030202
+name = "星座（星図から）"
+slug = "constellation-visual"
+model_name = "Constellation Visual Fact"
+data_file = "../data/constellation-visual-facts.tsv"
+sources_file = "../data/sources.tsv"
+media_dir = "../assets/charts"
+categories = ["星座ビジュアル"]
+include_reverse = false
+
+[validation]
+expected_rows = 88
+required_categories = ["星座ビジュアル"]

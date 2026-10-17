@@ -1,0 +1,13 @@
+[deck]
+id = 2601020105
+model_id = 2601020106
+name = "首都（世界196か国）"
+slug = "country-capital"
+model_name = "Country Fact"
+data_file = "../data/capital-facts.tsv"
+sources_file = "../data/sources.tsv"
+include_reverse = true
+
+[validation]
+expected_rows = 196
+required_categories = ["首都"]

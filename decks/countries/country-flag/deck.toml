@@ -1,0 +1,14 @@
+[deck]
+id = 2601020103
+model_id = 2601020104
+name = "国旗（世界196か国）"
+slug = "country-flag"
+model_name = "Country Fact"
+data_file = "../data/flag-facts.tsv"
+sources_file = "../data/sources.tsv"
+media_dir = "../assets/flags"
+include_reverse = true
+
+[validation]
+expected_rows = 196
+required_categories = ["国旗"]
