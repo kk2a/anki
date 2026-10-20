@@ -7,7 +7,7 @@ model_name = "Country Fact"
 data_file = "../data/flag-facts.tsv"
 sources_file = "../data/sources.tsv"
 media_dir = "../assets/flags"
-include_reverse = true
+include_reverse = false
 
 [validation]
 expected_rows = 196

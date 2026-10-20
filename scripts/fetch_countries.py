@@ -182,10 +182,9 @@ def make_facts(rows: list[dict[str, str]]) -> dict[str, list[dict[str, str]]]:
                 name,
                 f"首都：{capital}\n{detail}",
                 f"{base_tags} country-flag",
-                f"{name}の国旗は？",
+                "",
                 "",
                 prompt_media=f"{country_id}.svg",
-                reverse_answer_media=f"{country_id}.svg",
             )
         )
     return {"country-name": name_facts, "capital": capital_facts, "flag": flag_facts}

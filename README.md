@@ -42,7 +42,7 @@ uv run python scripts/validate_topic.py decks/countries/capital
 ```
 
 - `country-name.apkg`: 首都から国名を答えるカードと、国名から首都を答えるカード
-- `country-flag.apkg`: 国旗から国名を答えるカードと、国名から国旗を答えるカード
+- `country-flag.apkg`: 国旗から国名を答えるカード
 - `country-capital.apkg`: 国名から首都を答えるカードと、首都から国名を答えるカード
 
 国名と首都名は日本語で収録します。国旗は `flag-icons` のSVGを取得し、生成したapkgに同梱します。
