@@ -20,10 +20,23 @@ def validate_data(deck_dir: Path) -> tuple[dict, list[dict[str, str]], list[dict
     config, facts, sources = load_deck(deck_dir)
     deck_config = config["deck"]
     validation = config.get("validation", {})
+    card_direction = deck_config.get("card_direction")
+    if card_direction not in {None, "forward", "reverse"}:
+        raise ValueError(f"Unsupported card_direction: {card_direction}")
     if len({row["fact_id"] for row in facts}) != len(facts):
         raise ValueError("Fact IDs must be unique")
     if any(not row["prompt"] or not row["answer"] for row in facts):
         raise ValueError("Facts must have both prompt and answer")
+    if card_direction == "reverse" and any(
+        not row.get("reverse_prompt")
+        or not (
+            row.get("reverse_answer")
+            or row.get("reverse_prompt_media")
+            or row.get("reverse_answer_media")
+        )
+        for row in facts
+    ):
+        raise ValueError("Reverse decks require reverse prompt and answer fields")
     if any(not row["url"].startswith("https://") for row in sources):
         raise ValueError("All source URLs must use HTTPS")
     source_ids = {row["source_id"] for row in sources}

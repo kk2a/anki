@@ -108,36 +108,45 @@ def media_tag(filename: str) -> str:
     )
 
 
-def make_model(model_id: int, model_name: str, include_reverse: bool) -> genanki.Model:
-    templates = [
-        {
-            "name": "基本",
-            "ord": 0,
-            "qfmt": '<div class="media">{{PromptMedia}}</div><div class="prompt">{{Prompt}}</div>',
-            "afmt": (
-                '{{FrontSide}}<hr id="answer">'
-                '<div class="answer">{{Answer}}</div>'
-                '<div class="media">{{AnswerMedia}}</div>'
-                '<div class="reading">{{Reading}}</div>'
-                '<div class="detail">{{Detail}}</div>'
-            ),
-        }
-    ]
-    if include_reverse:
-        templates.append(
-            {
-                "name": "逆向き",
-                "ord": 1,
-                "qfmt": '<div class="media">{{ReversePromptMedia}}</div><div class="prompt">{{ReversePrompt}}</div>',
-                "afmt": (
-                    '{{FrontSide}}<hr id="answer">'
-                    '<div class="answer">{{ReverseAnswer}}</div>'
-                    '<div class="media">{{ReverseAnswerMedia}}</div>'
-                    '<div class="reading">{{Reading}}</div>'
-                    '<div class="detail">{{Detail}}</div>'
-                ),
-            }
-        )
+def make_model(
+    model_id: int,
+    model_name: str,
+    include_reverse: bool,
+    card_direction: str | None,
+) -> genanki.Model:
+    forward_template = {
+        "name": "基本",
+        "ord": 0,
+        "qfmt": '<div class="media">{{PromptMedia}}</div><div class="prompt">{{Prompt}}</div>',
+        "afmt": (
+            '{{FrontSide}}<hr id="answer">'
+            '<div class="answer">{{Answer}}</div>'
+            '<div class="media">{{AnswerMedia}}</div>'
+            '<div class="reading">{{Reading}}</div>'
+            '<div class="detail">{{Detail}}</div>'
+        ),
+    }
+    reverse_template = {
+        "name": "逆向き",
+        "ord": 0,
+        "qfmt": '<div class="media">{{ReversePromptMedia}}</div><div class="prompt">{{ReversePrompt}}</div>',
+        "afmt": (
+            '{{FrontSide}}<hr id="answer">'
+            '<div class="answer">{{ReverseAnswer}}</div>'
+            '<div class="media">{{ReverseAnswerMedia}}</div>'
+            '<div class="reading">{{Reading}}</div>'
+            '<div class="detail">{{Detail}}</div>'
+        ),
+    }
+    if card_direction not in {None, "forward", "reverse"}:
+        raise ValueError(f"Unsupported card_direction: {card_direction}")
+    if card_direction == "reverse":
+        templates = [reverse_template]
+    else:
+        templates = [forward_template]
+        if include_reverse:
+            reverse_template["ord"] = 1
+            templates.append(reverse_template)
     return genanki.Model(
         model_id,
         model_name,
@@ -178,6 +187,21 @@ def make_model(model_id: int, model_name: str, include_reverse: bool) -> genanki
 
 
 def expected_card_count(config: dict[str, Any], facts: list[dict[str, str]]) -> int:
+    card_direction = config["deck"].get("card_direction")
+    if card_direction == "reverse":
+        return sum(
+            bool(
+                row.get("reverse_prompt")
+                and (
+                    row.get("reverse_answer")
+                    or row.get("reverse_prompt_media")
+                    or row.get("reverse_answer_media")
+                )
+            )
+            for row in facts
+        )
+    if card_direction not in {None, "forward"}:
+        raise ValueError(f"Unsupported card_direction: {card_direction}")
     include_reverse = bool(config["deck"].get("include_reverse", False))
     reverse_count = sum(
         bool(
@@ -205,6 +229,7 @@ def build_deck(deck_dir: Path, output_path: Path) -> tuple[int, int]:
         int(deck_config["model_id"]),
         deck_config["model_name"],
         bool(deck_config.get("include_reverse", False)),
+        deck_config.get("card_direction"),
     )
     media_files = media_files_for(deck_dir, deck_config, facts)
     deck = genanki.Deck(int(deck_config["id"]), deck_config["name"])

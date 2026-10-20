@@ -1,6 +1,6 @@
 # 個人学習用Ankiデッキ集
 
-複数のテーマを、テーマごとに独立したデッキとして管理するプロジェクトです。漢検準一級など漢字関連のデッキは保留し、現在は暦と国名・国旗・首都から整備しています。
+複数のテーマを、テーマごとに独立したデッキとして管理するプロジェクトです。漢検準一級など漢字関連のデッキは保留し、現在は暦、国名・国旗・首都、世界遺産、自然物のビジュアルデッキを整備しています。
 
 ## 構成
 
@@ -8,9 +8,24 @@
 - `scripts/`: 複数テーマで使う共通ビルダー、検証、取得スクリプト
 - `decks/calendar/`: 和風月名・二十四節気・干支。項目ごとに独立したapkgを生成します
 - `decks/countries/`: 日本を含む196か国の国名・国旗・首都。3種類のapkgを生成します
+- `decks/world-heritage/`: UNESCO公式データを使った世界遺産1,273件。通常方向と逆方向を別々のapkgにします
+- `decks/fish/`, `decks/plants/`, `decks/flowers/`, `decks/mushrooms/`: 各15件のビジュアルデッキ。画像の出典とライセンスをTSVで管理します
 - `decks/kitauji/`: 響け！ユーフォニアム関連の北宇治高校吹奏楽部デッキ
 
 元データと出典はGitで管理し、`.apkg`と取得画像など再生成できるファイルはGitで管理しません。国旗画像は取得スクリプトで `decks/countries/assets/flags/` に用意します。
+
+## 世界遺産・自然物デッキ
+
+UNESCOのWorld Heritage Listから世界遺産データを取得し、名称問題と登録情報問題を別デッキとして生成します。魚介・植物・花・きのこは、Wikimedia Commonsの画像を使ったビジュアル問題です。
+
+```bash
+uv run python scripts/build_all.py \
+  --refresh-world-heritage \
+  --refresh-visual-taxa \
+  --refresh-visual-assets
+```
+
+ライセンスと外部データの利用条件は [LICENSES.md](LICENSES.md) にまとめています。外部データと画像を含むAPKGは、デッキごとの出典・ライセンス条件を確認して利用してください。
 
 ## 暦デッキ
 

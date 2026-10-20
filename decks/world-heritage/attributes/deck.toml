@@ -1,0 +1,14 @@
+[deck]
+id = 2601040103
+model_id = 2601040104
+name = "世界遺産（公式一覧・名称から情報）"
+slug = "world-heritage-attributes"
+model_name = "World Heritage Fact"
+data_file = "../data/facts.tsv"
+sources_file = "../data/sources.tsv"
+card_direction = "reverse"
+include_reverse = false
+
+[validation]
+expected_rows = 1273
+required_categories = ["世界遺産"]

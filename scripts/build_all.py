@@ -20,6 +20,9 @@ TOPIC_BUILDER = ROOT / "scripts/build_topic_deck.py"
 TOPIC_VALIDATOR = ROOT / "scripts/validate_topic.py"
 COUNTRY_FETCHER = ROOT / "scripts/fetch_countries.py"
 CONSTELLATION_FETCHER = ROOT / "scripts/fetch_constellations.py"
+WORLD_HERITAGE_FETCHER = ROOT / "scripts/fetch_world_heritage.py"
+VISUAL_TAXA_FETCHER = ROOT / "scripts/fetch_visual_taxa.py"
+VISUAL_ASSET_FETCHER = ROOT / "scripts/fetch_visual_assets.py"
 KITAUJI_BUILDER = ROOT / "decks/kitauji/scripts/build_deck.py"
 KITAUJI_FETCHER = ROOT / "decks/kitauji/scripts/fetch_members.py"
 KITAUJI_VALIDATOR = ROOT / "decks/kitauji/scripts/validate_project.py"
@@ -71,6 +74,21 @@ def main() -> int:
         action="store_true",
         help="download the IAU OAE text-free constellation PNGs before building",
     )
+    parser.add_argument(
+        "--refresh-visual-assets",
+        action="store_true",
+        help="download visual-deck images listed in their asset manifests before building",
+    )
+    parser.add_argument(
+        "--refresh-world-heritage",
+        action="store_true",
+        help="download UNESCO World Heritage records and regenerate World Heritage TSVs",
+    )
+    parser.add_argument(
+        "--refresh-visual-taxa",
+        action="store_true",
+        help="select Commons images and regenerate fish, plant, flower, and mushroom TSVs",
+    )
     args = parser.parse_args()
 
     if args.refresh_countries:
@@ -86,6 +104,12 @@ def main() -> int:
         )
     if args.refresh_constellations:
         run([sys.executable, str(CONSTELLATION_FETCHER)])
+    if args.refresh_world_heritage:
+        run([sys.executable, str(WORLD_HERITAGE_FETCHER)])
+    if args.refresh_visual_taxa:
+        run([sys.executable, str(VISUAL_TAXA_FETCHER), "--all"])
+    if args.refresh_visual_assets:
+        run([sys.executable, str(VISUAL_ASSET_FETCHER), "--all"])
 
     topic_count = build_topic_decks()
     build_kitauji()

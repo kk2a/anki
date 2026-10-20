@@ -7,3 +7,7 @@ decks/kitauji/assets/member/*.webp
 decks/countries/assets/flags/*.svg
 decks/constellations/assets/charts/*.gif
 decks/constellations/assets/charts/*.png
+decks/**/assets/**/*.jpg
+decks/**/assets/**/*.jpeg
+decks/**/assets/**/*.png
+decks/**/assets/**/*.webp

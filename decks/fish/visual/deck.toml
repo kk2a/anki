@@ -1,0 +1,15 @@
+[deck]
+id = 2601050101
+model_id = 2601050102
+name = "魚介ビジュアル"
+slug = "fish-visual"
+model_name = "Visual Nature Fact"
+data_file = "../data/facts.tsv"
+sources_file = "../data/sources.tsv"
+assets_file = "../data/assets.tsv"
+media_dir = "../assets/images"
+include_reverse = false
+
+[validation]
+expected_rows = 15
+required_categories = ["魚介ビジュアル"]
