@@ -20,6 +20,7 @@ TOPIC_BUILDER = ROOT / "scripts/build_topic_deck.py"
 TOPIC_VALIDATOR = ROOT / "scripts/validate_topic.py"
 COUNTRY_FETCHER = ROOT / "scripts/fetch_countries.py"
 COUNTRY_STARTER_GENERATOR = ROOT / "scripts/generate_country_starters.py"
+COUNTRY_BUNDLE_BUILDER = ROOT / "scripts/build_country_bundles.py"
 CONSTELLATION_FETCHER = ROOT / "scripts/fetch_constellations.py"
 WORLD_HERITAGE_FETCHER = ROOT / "scripts/fetch_world_heritage.py"
 VISUAL_TAXA_FETCHER = ROOT / "scripts/fetch_visual_taxa.py"
@@ -114,6 +115,7 @@ def main() -> int:
 
     run([sys.executable, str(COUNTRY_STARTER_GENERATOR)])
     topic_count = build_topic_decks()
+    run([sys.executable, str(COUNTRY_BUNDLE_BUILDER)])
     build_kitauji()
     print(f"PASS all builds: {topic_count} topic configs and 2 Kitauji packages")
     return 0

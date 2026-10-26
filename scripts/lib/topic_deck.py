@@ -223,7 +223,7 @@ def expected_card_count(config: dict[str, Any], facts: list[dict[str, str]]) -> 
     return len(facts) + (reverse_count if include_reverse else 0)
 
 
-def build_deck(deck_dir: Path, output_path: Path) -> tuple[int, int]:
+def prepare_deck(deck_dir: Path) -> tuple[genanki.Deck, list[Path], int]:
     config, facts, sources = load_deck(deck_dir)
     deck_config = config["deck"]
     source_ids = {row["source_id"] for row in sources}
@@ -262,8 +262,34 @@ def build_deck(deck_dir: Path, output_path: Path) -> tuple[int, int]:
         note.guid = genanki.guid_for(row["fact_id"])
         deck.add_note(note)
 
+    return deck, media_files, expected_card_count(config, facts)
+
+
+def build_package(deck_dirs: list[Path], output_path: Path) -> tuple[int, int]:
+    decks = []
+    media = {}
+    guids = set()
+    deck_ids = set()
+    cards = 0
+    for deck_dir in deck_dirs:
+        deck, files, count = prepare_deck(deck_dir)
+        if deck.deck_id in deck_ids:
+            raise ValueError(f"Duplicate deck ID: {deck.deck_id}")
+        deck_ids.add(deck.deck_id)
+        for note in deck.notes:
+            if note.guid in guids:
+                raise ValueError(f"Duplicate note GUID: {note.guid}")
+            guids.add(note.guid)
+        for path in files:
+            if path.name in media and media[path.name] != path:
+                raise ValueError(f"Conflicting media filename: {path.name}")
+            media[path.name] = path
+        decks.append(deck)
+        cards += count
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    genanki.Package(deck, media_files=[str(path) for path in media_files]).write_to_file(
-        str(output_path)
-    )
-    return len(facts), expected_card_count(config, facts)
+    genanki.Package(decks, media_files=[str(media[name]) for name in sorted(media)]).write_to_file(str(output_path))
+    return len(guids), cards
+
+
+def build_deck(deck_dir: Path, output_path: Path) -> tuple[int, int]:
+    return build_package([deck_dir], output_path)
