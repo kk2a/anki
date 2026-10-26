@@ -43,17 +43,17 @@ uv run python scripts/validate_topic.py decks/calendar/eto
 
 ## 国名・国旗・首都デッキ
 
-国名・国旗・首都それぞれに、全部入りとスターターを用意しています。種類ごとに次のどちらかを一度取り込むだけで使えます。
+国名・国旗・首都それぞれを、一つのAPKGにまとめています。各パックには全部入り196枚と、7地域に分かれたスターター計196枚が入っています。
 
-| 種類 | 全部入り | スターター |
+| 種類 | APKG | 収録内容 |
 | --- | --- | --- |
-| 国名 | `country-name.apkg` | `country-name-starter.apkg` |
-| 国旗 | `country-flag.apkg` | `country-flag-starter.apkg` |
-| 首都 | `country-capital.apkg` | `country-capital-starter.apkg` |
+| 国名 | `country-name-pack.apkg` | 全部入り＋地域別スターター |
+| 国旗 | `country-flag-pack.apkg` | 全部入り＋地域別スターター |
+| 首都 | `country-capital-pack.apkg` | 全部入り＋地域別スターター |
 
-各APKGは196枚です。スターターは7地域のデッキを一つのAPKGにまとめており、取り込み後も地域ごとに分かれます。全部入りとスターターのカードは独立しているため、学習状況も別々に管理できます。
+必要な種類のパックを一度取り込むだけで、全部入りと地域別スターターの両方が入ります。各パックは8デッキ、392枚です。全部入りとスターターは別々のカードなので、学習状況も独立しています。画像もAPKGに同梱します。
 
-スターターの再生成は `uv run python scripts/build_country_bundles.py` で実行します。`decks/countries/build/` に出力され、一括再生成スクリプトでも生成します。地域ごとの個別APKGも引き続き生成でき、スターターパックと同じデッキID・ノートIDを使います。個別版を取り込み済みでも、パックの取り込みで同じカードは追加されません。
+パックの再生成は `uv run python scripts/build_country_bundles.py` で実行します。`decks/countries/build/` に出力され、一括再生成スクリプトでも生成します。全部入りや地域別の個別APKGと同じデッキID・ノートIDを使うため、以前の個別版やスターター版を取り込み済みでも、パックの取り込みで同じカードは追加されません。
 
 国名・国旗・首都は、それぞれ一方向の問題です。
 
