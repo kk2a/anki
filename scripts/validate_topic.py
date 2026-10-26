@@ -82,6 +82,12 @@ def validate_package(
                 notes = connection.execute("select count(*) from notes").fetchone()[0]
                 cards = connection.execute("select count(*) from cards").fetchone()[0]
                 models_json = connection.execute("select models from col").fetchone()[0]
+                reverse = config["deck"].get("reverse_deck")
+                if reverse:
+                    assignments = connection.execute("select distinct ord, did from cards").fetchall()
+                    expected_assignments = {(0, int(config["deck"]["id"])), (1, int(reverse["id"]))}
+                    if set(assignments) != expected_assignments:
+                        raise ValueError(f"Incorrect forward/reverse deck assignments: {assignments}")
         models = json.loads(models_json)
         model = next(iter(models.values()))
         field_names = {field["name"] for field in model["flds"]}

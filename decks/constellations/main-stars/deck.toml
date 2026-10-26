@@ -8,6 +8,10 @@ data_file = "../data/main-star-facts.tsv"
 sources_file = "../data/sources.tsv"
 include_reverse = true
 
+[deck.reverse_deck]
+id = 2601030303
+name = "主要恒星（星座・符号→固有名）"
+
 [validation]
 expected_rows = 27
 required_categories = ["主要恒星"]

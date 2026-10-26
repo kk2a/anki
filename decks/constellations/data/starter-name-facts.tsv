@@ -1,0 +1,89 @@
+fact_id	category	prompt	answer	reading	detail	source_id	tags	reverse_prompt	reverse_answer
+constellation-and	星座	アンドロメダ座の学名・略号は？	Andromeda（And）		属格：Andromedae／見頃：11月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Andromeda（And）は何座？	アンドロメダ座
+constellation-mon	星座	いっかくじゅう座の学名・略号は？	Monoceros（Mon）		属格：Monocerotis／見頃：3月上旬	nao_constellations	constellation 88 constellation-starter season-spring	Monoceros（Mon）は何座？	いっかくじゅう座
+constellation-sgr	星座	いて座の学名・略号は？	Sagittarius（Sgr）		属格：Sagittarii／黄道星座／見頃：9月上旬	nao_constellations	constellation 88 constellation-starter season-autumn	Sagittarius（Sgr）は何座？	いて座
+constellation-del	星座	いるか座の学名・略号は？	Delphinus（Del）		属格：Delphini／見頃：9月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Delphinus（Del）は何座？	いるか座
+constellation-ind	星座	インディアン座の学名・略号は？	Indus（Ind）		属格：Indi／見頃：10月上旬	nao_constellations	constellation 88 constellation-starter season-autumn	Indus（Ind）は何座？	インディアン座
+constellation-psc	星座	うお座の学名・略号は？	Pisces（Psc）		属格：Piscium／黄道星座／見頃：11月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Pisces（Psc）は何座？	うお座
+constellation-lep	星座	うさぎ座の学名・略号は？	Lepus（Lep）		属格：Leporis／見頃：2月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Lepus（Lep）は何座？	うさぎ座
+constellation-boo	星座	うしかい座の学名・略号は？	Bootes（Boo）		属格：Bootis／見頃：6月下旬	nao_constellations	constellation 88 constellation-starter season-summer	Bootes（Boo）は何座？	うしかい座
+constellation-hya	星座	うみへび座の学名・略号は？	Hydra（Hya）		属格：Hydrae／見頃：4月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Hydra（Hya）は何座？	うみへび座
+constellation-eri	星座	エリダヌス座の学名・略号は？	Eridanus（Eri）		属格：Eridani／見頃：1月中旬	nao_constellations	constellation 88 constellation-starter season-winter	Eridanus（Eri）は何座？	エリダヌス座
+constellation-tau	星座	おうし座の学名・略号は？	Taurus（Tau）		属格：Tauri／黄道星座／見頃：1月下旬	nao_constellations	constellation 88 constellation-starter season-winter	Taurus（Tau）は何座？	おうし座
+constellation-cma	星座	おおいぬ座の学名・略号は？	Canis Major（CMa）		属格：Canis Majoris／見頃：2月下旬	nao_constellations	constellation 88 constellation-starter season-winter	Canis Major（CMa）は何座？	おおいぬ座
+constellation-lup	星座	おおかみ座の学名・略号は？	Lupus（Lup）		属格：Lupi／見頃：7月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Lupus（Lup）は何座？	おおかみ座
+constellation-uma	星座	おおぐま座の学名・略号は？	Ursa Major（UMa）		属格：Ursae Majoris／見頃：5月上旬	nao_constellations	constellation 88 constellation-starter season-spring	Ursa Major（UMa）は何座？	おおぐま座
+constellation-vir	星座	おとめ座の学名・略号は？	Virgo（Vir）		属格：Virginis／黄道星座／見頃：6月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Virgo（Vir）は何座？	おとめ座
+constellation-ari	星座	おひつじ座の学名・略号は？	Aries（Ari）		属格：Arietis／黄道星座／見頃：12月下旬	nao_constellations	constellation 88 constellation-starter season-winter	Aries（Ari）は何座？	おひつじ座
+constellation-ori	星座	オリオン座の学名・略号は？	Orion（Ori）		属格：Orionis／見頃：2月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Orion（Ori）は何座？	オリオン座
+constellation-pic	星座	がか座の学名・略号は？	Pictor（Pic）		属格：Pictoris／見頃：2月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Pictor（Pic）は何座？	がか座
+constellation-cas	星座	カシオペヤ座の学名・略号は？	Cassiopeia（Cas）		属格：Cassiopeiae／見頃：12月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Cassiopeia（Cas）は何座？	カシオペヤ座
+constellation-dor	星座	かじき座の学名・略号は？	Dorado（Dor）		属格：Doradus／見頃：1月下旬	nao_constellations	constellation 88 constellation-starter season-winter	Dorado（Dor）は何座？	かじき座
+constellation-cnc	星座	かに座の学名・略号は？	Cancer（Cnc）		属格：Cancri／黄道星座／見頃：3月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Cancer（Cnc）は何座？	かに座
+constellation-com	星座	かみのけ座の学名・略号は？	Coma Berenices（Com）		属格：Comae Berenices／見頃：5月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Coma Berenices（Com）は何座？	かみのけ座
+constellation-cha	星座	カメレオン座の学名・略号は？	Chamaeleon（Cha）		属格：Chamaeleontis／見頃：4月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Chamaeleon（Cha）は何座？	カメレオン座
+constellation-crv	星座	からす座の学名・略号は？	Corvus（Crv）		属格：Corvi／見頃：5月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Corvus（Crv）は何座？	からす座
+constellation-crb	星座	かんむり座の学名・略号は？	Corona Borealis（CrB）		属格：Coronae Borealis／見頃：7月中旬	nao_constellations	constellation 88 constellation-starter season-summer	Corona Borealis（CrB）は何座？	かんむり座
+constellation-tuc	星座	きょしちょう座の学名・略号は？	Tucana（Tuc）		属格：Tucanae／見頃：11月中旬	nao_constellations	constellation 88 constellation-starter season-autumn	Tucana（Tuc）は何座？	きょしちょう座
+constellation-aur	星座	ぎょしゃ座の学名・略号は？	Auriga（Aur）		属格：Aurigae／見頃：2月中旬	nao_constellations	constellation 88 constellation-starter season-winter	Auriga（Aur）は何座？	ぎょしゃ座
+constellation-cam	星座	きりん座の学名・略号は？	Camelopardalis（Cam）		属格：Camelopardalis／見頃：2月中旬	nao_constellations	constellation 88 constellation-starter season-winter	Camelopardalis（Cam）は何座？	きりん座
+constellation-pav	星座	くじゃく座の学名・略号は？	Pavo（Pav）		属格：Pavonis／見頃：9月上旬	nao_constellations	constellation 88 constellation-starter season-autumn	Pavo（Pav）は何座？	くじゃく座
+constellation-cet	星座	くじら座の学名・略号は？	Cetus（Cet）		属格：Ceti／見頃：12月中旬	nao_constellations	constellation 88 constellation-starter season-winter	Cetus（Cet）は何座？	くじら座
+constellation-cep	星座	ケフェウス座の学名・略号は？	Cepheus（Cep）		属格：Cephei／見頃：10月中旬	nao_constellations	constellation 88 constellation-starter season-autumn	Cepheus（Cep）は何座？	ケフェウス座
+constellation-cen	星座	ケンタウルス座の学名・略号は？	Centaurus（Cen）		属格：Centauri／見頃：6月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Centaurus（Cen）は何座？	ケンタウルス座
+constellation-mic	星座	けんびきょう座の学名・略号は？	Microscopium（Mic）		属格：Microscopii／見頃：9月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Microscopium（Mic）は何座？	けんびきょう座
+constellation-cmi	星座	こいぬ座の学名・略号は？	Canis Minor（CMi）		属格：Canis Minoris／見頃：3月中旬	nao_constellations	constellation 88 constellation-starter season-spring	Canis Minor（CMi）は何座？	こいぬ座
+constellation-equ	星座	こうま座の学名・略号は？	Equuleus（Equ）		属格：Equulei／見頃：10月上旬	nao_constellations	constellation 88 constellation-starter season-autumn	Equuleus（Equ）は何座？	こうま座
+constellation-vul	星座	こぎつね座の学名・略号は？	Vulpecula（Vul）		属格：Vulpeculae／見頃：9月中旬	nao_constellations	constellation 88 constellation-starter season-autumn	Vulpecula（Vul）は何座？	こぎつね座
+constellation-umi	星座	こぐま座の学名・略号は？	Ursa Minor（UMi）		属格：Ursae Minoris／見頃：7月中旬	nao_constellations	constellation 88 constellation-starter season-summer	Ursa Minor（UMi）は何座？	こぐま座
+constellation-lmi	星座	こじし座の学名・略号は？	Leo Minor（LMi）		属格：Leonis Minoris／見頃：4月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Leo Minor（LMi）は何座？	こじし座
+constellation-crt	星座	コップ座の学名・略号は？	Crater（Crt）		属格：Crateris／見頃：5月上旬	nao_constellations	constellation 88 constellation-starter season-spring	Crater（Crt）は何座？	コップ座
+constellation-lyr	星座	こと座の学名・略号は？	Lyra（Lyr）		属格：Lyrae／見頃：8月下旬	nao_constellations	constellation 88 constellation-starter season-summer	Lyra（Lyr）は何座？	こと座
+constellation-cir	星座	コンパス座の学名・略号は？	Circinus（Cir）		属格：Circini／見頃：6月下旬	nao_constellations	constellation 88 constellation-starter season-summer	Circinus（Cir）は何座？	コンパス座
+constellation-ara	星座	さいだん座の学名・略号は？	Ara（Ara）		属格：Arae／見頃：8月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Ara（Ara）は何座？	さいだん座
+constellation-sco	星座	さそり座の学名・略号は？	Scorpius（Sco）		属格：Scorpii／黄道星座／見頃：7月下旬	nao_constellations	constellation 88 constellation-starter season-summer	Scorpius（Sco）は何座？	さそり座
+constellation-tri	星座	さんかく座の学名・略号は？	Triangulum（Tri）		属格：Trianguli／見頃：12月中旬	nao_constellations	constellation 88 constellation-starter season-winter	Triangulum（Tri）は何座？	さんかく座
+constellation-leo	星座	しし座の学名・略号は？	Leo（Leo）		属格：Leonis／黄道星座／見頃：4月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Leo（Leo）は何座？	しし座
+constellation-nor	星座	じょうぎ座の学名・略号は？	Norma（Nor）		属格：Normae／見頃：7月中旬	nao_constellations	constellation 88 constellation-starter season-summer	Norma（Nor）は何座？	じょうぎ座
+constellation-sct	星座	たて座の学名・略号は？	Scutum（Sct）		属格：Scuti／見頃：8月下旬	nao_constellations	constellation 88 constellation-starter season-summer	Scutum（Sct）は何座？	たて座
+constellation-cae	星座	ちょうこくぐ座の学名・略号は？	Caelum（Cae）		属格：Caeli／見頃：1月下旬	nao_constellations	constellation 88 constellation-starter season-winter	Caelum（Cae）は何座？	ちょうこくぐ座
+constellation-scl	星座	ちょうこくしつ座の学名・略号は？	Sculptor（Scl）		属格：Sculptoris／見頃：11月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Sculptor（Scl）は何座？	ちょうこくしつ座
+constellation-gru	星座	つる座の学名・略号は？	Grus（Gru）		属格：Gruis／見頃：10月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Grus（Gru）は何座？	つる座
+constellation-men	星座	テーブルさん座の学名・略号は？	Mensa（Men）		属格：Mensae／見頃：2月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Mensa（Men）は何座？	テーブルさん座
+constellation-lib	星座	てんびん座の学名・略号は？	Libra（Lib）		属格：Librae／黄道星座／見頃：7月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Libra（Lib）は何座？	てんびん座
+constellation-lac	星座	とかげ座の学名・略号は？	Lacerta（Lac）		属格：Lacertae／見頃：10月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Lacerta（Lac）は何座？	とかげ座
+constellation-hor	星座	とけい座の学名・略号は？	Horologium（Hor）		属格：Horologii／見頃：1月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Horologium（Hor）は何座？	とけい座
+constellation-vol	星座	とびうお座の学名・略号は？	Volans（Vol）		属格：Volantis／見頃：3月中旬	nao_constellations	constellation 88 constellation-starter season-spring	Volans（Vol）は何座？	とびうお座
+constellation-pup	星座	とも座の学名・略号は？	Puppis（Pup）		属格：Puppis／見頃：3月中旬	nao_constellations	constellation 88 constellation-starter season-spring	Puppis（Pup）は何座？	とも座
+constellation-mus	星座	はえ座の学名・略号は？	Musca（Mus）		属格：Muscae／見頃：5月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Musca（Mus）は何座？	はえ座
+constellation-cyg	星座	はくちょう座の学名・略号は？	Cygnus（Cyg）		属格：Cygni／見頃：9月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Cygnus（Cyg）は何座？	はくちょう座
+constellation-oct	星座	はちぶんぎ座の学名・略号は？	Octans（Oct）		属格：Octantis／見頃：10月上旬	nao_constellations	constellation 88 constellation-starter season-autumn	Octans（Oct）は何座？	はちぶんぎ座
+constellation-col	星座	はと座の学名・略号は？	Columba（Col）		属格：Columbae／見頃：2月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Columba（Col）は何座？	はと座
+constellation-aps	星座	ふうちょう座の学名・略号は？	Apus（Aps）		属格：Apodis／見頃：7月中旬	nao_constellations	constellation 88 constellation-starter season-summer	Apus（Aps）は何座？	ふうちょう座
+constellation-gem	星座	ふたご座の学名・略号は？	Gemini（Gem）		属格：Geminorum／黄道星座／見頃：3月上旬	nao_constellations	constellation 88 constellation-starter season-spring	Gemini（Gem）は何座？	ふたご座
+constellation-peg	星座	ペガスス座の学名・略号は？	Pegasus（Peg）		属格：Pegasi／見頃：10月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Pegasus（Peg）は何座？	ペガスス座
+constellation-ser	星座	へび座の学名・略号は？	Serpens（Ser）		属格：Serpentis／頭部の見頃：7月中旬、尾部の見頃：8月中旬	nao_constellations	constellation 88 constellation-starter season-summer	Serpens（Ser）は何座？	へび座
+constellation-oph	星座	へびつかい座の学名・略号は？	Ophiuchus（Oph）		属格：Ophiuchi／見頃：8月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Ophiuchus（Oph）は何座？	へびつかい座
+constellation-her	星座	ヘルクレス座の学名・略号は？	Hercules（Her）		属格：Herculis／見頃：8月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Hercules（Her）は何座？	ヘルクレス座
+constellation-per	星座	ペルセウス座の学名・略号は？	Perseus（Per）		属格：Persei／見頃：1月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Perseus（Per）は何座？	ペルセウス座
+constellation-vel	星座	ほ座の学名・略号は？	Vela（Vel）		属格：Velorum／見頃：4月上旬	nao_constellations	constellation 88 constellation-starter season-spring	Vela（Vel）は何座？	ほ座
+constellation-tel	星座	ぼうえんきょう座の学名・略号は？	Telescopium（Tel）		属格：Telescopii／見頃：9月上旬	nao_constellations	constellation 88 constellation-starter season-autumn	Telescopium（Tel）は何座？	ぼうえんきょう座
+constellation-phe	星座	ほうおう座の学名・略号は？	Phoenix（Phe）		属格：Phoenicis／見頃：12月上旬	nao_constellations	constellation 88 constellation-starter season-winter	Phoenix（Phe）は何座？	ほうおう座
+constellation-ant	星座	ポンプ座の学名・略号は？	Antlia（Ant）		属格：Antliae／見頃：4月中旬	nao_constellations	constellation 88 constellation-starter season-spring	Antlia（Ant）は何座？	ポンプ座
+constellation-aqr	星座	みずがめ座の学名・略号は？	Aquarius（Aqr）		属格：Aquarii／黄道星座／見頃：10月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Aquarius（Aqr）は何座？	みずがめ座
+constellation-hyi	星座	みずへび座の学名・略号は？	Hydrus（Hyi）		属格：Hydri／見頃：12月下旬	nao_constellations	constellation 88 constellation-starter season-winter	Hydrus（Hyi）は何座？	みずへび座
+constellation-cru	星座	みなみじゅうじ座の学名・略号は？	Crux（Cru）		属格：Crucis／見頃：5月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Crux（Cru）は何座？	みなみじゅうじ座
+constellation-psa	星座	みなみのうお座の学名・略号は？	Piscis Austrinus（PsA）		属格：Piscis Austrini／見頃：10月中旬	nao_constellations	constellation 88 constellation-starter season-autumn	Piscis Austrinus（PsA）は何座？	みなみのうお座
+constellation-cra	星座	みなみのかんむり座の学名・略号は？	Corona Australis（CrA）		属格：Coronae Australis／見頃：8月下旬	nao_constellations	constellation 88 constellation-starter season-summer	Corona Australis（CrA）は何座？	みなみのかんむり座
+constellation-tra	星座	みなみのさんかく座の学名・略号は？	Triangulum Australe（TrA）		属格：Trianguli Australis／見頃：7月中旬	nao_constellations	constellation 88 constellation-starter season-summer	Triangulum Australe（TrA）は何座？	みなみのさんかく座
+constellation-sge	星座	や座の学名・略号は？	Sagitta（Sge）		属格：Sagittae／見頃：9月中旬	nao_constellations	constellation 88 constellation-starter season-autumn	Sagitta（Sge）は何座？	や座
+constellation-cap	星座	やぎ座の学名・略号は？	Capricornus（Cap）		属格：Capricorni／黄道星座／見頃：9月下旬	nao_constellations	constellation 88 constellation-starter season-autumn	Capricornus（Cap）は何座？	やぎ座
+constellation-lyn	星座	やまねこ座の学名・略号は？	Lynx（Lyn）		属格：Lyncis／見頃：3月中旬	nao_constellations	constellation 88 constellation-starter season-spring	Lynx（Lyn）は何座？	やまねこ座
+constellation-pyx	星座	らしんばん座の学名・略号は？	Pyxis（Pyx）		属格：Pyxidis／見頃：3月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Pyxis（Pyx）は何座？	らしんばん座
+constellation-dra	星座	りゅう座の学名・略号は？	Draco（Dra）		属格：Draconis／見頃：8月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Draco（Dra）は何座？	りゅう座
+constellation-car	星座	りゅうこつ座の学名・略号は？	Carina（Car）		属格：Carinae／見頃：3月下旬	nao_constellations	constellation 88 constellation-starter season-spring	Carina（Car）は何座？	りゅうこつ座
+constellation-cvn	星座	りょうけん座の学名・略号は？	Canes Venatici（CVn）		属格：Canum Venaticorum／見頃：6月上旬	nao_constellations	constellation 88 constellation-starter season-summer	Canes Venatici（CVn）は何座？	りょうけん座
+constellation-ret	星座	レチクル座の学名・略号は？	Reticulum（Ret）		属格：Reticuli／見頃：1月中旬	nao_constellations	constellation 88 constellation-starter season-winter	Reticulum（Ret）は何座？	レチクル座
+constellation-for	星座	ろ座の学名・略号は？	Fornax（For）		属格：Fornacis／見頃：12月下旬	nao_constellations	constellation 88 constellation-starter season-winter	Fornax（For）は何座？	ろ座
+constellation-sex	星座	ろくぶんぎ座の学名・略号は？	Sextans（Sex）		属格：Sextantis／見頃：4月中旬	nao_constellations	constellation 88 constellation-starter season-spring	Sextans（Sex）は何座？	ろくぶんぎ座
+constellation-aql	星座	わし座の学名・略号は？	Aquila（Aql）		属格：Aquilae／見頃：9月上旬	nao_constellations	constellation 88 constellation-starter season-autumn	Aquila（Aql）は何座？	わし座

@@ -101,23 +101,38 @@ done
 
 ## 星座デッキ
 
-国立天文台の一覧をもとに、88星座の名称・学名・略号と主要恒星を収録します。IAUの星図を使ったビジュアル問題も、星座デッキとは別のapkgとして生成します。
+国立天文台のデータを使い、88星座・主要恒星27件・星図問題を別々のパックにしています。各パックには全部入りと季節別スターターの両方が入ります。
+
+| パック | APKG | カード数 |
+| --- | --- | ---: |
+| 88星座の日本語名・学名・略号 | `constellation-name-pack.apkg` | 352 |
+| 主要恒星の固有名・所属星座・符号 | `main-stars-pack.apkg` | 108 |
+| 星図から星座名を答える問題 | `constellation-visual-pack.apkg` | 176 |
+
+88星座は「日本語名→学名・略号」と「学名・略号→日本語名」、主要恒星は「固有名→星座・符号」と「星座・符号→固有名」を別デッキにします。通常方向と逆方向は同じノートから作り、説明を共通に保ちます。星図問題は一方向です。
+
+スターターは全部入りと独立したノートなので、学習状況も別々に管理できます。方向ごとのデッキID・既存ノートIDを維持しているため、パックを再インポートしても同じカードは増えません。
+
+季節は [国立天文台の一覧](https://www.nao.ac.jp/new-info/constellation.html) の「位置の目安」の月から、次のルールで機械的に分けます。この春夏秋冬の区分は本プロジェクトで定めたもので、国立天文台が示す季節分類ではありません。
+
+| 季節 | 月 | 星座数 | 主要恒星数 |
+| --- | --- | ---: | ---: |
+| 春 | 3〜5月 | 22 | 8 |
+| 夏 | 6〜8月 | 21 | 7 |
+| 秋 | 9〜11月 | 23 | 3 |
+| 冬 | 12〜2月 | 22 | 9 |
+
+「位置の目安」は、東京で20時（中央標準時）に星座のおよその中心が子午線を通過する時期です。一般的な「春の星座」などの区分とは異なる場合があります。南天の一部は東京から見えず、周極星も特定の季節だけに見えるわけではありません。主要恒星は所属星座の月を使い、へび座は頭部の月を使います。対応表は `decks/constellations/data/constellation-seasons.tsv` に生成します。分類の出典や作成上の注記はスクリプトと資料で管理し、カードのdetailには追加しません。
 
 ```bash
 uv run python scripts/fetch_constellations.py
-uv run python scripts/build_topic_deck.py decks/constellations/name
-uv run python scripts/build_topic_deck.py decks/constellations/main-stars
-uv run python scripts/build_topic_deck.py decks/constellations/visual
-uv run python scripts/validate_topic.py decks/constellations/name
-uv run python scripts/validate_topic.py decks/constellations/main-stars
-uv run python scripts/validate_topic.py decks/constellations/visual
+uv run python scripts/generate_constellation_starters.py
+uv run python scripts/build_constellation_bundles.py
 ```
 
-- `constellation-name.apkg`: 88星座の日本語名と学名・略号
-- `main-stars.apkg`: 国立天文台の「おもな恒星」に掲載された27個の恒星
-- `constellation-visual.apkg`: 星図を見て星座名を答える問題
+パックは `decks/constellations/build/` に出力します。`scripts/build_all.py` でも季節別データとパックを再生成し、個別デッキを検証します。星図PNGは取得スクリプトで `decks/constellations/assets/charts/` に用意し、Gitでは管理しません。
 
-星図PNGは取得スクリプトで `decks/constellations/assets/charts/` に用意し、Gitでは管理しません。
+旧版の逆向きカードは、再インポートだけでは元のデッキに残る場合があります。その場合はAnkiのブラウザで該当する「逆向き」カードを選び、新しい逆方向のデッキへ移動してください。ノートやカードを削除せず、所属デッキだけを変更することで学習履歴を維持できます。
 
 ## 北宇治高校吹奏楽部デッキ
 

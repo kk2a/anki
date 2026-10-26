@@ -1,0 +1,19 @@
+[deck]
+id = 2601031305
+model_id = 2601030302
+name = "主要恒星スターター::秋::固有名→星座・符号"
+slug = "main-stars-starter-autumn"
+model_name = "Main Star Fact"
+data_file = "../../data/starter-main-stars-facts.tsv"
+sources_file = "../../data/sources.tsv"
+include_reverse = true
+fact_id_prefix = "starter-"
+required_tags = ["season-autumn"]
+
+[deck.reverse_deck]
+id = 2601031306
+name = "主要恒星スターター::秋::星座・符号→固有名"
+
+[validation]
+expected_rows = 3
+required_categories = ["主要恒星"]

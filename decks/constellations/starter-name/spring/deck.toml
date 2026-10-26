@@ -1,0 +1,19 @@
+[deck]
+id = 2601031101
+model_id = 2601030102
+name = "星座スターター::春::日本語名→学名・略号"
+slug = "constellation-name-starter-spring"
+model_name = "Constellation Fact"
+data_file = "../../data/starter-name-facts.tsv"
+sources_file = "../../data/sources.tsv"
+include_reverse = true
+fact_id_prefix = "starter-"
+required_tags = ["season-spring"]
+
+[deck.reverse_deck]
+id = 2601031102
+name = "星座スターター::春::学名・略号→日本語名"
+
+[validation]
+expected_rows = 22
+required_categories = ["星座"]

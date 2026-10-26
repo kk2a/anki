@@ -1,0 +1,19 @@
+[deck]
+id = 2601031303
+model_id = 2601030302
+name = "主要恒星スターター::夏::固有名→星座・符号"
+slug = "main-stars-starter-summer"
+model_name = "Main Star Fact"
+data_file = "../../data/starter-main-stars-facts.tsv"
+sources_file = "../../data/sources.tsv"
+include_reverse = true
+fact_id_prefix = "starter-"
+required_tags = ["season-summer"]
+
+[deck.reverse_deck]
+id = 2601031304
+name = "主要恒星スターター::夏::星座・符号→固有名"
+
+[validation]
+expected_rows = 7
+required_categories = ["主要恒星"]

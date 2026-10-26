@@ -1,0 +1,19 @@
+[deck]
+id = 2601031103
+model_id = 2601030102
+name = "星座スターター::夏::日本語名→学名・略号"
+slug = "constellation-name-starter-summer"
+model_name = "Constellation Fact"
+data_file = "../../data/starter-name-facts.tsv"
+sources_file = "../../data/sources.tsv"
+include_reverse = true
+fact_id_prefix = "starter-"
+required_tags = ["season-summer"]
+
+[deck.reverse_deck]
+id = 2601031104
+name = "星座スターター::夏::学名・略号→日本語名"
+
+[validation]
+expected_rows = 21
+required_categories = ["星座"]

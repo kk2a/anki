@@ -1,0 +1,89 @@
+fact_id	category	prompt	answer	reading	detail	source_id	tags	prompt_media
+constellation-visual-and	星座ビジュアル	この星図の星座は？	アンドロメダ座	Andromeda（And）	属格：Andromedae／見頃：11月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	andromeda.png
+constellation-visual-mon	星座ビジュアル	この星図の星座は？	いっかくじゅう座	Monoceros（Mon）	属格：Monocerotis／見頃：3月上旬	iau_charts	constellation visual 88 constellation-starter season-spring	monoceros.png
+constellation-visual-sgr	星座ビジュアル	この星図の星座は？	いて座	Sagittarius（Sgr）	属格：Sagittarii／黄道星座／見頃：9月上旬	iau_charts	constellation visual 88 constellation-starter season-autumn	sagittarius.png
+constellation-visual-del	星座ビジュアル	この星図の星座は？	いるか座	Delphinus（Del）	属格：Delphini／見頃：9月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	delphinus.png
+constellation-visual-ind	星座ビジュアル	この星図の星座は？	インディアン座	Indus（Ind）	属格：Indi／見頃：10月上旬	iau_charts	constellation visual 88 constellation-starter season-autumn	indus.png
+constellation-visual-psc	星座ビジュアル	この星図の星座は？	うお座	Pisces（Psc）	属格：Piscium／黄道星座／見頃：11月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	pisces.png
+constellation-visual-lep	星座ビジュアル	この星図の星座は？	うさぎ座	Lepus（Lep）	属格：Leporis／見頃：2月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	lepus.png
+constellation-visual-boo	星座ビジュアル	この星図の星座は？	うしかい座	Bootes（Boo）	属格：Bootis／見頃：6月下旬	iau_charts	constellation visual 88 constellation-starter season-summer	bootes.png
+constellation-visual-hya	星座ビジュアル	この星図の星座は？	うみへび座	Hydra（Hya）	属格：Hydrae／見頃：4月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	hydra.png
+constellation-visual-eri	星座ビジュアル	この星図の星座は？	エリダヌス座	Eridanus（Eri）	属格：Eridani／見頃：1月中旬	iau_charts	constellation visual 88 constellation-starter season-winter	eridanus.png
+constellation-visual-tau	星座ビジュアル	この星図の星座は？	おうし座	Taurus（Tau）	属格：Tauri／黄道星座／見頃：1月下旬	iau_charts	constellation visual 88 constellation-starter season-winter	taurus.png
+constellation-visual-cma	星座ビジュアル	この星図の星座は？	おおいぬ座	Canis Major（CMa）	属格：Canis Majoris／見頃：2月下旬	iau_charts	constellation visual 88 constellation-starter season-winter	canis-major.png
+constellation-visual-lup	星座ビジュアル	この星図の星座は？	おおかみ座	Lupus（Lup）	属格：Lupi／見頃：7月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	lupus.png
+constellation-visual-uma	星座ビジュアル	この星図の星座は？	おおぐま座	Ursa Major（UMa）	属格：Ursae Majoris／見頃：5月上旬	iau_charts	constellation visual 88 constellation-starter season-spring	ursa-major.png
+constellation-visual-vir	星座ビジュアル	この星図の星座は？	おとめ座	Virgo（Vir）	属格：Virginis／黄道星座／見頃：6月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	virgo.png
+constellation-visual-ari	星座ビジュアル	この星図の星座は？	おひつじ座	Aries（Ari）	属格：Arietis／黄道星座／見頃：12月下旬	iau_charts	constellation visual 88 constellation-starter season-winter	aries.png
+constellation-visual-ori	星座ビジュアル	この星図の星座は？	オリオン座	Orion（Ori）	属格：Orionis／見頃：2月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	orion.png
+constellation-visual-pic	星座ビジュアル	この星図の星座は？	がか座	Pictor（Pic）	属格：Pictoris／見頃：2月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	pictor.png
+constellation-visual-cas	星座ビジュアル	この星図の星座は？	カシオペヤ座	Cassiopeia（Cas）	属格：Cassiopeiae／見頃：12月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	cassiopeia.png
+constellation-visual-dor	星座ビジュアル	この星図の星座は？	かじき座	Dorado（Dor）	属格：Doradus／見頃：1月下旬	iau_charts	constellation visual 88 constellation-starter season-winter	dorado.png
+constellation-visual-cnc	星座ビジュアル	この星図の星座は？	かに座	Cancer（Cnc）	属格：Cancri／黄道星座／見頃：3月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	cancer.png
+constellation-visual-com	星座ビジュアル	この星図の星座は？	かみのけ座	Coma Berenices（Com）	属格：Comae Berenices／見頃：5月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	coma-berenices.png
+constellation-visual-cha	星座ビジュアル	この星図の星座は？	カメレオン座	Chamaeleon（Cha）	属格：Chamaeleontis／見頃：4月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	chamaeleon.png
+constellation-visual-crv	星座ビジュアル	この星図の星座は？	からす座	Corvus（Crv）	属格：Corvi／見頃：5月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	corvus.png
+constellation-visual-crb	星座ビジュアル	この星図の星座は？	かんむり座	Corona Borealis（CrB）	属格：Coronae Borealis／見頃：7月中旬	iau_charts	constellation visual 88 constellation-starter season-summer	corona-borealis.png
+constellation-visual-tuc	星座ビジュアル	この星図の星座は？	きょしちょう座	Tucana（Tuc）	属格：Tucanae／見頃：11月中旬	iau_charts	constellation visual 88 constellation-starter season-autumn	tucana.png
+constellation-visual-aur	星座ビジュアル	この星図の星座は？	ぎょしゃ座	Auriga（Aur）	属格：Aurigae／見頃：2月中旬	iau_charts	constellation visual 88 constellation-starter season-winter	auriga.png
+constellation-visual-cam	星座ビジュアル	この星図の星座は？	きりん座	Camelopardalis（Cam）	属格：Camelopardalis／見頃：2月中旬	iau_charts	constellation visual 88 constellation-starter season-winter	camelopardalis.png
+constellation-visual-pav	星座ビジュアル	この星図の星座は？	くじゃく座	Pavo（Pav）	属格：Pavonis／見頃：9月上旬	iau_charts	constellation visual 88 constellation-starter season-autumn	pavo.png
+constellation-visual-cet	星座ビジュアル	この星図の星座は？	くじら座	Cetus（Cet）	属格：Ceti／見頃：12月中旬	iau_charts	constellation visual 88 constellation-starter season-winter	cetus.png
+constellation-visual-cep	星座ビジュアル	この星図の星座は？	ケフェウス座	Cepheus（Cep）	属格：Cephei／見頃：10月中旬	iau_charts	constellation visual 88 constellation-starter season-autumn	cepheus.png
+constellation-visual-cen	星座ビジュアル	この星図の星座は？	ケンタウルス座	Centaurus（Cen）	属格：Centauri／見頃：6月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	centaurus.png
+constellation-visual-mic	星座ビジュアル	この星図の星座は？	けんびきょう座	Microscopium（Mic）	属格：Microscopii／見頃：9月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	microscopium.png
+constellation-visual-cmi	星座ビジュアル	この星図の星座は？	こいぬ座	Canis Minor（CMi）	属格：Canis Minoris／見頃：3月中旬	iau_charts	constellation visual 88 constellation-starter season-spring	canis-minor.png
+constellation-visual-equ	星座ビジュアル	この星図の星座は？	こうま座	Equuleus（Equ）	属格：Equulei／見頃：10月上旬	iau_charts	constellation visual 88 constellation-starter season-autumn	equuleus.png
+constellation-visual-vul	星座ビジュアル	この星図の星座は？	こぎつね座	Vulpecula（Vul）	属格：Vulpeculae／見頃：9月中旬	iau_charts	constellation visual 88 constellation-starter season-autumn	vulpecula.png
+constellation-visual-umi	星座ビジュアル	この星図の星座は？	こぐま座	Ursa Minor（UMi）	属格：Ursae Minoris／見頃：7月中旬	iau_charts	constellation visual 88 constellation-starter season-summer	ursa-minor.png
+constellation-visual-lmi	星座ビジュアル	この星図の星座は？	こじし座	Leo Minor（LMi）	属格：Leonis Minoris／見頃：4月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	leo-minor.png
+constellation-visual-crt	星座ビジュアル	この星図の星座は？	コップ座	Crater（Crt）	属格：Crateris／見頃：5月上旬	iau_charts	constellation visual 88 constellation-starter season-spring	crater.png
+constellation-visual-lyr	星座ビジュアル	この星図の星座は？	こと座	Lyra（Lyr）	属格：Lyrae／見頃：8月下旬	iau_charts	constellation visual 88 constellation-starter season-summer	lyra.png
+constellation-visual-cir	星座ビジュアル	この星図の星座は？	コンパス座	Circinus（Cir）	属格：Circini／見頃：6月下旬	iau_charts	constellation visual 88 constellation-starter season-summer	circinus.png
+constellation-visual-ara	星座ビジュアル	この星図の星座は？	さいだん座	Ara（Ara）	属格：Arae／見頃：8月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	ara.png
+constellation-visual-sco	星座ビジュアル	この星図の星座は？	さそり座	Scorpius（Sco）	属格：Scorpii／黄道星座／見頃：7月下旬	iau_charts	constellation visual 88 constellation-starter season-summer	scorpius.png
+constellation-visual-tri	星座ビジュアル	この星図の星座は？	さんかく座	Triangulum（Tri）	属格：Trianguli／見頃：12月中旬	iau_charts	constellation visual 88 constellation-starter season-winter	triangulum.png
+constellation-visual-leo	星座ビジュアル	この星図の星座は？	しし座	Leo（Leo）	属格：Leonis／黄道星座／見頃：4月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	leo.png
+constellation-visual-nor	星座ビジュアル	この星図の星座は？	じょうぎ座	Norma（Nor）	属格：Normae／見頃：7月中旬	iau_charts	constellation visual 88 constellation-starter season-summer	norma.png
+constellation-visual-sct	星座ビジュアル	この星図の星座は？	たて座	Scutum（Sct）	属格：Scuti／見頃：8月下旬	iau_charts	constellation visual 88 constellation-starter season-summer	scutum.png
+constellation-visual-cae	星座ビジュアル	この星図の星座は？	ちょうこくぐ座	Caelum（Cae）	属格：Caeli／見頃：1月下旬	iau_charts	constellation visual 88 constellation-starter season-winter	caelum.png
+constellation-visual-scl	星座ビジュアル	この星図の星座は？	ちょうこくしつ座	Sculptor（Scl）	属格：Sculptoris／見頃：11月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	sculptor.png
+constellation-visual-gru	星座ビジュアル	この星図の星座は？	つる座	Grus（Gru）	属格：Gruis／見頃：10月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	grus.png
+constellation-visual-men	星座ビジュアル	この星図の星座は？	テーブルさん座	Mensa（Men）	属格：Mensae／見頃：2月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	mensa.png
+constellation-visual-lib	星座ビジュアル	この星図の星座は？	てんびん座	Libra（Lib）	属格：Librae／黄道星座／見頃：7月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	libra.png
+constellation-visual-lac	星座ビジュアル	この星図の星座は？	とかげ座	Lacerta（Lac）	属格：Lacertae／見頃：10月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	lacerta.png
+constellation-visual-hor	星座ビジュアル	この星図の星座は？	とけい座	Horologium（Hor）	属格：Horologii／見頃：1月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	horologium.png
+constellation-visual-vol	星座ビジュアル	この星図の星座は？	とびうお座	Volans（Vol）	属格：Volantis／見頃：3月中旬	iau_charts	constellation visual 88 constellation-starter season-spring	volans.png
+constellation-visual-pup	星座ビジュアル	この星図の星座は？	とも座	Puppis（Pup）	属格：Puppis／見頃：3月中旬	iau_charts	constellation visual 88 constellation-starter season-spring	puppis.png
+constellation-visual-mus	星座ビジュアル	この星図の星座は？	はえ座	Musca（Mus）	属格：Muscae／見頃：5月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	musca.png
+constellation-visual-cyg	星座ビジュアル	この星図の星座は？	はくちょう座	Cygnus（Cyg）	属格：Cygni／見頃：9月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	cygnus.png
+constellation-visual-oct	星座ビジュアル	この星図の星座は？	はちぶんぎ座	Octans（Oct）	属格：Octantis／見頃：10月上旬	iau_charts	constellation visual 88 constellation-starter season-autumn	octans.png
+constellation-visual-col	星座ビジュアル	この星図の星座は？	はと座	Columba（Col）	属格：Columbae／見頃：2月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	columba.png
+constellation-visual-aps	星座ビジュアル	この星図の星座は？	ふうちょう座	Apus（Aps）	属格：Apodis／見頃：7月中旬	iau_charts	constellation visual 88 constellation-starter season-summer	apus.png
+constellation-visual-gem	星座ビジュアル	この星図の星座は？	ふたご座	Gemini（Gem）	属格：Geminorum／黄道星座／見頃：3月上旬	iau_charts	constellation visual 88 constellation-starter season-spring	gemini.png
+constellation-visual-peg	星座ビジュアル	この星図の星座は？	ペガスス座	Pegasus（Peg）	属格：Pegasi／見頃：10月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	pegasus.png
+constellation-visual-ser	星座ビジュアル	この星図の星座は？	へび座	Serpens（Ser）	属格：Serpentis／頭部の見頃：7月中旬、尾部の見頃：8月中旬	iau_charts	constellation visual 88 constellation-starter season-summer	serpens-caput.png;serpens-cauda.png
+constellation-visual-oph	星座ビジュアル	この星図の星座は？	へびつかい座	Ophiuchus（Oph）	属格：Ophiuchi／見頃：8月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	ophiuchus.png
+constellation-visual-her	星座ビジュアル	この星図の星座は？	ヘルクレス座	Hercules（Her）	属格：Herculis／見頃：8月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	hercules.png
+constellation-visual-per	星座ビジュアル	この星図の星座は？	ペルセウス座	Perseus（Per）	属格：Persei／見頃：1月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	perseus.png
+constellation-visual-vel	星座ビジュアル	この星図の星座は？	ほ座	Vela（Vel）	属格：Velorum／見頃：4月上旬	iau_charts	constellation visual 88 constellation-starter season-spring	vela.png
+constellation-visual-tel	星座ビジュアル	この星図の星座は？	ぼうえんきょう座	Telescopium（Tel）	属格：Telescopii／見頃：9月上旬	iau_charts	constellation visual 88 constellation-starter season-autumn	telescopium.png
+constellation-visual-phe	星座ビジュアル	この星図の星座は？	ほうおう座	Phoenix（Phe）	属格：Phoenicis／見頃：12月上旬	iau_charts	constellation visual 88 constellation-starter season-winter	phoenix.png
+constellation-visual-ant	星座ビジュアル	この星図の星座は？	ポンプ座	Antlia（Ant）	属格：Antliae／見頃：4月中旬	iau_charts	constellation visual 88 constellation-starter season-spring	antlia.png
+constellation-visual-aqr	星座ビジュアル	この星図の星座は？	みずがめ座	Aquarius（Aqr）	属格：Aquarii／黄道星座／見頃：10月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	aquarius.png
+constellation-visual-hyi	星座ビジュアル	この星図の星座は？	みずへび座	Hydrus（Hyi）	属格：Hydri／見頃：12月下旬	iau_charts	constellation visual 88 constellation-starter season-winter	hydrus.png
+constellation-visual-cru	星座ビジュアル	この星図の星座は？	みなみじゅうじ座	Crux（Cru）	属格：Crucis／見頃：5月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	crux.png
+constellation-visual-psa	星座ビジュアル	この星図の星座は？	みなみのうお座	Piscis Austrinus（PsA）	属格：Piscis Austrini／見頃：10月中旬	iau_charts	constellation visual 88 constellation-starter season-autumn	piscis-austrinus.png
+constellation-visual-cra	星座ビジュアル	この星図の星座は？	みなみのかんむり座	Corona Australis（CrA）	属格：Coronae Australis／見頃：8月下旬	iau_charts	constellation visual 88 constellation-starter season-summer	corona-australis.png
+constellation-visual-tra	星座ビジュアル	この星図の星座は？	みなみのさんかく座	Triangulum Australe（TrA）	属格：Trianguli Australis／見頃：7月中旬	iau_charts	constellation visual 88 constellation-starter season-summer	triangulum-australe.png
+constellation-visual-sge	星座ビジュアル	この星図の星座は？	や座	Sagitta（Sge）	属格：Sagittae／見頃：9月中旬	iau_charts	constellation visual 88 constellation-starter season-autumn	sagitta.png
+constellation-visual-cap	星座ビジュアル	この星図の星座は？	やぎ座	Capricornus（Cap）	属格：Capricorni／黄道星座／見頃：9月下旬	iau_charts	constellation visual 88 constellation-starter season-autumn	capricornus.png
+constellation-visual-lyn	星座ビジュアル	この星図の星座は？	やまねこ座	Lynx（Lyn）	属格：Lyncis／見頃：3月中旬	iau_charts	constellation visual 88 constellation-starter season-spring	lynx.png
+constellation-visual-pyx	星座ビジュアル	この星図の星座は？	らしんばん座	Pyxis（Pyx）	属格：Pyxidis／見頃：3月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	pyxis.png
+constellation-visual-dra	星座ビジュアル	この星図の星座は？	りゅう座	Draco（Dra）	属格：Draconis／見頃：8月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	draco.png
+constellation-visual-car	星座ビジュアル	この星図の星座は？	りゅうこつ座	Carina（Car）	属格：Carinae／見頃：3月下旬	iau_charts	constellation visual 88 constellation-starter season-spring	carina.png
+constellation-visual-cvn	星座ビジュアル	この星図の星座は？	りょうけん座	Canes Venatici（CVn）	属格：Canum Venaticorum／見頃：6月上旬	iau_charts	constellation visual 88 constellation-starter season-summer	canes-venatici.png
+constellation-visual-ret	星座ビジュアル	この星図の星座は？	レチクル座	Reticulum（Ret）	属格：Reticuli／見頃：1月中旬	iau_charts	constellation visual 88 constellation-starter season-winter	reticulum.png
+constellation-visual-for	星座ビジュアル	この星図の星座は？	ろ座	Fornax（For）	属格：Fornacis／見頃：12月下旬	iau_charts	constellation visual 88 constellation-starter season-winter	fornax.png
+constellation-visual-sex	星座ビジュアル	この星図の星座は？	ろくぶんぎ座	Sextans（Sex）	属格：Sextantis／見頃：4月中旬	iau_charts	constellation visual 88 constellation-starter season-spring	sextans.png
+constellation-visual-aql	星座ビジュアル	この星図の星座は？	わし座	Aquila（Aql）	属格：Aquilae／見頃：9月上旬	iau_charts	constellation visual 88 constellation-starter season-autumn	aquila.png

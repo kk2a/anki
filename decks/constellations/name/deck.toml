@@ -9,6 +9,10 @@ sources_file = "../data/sources.tsv"
 categories = ["星座"]
 include_reverse = true
 
+[deck.reverse_deck]
+id = 2601030103
+name = "星座（学名・略号→日本語名）"
+
 [validation]
 expected_rows = 88
 required_categories = ["星座"]

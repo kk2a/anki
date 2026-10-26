@@ -9,6 +9,18 @@ from pathlib import Path
 from typing import Any
 
 import genanki
+from genanki.card import Card
+
+
+class DeckAssignedCard(Card):
+    """Write a card into another deck while retaining its template ordinal."""
+
+    def __init__(self, card: Card, target_deck_id: int):
+        super().__init__(card.ord, card.suspend)
+        self.target_deck_id = target_deck_id
+
+    def write_to_db(self, cursor, timestamp, deck_id, note_id, id_gen, due=0):
+        super().write_to_db(cursor, timestamp, self.target_deck_id, note_id, id_gen, due)
 
 
 REQUIRED_FACT_FIELDS = {
@@ -118,7 +130,7 @@ def make_model(
     model_id: int,
     model_name: str,
     include_reverse: bool,
-    card_direction: str | None,
+    card_direction: str | None = None,
 ) -> genanki.Model:
     forward_template = {
         "name": "基本",
@@ -226,6 +238,13 @@ def expected_card_count(config: dict[str, Any], facts: list[dict[str, str]]) -> 
 def prepare_deck(deck_dir: Path) -> tuple[genanki.Deck, list[Path], int]:
     config, facts, sources = load_deck(deck_dir)
     deck_config = config["deck"]
+    reverse_deck = deck_config.get("reverse_deck")
+    if reverse_deck and (
+        not deck_config.get("include_reverse")
+        or deck_config.get("card_direction") == "reverse"
+        or int(reverse_deck["id"]) == int(deck_config["id"])
+    ):
+        raise ValueError("A separate reverse deck requires two directions and a distinct deck ID")
     source_ids = {row["source_id"] for row in sources}
     unknown_sources = {row["source_id"] for row in facts} - source_ids
     if unknown_sources:
@@ -260,6 +279,11 @@ def prepare_deck(deck_dir: Path) -> tuple[genanki.Deck, list[Path], int]:
             tags=[tag for tag in row["tags"].split() if tag],
         )
         note.guid = genanki.guid_for(row["fact_id"])
+        if reverse_deck:
+            note.cards = [
+                DeckAssignedCard(card, int(reverse_deck["id"])) if card.ord == 1 else card
+                for card in note.cards
+            ]
         deck.add_note(note)
 
     return deck, media_files, expected_card_count(config, facts)
@@ -273,9 +297,15 @@ def build_package(deck_dirs: list[Path], output_path: Path) -> tuple[int, int]:
     cards = 0
     for deck_dir in deck_dirs:
         deck, files, count = prepare_deck(deck_dir)
-        if deck.deck_id in deck_ids:
-            raise ValueError(f"Duplicate deck ID: {deck.deck_id}")
-        deck_ids.add(deck.deck_id)
+        config, _, _ = load_deck(deck_dir)
+        additional = config["deck"].get("reverse_deck")
+        associated = [deck]
+        if additional:
+            associated.append(genanki.Deck(int(additional["id"]), additional["name"]))
+        for associated_deck in associated:
+            if associated_deck.deck_id in deck_ids:
+                raise ValueError(f"Duplicate deck ID: {associated_deck.deck_id}")
+            deck_ids.add(associated_deck.deck_id)
         for note in deck.notes:
             if note.guid in guids:
                 raise ValueError(f"Duplicate note GUID: {note.guid}")
@@ -284,7 +314,7 @@ def build_package(deck_dirs: list[Path], output_path: Path) -> tuple[int, int]:
             if path.name in media and media[path.name] != path:
                 raise ValueError(f"Conflicting media filename: {path.name}")
             media[path.name] = path
-        decks.append(deck)
+        decks.extend(associated)
         cards += count
     output_path.parent.mkdir(parents=True, exist_ok=True)
     genanki.Package(decks, media_files=[str(media[name]) for name in sorted(media)]).write_to_file(str(output_path))

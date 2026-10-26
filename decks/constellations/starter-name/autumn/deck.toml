@@ -1,0 +1,19 @@
+[deck]
+id = 2601031105
+model_id = 2601030102
+name = "星座スターター::秋::日本語名→学名・略号"
+slug = "constellation-name-starter-autumn"
+model_name = "Constellation Fact"
+data_file = "../../data/starter-name-facts.tsv"
+sources_file = "../../data/sources.tsv"
+include_reverse = true
+fact_id_prefix = "starter-"
+required_tags = ["season-autumn"]
+
+[deck.reverse_deck]
+id = 2601031106
+name = "星座スターター::秋::学名・略号→日本語名"
+
+[validation]
+expected_rows = 23
+required_categories = ["星座"]
