@@ -1,0 +1,16 @@
+[deck]
+id = 2601020202
+model_id = 2601020104
+name = "国旗スターター::中東"
+slug = "country-flag-middle-east"
+model_name = "Country Fact"
+data_file = "../../data/starter-flag-facts.tsv"
+sources_file = "../../data/starter-sources.tsv"
+media_dir = "../../assets/flags"
+include_reverse = false
+fact_id_prefix = "starter-"
+required_tags = ["中東"]
+
+[validation]
+expected_rows = 15
+required_categories = ["国旗"]

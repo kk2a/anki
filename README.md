@@ -7,7 +7,7 @@
 - `decks/<テーマ>/`: テーマごとの設定、データ、出典、生成物
 - `scripts/`: 複数テーマで使う共通ビルダー、検証、取得スクリプト
 - `decks/calendar/`: 和風月名・二十四節気・干支。項目ごとに独立したapkgを生成します
-- `decks/countries/`: 日本を含む196か国の国名・国旗・首都。3種類のapkgを生成します
+- `decks/countries/`: 日本を含む196か国の国名・国旗・首都。全部入り3種類と、地域別スターター21種類のapkgを生成します
 - `decks/world-heritage/`: UNESCO公式データを使った世界遺産1,273件。通常方向と逆方向を別々のapkgにします
 - `decks/fish/`, `decks/plants/`, `decks/flowers/`, `decks/mushrooms/`: 各15件のビジュアルデッキ。画像の出典とライセンスをTSVで管理します
 - `decks/kitauji/`: 響け！ユーフォニアム関連の北宇治高校吹奏楽部デッキ
@@ -43,24 +43,49 @@ uv run python scripts/validate_topic.py decks/calendar/eto
 
 ## 国名・国旗・首都デッキ
 
-国データと国旗画像を取得し、3種類のデッキを生成します。
+国名・国旗・首都は、それぞれ一方向の問題です。
+
+- `country-name.apkg`: 首都から国名を答える196枚
+- `country-flag.apkg`: 国旗から国名を答える196枚
+- `country-capital.apkg`: 国名から首都を答える196枚
+
+国旗は [Sekainokokki.jp](https://www.sekainokokki.jp/organization/un#toc-members) が案内する公式CDNから、元の縦横比のSVGを取得してAPKGに同梱します。画像は同サイトの利用規約でパブリックドメインとされています。
+
+スターターは、国名・国旗・首都それぞれを7地域に分けた独立デッキです。[外務省の地域別インデックス](https://www.mofa.go.jp/mofaj/area/index.html) に基づき、国ごとの分類・出典URL・確認日を `decks/countries/data/country-regions.tsv` に記録しています。日本は外国一覧に掲載されないため、アジアとして補完しています。中央アジア諸国は外務省の「欧州（NIS諸国を含む）」に従います。地域分類の出典はスクリプトとTSVで管理し、カード裏面には表示しません。
+
+| 地域 | 各種類のカード数 | 地域の識別子 |
+| --- | ---: | --- |
+| アジア | 22 | `asia` |
+| 中東 | 15 | `middle-east` |
+| 欧州 | 54 | `europe` |
+| アフリカ | 54 | `africa` |
+| 北米 | 2 | `north-america` |
+| 中南米 | 33 | `latin-america` |
+| 大洋州 | 16 | `oceania` |
+
+国名は `decks/countries/starter-names/`、国旗は `starter-flags/`、首都は `starter-capitals/` の各地域ディレクトリで管理します。それぞれの `build/` に `country-name-<地域>.apkg`、`country-flag-<地域>.apkg`、`country-capital-<地域>.apkg` を出力します。
+
+全部入りとスターターは元データを共有し、スターターのノートIDには `starter-` を付けて区別します。両方を取り込むと、別々のカードとして学習できます。同じスターターを再インポートした場合は既存ノートを更新します。
 
 ```bash
 uv sync
 uv run python scripts/fetch_countries.py
-uv run python scripts/build_topic_deck.py decks/countries/country-name
-uv run python scripts/build_topic_deck.py decks/countries/country-flag
-uv run python scripts/build_topic_deck.py decks/countries/capital
-uv run python scripts/validate_topic.py decks/countries/country-name
-uv run python scripts/validate_topic.py decks/countries/country-flag
-uv run python scripts/validate_topic.py decks/countries/capital
+uv run python scripts/generate_country_starters.py
+for deck in country-name country-flag capital; do
+  uv run python scripts/build_topic_deck.py "decks/countries/$deck"
+  uv run python scripts/validate_topic.py "decks/countries/$deck"
+done
+for kind in starter-names starter-flags starter-capitals; do
+  for region in asia middle-east europe africa north-america latin-america oceania; do
+    uv run python scripts/build_topic_deck.py "decks/countries/$kind/$region"
+    uv run python scripts/validate_topic.py "decks/countries/$kind/$region"
+  done
+done
 ```
 
-- `country-name.apkg`: 首都から国名を答えるカードと、国名から首都を答えるカード
-- `country-flag.apkg`: 国旗から国名を答えるカード
-- `country-capital.apkg`: 国名から首都を答えるカードと、首都から国名を答えるカード
+既存の国名・首都デッキの逆向きカードは、再インポートだけでは残ることがあります。削除する場合は、Ankiのブラウザで対象デッキのカードを開き、「カード」で該当ノートタイプの「逆向き」テンプレートを削除してから新しいAPKGを取り込んでください。「基本」テンプレートとノート本体を残すことで、通常方向の学習履歴を維持できます。
 
-国名と首都名は日本語で収録します。国旗は `flag-icons` のSVGを取得し、生成したapkgに同梱します。
+一括再生成は `uv run python scripts/build_all.py` で実行します。地域別の元データもこのスクリプトで再生成します。
 
 ## 星座デッキ
 

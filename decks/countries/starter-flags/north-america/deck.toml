@@ -1,0 +1,16 @@
+[deck]
+id = 2601020205
+model_id = 2601020104
+name = "国旗スターター::北米"
+slug = "country-flag-north-america"
+model_name = "Country Fact"
+data_file = "../../data/starter-flag-facts.tsv"
+sources_file = "../../data/starter-sources.tsv"
+media_dir = "../../assets/flags"
+include_reverse = false
+fact_id_prefix = "starter-"
+required_tags = ["北米"]
+
+[validation]
+expected_rows = 2
+required_categories = ["国旗"]

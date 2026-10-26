@@ -1,0 +1,404 @@
+fact_id	category	prompt	answer	reading	detail	source_id	tags	prompt_media
+country-flag-is	国旗	この国旗の国名は？	アイスランド		"首都：レイキャビク
+正式名称：アイスランド"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-is.svg
+country-flag-ie	国旗	この国旗の国名は？	アイルランド		"首都：ダブリン
+正式名称：アイルランド"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ie.svg
+country-flag-az	国旗	この国旗の国名は？	アゼルバイジャン		"首都：バクー
+正式名称：アゼルバイジャン共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-az.svg
+country-flag-af	国旗	この国旗の国名は？	アフガニスタン		"首都：カブール
+正式名称：アフガニスタン・イスラム共和国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-af.svg
+country-flag-us	国旗	この国旗の国名は？	アメリカ		"首都：ワシントンD. C.
+正式名称：アメリカ合衆国"	mofa_region_n_america	country country-flag 北米 country-flag-starter	flagpedia-us.svg
+country-flag-ae	国旗	この国旗の国名は？	アラブ首長国連邦		"首都：アブダビ
+正式名称：アラブ首長国連邦"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-ae.svg
+country-flag-dz	国旗	この国旗の国名は？	アルジェリア		"首都：アルジェ
+正式名称：アルジェリア民主人民共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-dz.svg
+country-flag-ar	国旗	この国旗の国名は？	アルゼンチン		"首都：ブエノスアイレス
+正式名称：アルゼンチン共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-ar.svg
+country-flag-al	国旗	この国旗の国名は？	アルバニア		"首都：ティラナ
+正式名称：アルバニア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-al.svg
+country-flag-am	国旗	この国旗の国名は？	アルメニア		"首都：エレバン
+正式名称：アルメニア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-am.svg
+country-flag-ao	国旗	この国旗の国名は？	アンゴラ		"首都：ルアンダ
+正式名称：アンゴラ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ao.svg
+country-flag-ag	国旗	この国旗の国名は？	アンティグア・バーブーダ		"首都：セントジョンズ
+正式名称：アンティグア・バーブーダ"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-ag.svg
+country-flag-ad	国旗	この国旗の国名は？	アンドラ		"首都：アンドラ・ラ・ベリャ
+正式名称：アンドラ公国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ad.svg
+country-flag-ye	国旗	この国旗の国名は？	イエメン		"首都：サヌア
+正式名称：イエメン共和国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-ye.svg
+country-flag-il	国旗	この国旗の国名は？	イスラエル		"首都：エルサレム
+正式名称：イスラエル国
+注記：日本を含め国際社会の大多数には認められていない（外務省 基礎データの注2）"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-il.svg
+country-flag-it	国旗	この国旗の国名は？	イタリア		"首都：ローマ
+正式名称：イタリア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-it.svg
+country-flag-iq	国旗	この国旗の国名は？	イラク		"首都：バグダッド
+正式名称：イラク共和国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-iq.svg
+country-flag-ir	国旗	この国旗の国名は？	イラン		"首都：テヘラン
+正式名称：イラン・イスラム共和国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-ir.svg
+country-flag-in	国旗	この国旗の国名は？	インド		"首都：ニューデリー
+正式名称：インド"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-in.svg
+country-flag-id	国旗	この国旗の国名は？	インドネシア		"首都：ジャカルタ
+正式名称：インドネシア共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-id.svg
+country-flag-ug	国旗	この国旗の国名は？	ウガンダ		"首都：カンパラ
+正式名称：ウガンダ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ug.svg
+country-flag-ua	国旗	この国旗の国名は？	ウクライナ		"首都：キーウ
+正式名称：ウクライナ"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ua.svg
+country-flag-uz	国旗	この国旗の国名は？	ウズベキスタン		"首都：タシケント
+正式名称：ウズベキスタン共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-uz.svg
+country-flag-uy	国旗	この国旗の国名は？	ウルグアイ		"首都：モンテビデオ
+正式名称：ウルグアイ東方共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-uy.svg
+country-flag-gb	国旗	この国旗の国名は？	英国		"首都：ロンドン
+正式名称：英国（グレートブリテン及び北アイルランド連合王国）"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-gb.svg
+country-flag-ec	国旗	この国旗の国名は？	エクアドル		"首都：キト
+正式名称：エクアドル共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-ec.svg
+country-flag-eg	国旗	この国旗の国名は？	エジプト		"首都：カイロ
+正式名称：エジプト・アラブ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-eg.svg
+country-flag-ee	国旗	この国旗の国名は？	エストニア		"首都：タリン
+正式名称：エストニア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ee.svg
+country-flag-sz	国旗	この国旗の国名は？	エスワティニ		"首都：ムババーネ
+正式名称：エスワティニ王国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-sz.svg
+country-flag-et	国旗	この国旗の国名は？	エチオピア		"首都：アディスアベバ
+正式名称：エチオピア連邦民主共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-et.svg
+country-flag-er	国旗	この国旗の国名は？	エリトリア		"首都：アスマラ
+正式名称：エリトリア国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-er.svg
+country-flag-sv	国旗	この国旗の国名は？	エルサルバドル		"首都：サンサルバドル
+正式名称：エルサルバドル共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-sv.svg
+country-flag-au	国旗	この国旗の国名は？	オーストラリア		"首都：キャンベラ
+正式名称：オーストラリア連邦"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-au.svg
+country-flag-at	国旗	この国旗の国名は？	オーストリア		"首都：ウィーン
+正式名称：オーストリア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-at.svg
+country-flag-om	国旗	この国旗の国名は？	オマーン		"首都：マスカット
+正式名称：オマーン国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-om.svg
+country-flag-nl	国旗	この国旗の国名は？	オランダ		"首都：アムステルダム
+正式名称：オランダ王国
+注記：政治機能所在地はハーグ（外務省 基礎データ）"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-nl.svg
+country-flag-gh	国旗	この国旗の国名は？	ガーナ		"首都：アクラ
+正式名称：ガーナ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-gh.svg
+country-flag-cv	国旗	この国旗の国名は？	カーボベルデ		"首都：プライア
+正式名称：カーボベルデ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-cv.svg
+country-flag-gy	国旗	この国旗の国名は？	ガイアナ		"首都：ジョージタウン
+正式名称：ガイアナ協同共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-gy.svg
+country-flag-kz	国旗	この国旗の国名は？	カザフスタン		"首都：アスタナ
+正式名称：カザフスタン共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-kz.svg
+country-flag-qa	国旗	この国旗の国名は？	カタール		"首都：ドーハ
+正式名称：カタール国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-qa.svg
+country-flag-ca	国旗	この国旗の国名は？	カナダ		"首都：オタワ
+正式名称：カナダ"	mofa_region_n_america	country country-flag 北米 country-flag-starter	flagpedia-ca.svg
+country-flag-ga	国旗	この国旗の国名は？	ガボン		"首都：リーブルビル
+正式名称：ガボン共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ga.svg
+country-flag-cm	国旗	この国旗の国名は？	カメルーン		"首都：ヤウンデ
+正式名称：カメルーン共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-cm.svg
+country-flag-gm	国旗	この国旗の国名は？	ガンビア		"首都：バンジュール
+正式名称：ガンビア共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-gm.svg
+country-flag-kh	国旗	この国旗の国名は？	カンボジア		"首都：プノンペン
+正式名称：カンボジア王国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-kh.svg
+country-flag-mk	国旗	この国旗の国名は？	北マケドニア		"首都：スコピエ
+正式名称：北マケドニア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-mk.svg
+country-flag-gn	国旗	この国旗の国名は？	ギニア		"首都：コナクリ
+正式名称：ギニア共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-gn.svg
+country-flag-gw	国旗	この国旗の国名は？	ギニアビサウ		"首都：ビサウ
+正式名称：ギニアビサウ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-gw.svg
+country-flag-cy	国旗	この国旗の国名は？	キプロス		"首都：ニコシア
+正式名称：キプロス共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-cy.svg
+country-flag-cu	国旗	この国旗の国名は？	キューバ		"首都：ハバナ
+正式名称：キューバ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-cu.svg
+country-flag-gr	国旗	この国旗の国名は？	ギリシャ		"首都：アテネ
+正式名称：ギリシャ共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-gr.svg
+country-flag-ki	国旗	この国旗の国名は？	キリバス		"首都：タラワ
+正式名称：キリバス共和国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-ki.svg
+country-flag-kg	国旗	この国旗の国名は？	キルギス		"首都：ビシュケク
+正式名称：キルギス共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-kg.svg
+country-flag-gt	国旗	この国旗の国名は？	グアテマラ		"首都：グアテマラ市
+正式名称：グアテマラ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-gt.svg
+country-flag-kw	国旗	この国旗の国名は？	クウェート		"首都：クウェート
+正式名称：クウェート国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-kw.svg
+country-flag-ck	国旗	この国旗の国名は？	クック諸島		"首都：アバルア
+正式名称：クック諸島
+注記：ラロトンガ島（外務省 キッズ「世界の国々 基本情報」）"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-ck.svg
+country-flag-gd	国旗	この国旗の国名は？	グレナダ		"首都：セントジョージズ
+正式名称：グレナダ"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-gd.svg
+country-flag-hr	国旗	この国旗の国名は？	クロアチア		"首都：ザグレブ
+正式名称：クロアチア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-hr.svg
+country-flag-ke	国旗	この国旗の国名は？	ケニア		"首都：ナイロビ
+正式名称：ケニア共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ke.svg
+country-flag-ci	国旗	この国旗の国名は？	コートジボワール		"首都：ヤムスクロ
+正式名称：コートジボワール共和国
+注記：実質的首都機能はアビジャン（外務省 基礎データ）"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ci.svg
+country-flag-cr	国旗	この国旗の国名は？	コスタリカ		"首都：サンホセ
+正式名称：コスタリカ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-cr.svg
+country-flag-xk	国旗	この国旗の国名は？	コソボ		"首都：プリシュティナ
+正式名称：コソボ共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-xk.svg
+country-flag-km	国旗	この国旗の国名は？	コモロ		"首都：モロニ
+正式名称：コモロ連合"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-km.svg
+country-flag-co	国旗	この国旗の国名は？	コロンビア		"首都：ボゴタ
+正式名称：コロンビア共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-co.svg
+country-flag-cg	国旗	この国旗の国名は？	コンゴ共和国		"首都：ブラザビル
+正式名称：コンゴ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-cg.svg
+country-flag-cd	国旗	この国旗の国名は？	コンゴ民主共和国		"首都：キンシャサ
+正式名称：コンゴ民主共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-cd.svg
+country-flag-sa	国旗	この国旗の国名は？	サウジアラビア		"首都：リヤド
+正式名称：サウジアラビア王国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-sa.svg
+country-flag-ws	国旗	この国旗の国名は？	サモア		"首都：アピア
+正式名称：サモア独立国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-ws.svg
+country-flag-st	国旗	この国旗の国名は？	サントメ・プリンシペ		"首都：サントメ
+正式名称：サントメ・プリンシペ民主共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-st.svg
+country-flag-zm	国旗	この国旗の国名は？	ザンビア		"首都：ルサカ
+正式名称：ザンビア共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-zm.svg
+country-flag-sm	国旗	この国旗の国名は？	サンマリノ		"首都：サンマリノ
+正式名称：サンマリノ共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-sm.svg
+country-flag-sl	国旗	この国旗の国名は？	シエラレオネ		"首都：フリータウン
+正式名称：シエラレオネ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-sl.svg
+country-flag-dj	国旗	この国旗の国名は？	ジブチ		"首都：ジブチ
+正式名称：ジブチ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-dj.svg
+country-flag-jm	国旗	この国旗の国名は？	ジャマイカ		"首都：キングストン
+正式名称：ジャマイカ"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-jm.svg
+country-flag-ge	国旗	この国旗の国名は？	ジョージア		"首都：トビリシ
+正式名称：ジョージア"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ge.svg
+country-flag-sy	国旗	この国旗の国名は？	シリア		"首都：ダマスカス
+正式名称：シリア・アラブ共和国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-sy.svg
+country-flag-sg	国旗	この国旗の国名は？	シンガポール		"首都：シンガポール
+正式名称：シンガポール共和国
+注記：都市国家のため、国名と首都名が同じ。"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-sg.svg
+country-flag-zw	国旗	この国旗の国名は？	ジンバブエ		"首都：ハラレ
+正式名称：ジンバブエ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-zw.svg
+country-flag-ch	国旗	この国旗の国名は？	スイス		"首都：ベルン
+正式名称：スイス連邦"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ch.svg
+country-flag-se	国旗	この国旗の国名は？	スウェーデン		"首都：ストックホルム
+正式名称：スウェーデン王国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-se.svg
+country-flag-sd	国旗	この国旗の国名は？	スーダン		"首都：ハルツーム
+正式名称：スーダン共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-sd.svg
+country-flag-es	国旗	この国旗の国名は？	スペイン		"首都：マドリード
+正式名称：スペイン王国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-es.svg
+country-flag-sr	国旗	この国旗の国名は？	スリナム		"首都：パラマリボ
+正式名称：スリナム共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-sr.svg
+country-flag-lk	国旗	この国旗の国名は？	スリランカ		"首都：スリ・ジャヤワルダナプラ・コッテ
+正式名称：スリランカ民主社会主義共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-lk.svg
+country-flag-sk	国旗	この国旗の国名は？	スロバキア		"首都：ブラチスラバ
+正式名称：スロバキア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-sk.svg
+country-flag-si	国旗	この国旗の国名は？	スロベニア		"首都：リュブリャナ
+正式名称：スロベニア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-si.svg
+country-flag-sc	国旗	この国旗の国名は？	セーシェル		"首都：ヴィクトリア
+正式名称：セーシェル共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-sc.svg
+country-flag-gq	国旗	この国旗の国名は？	赤道ギニア		"首都：シウダ・デ・ラ・パス
+正式名称：赤道ギニア共和国
+注記：2026年1月にマラボからの移転が宣言された。実質的首都機能は引き続きマラボ（外務省 基礎データ）"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-gq.svg
+country-flag-sn	国旗	この国旗の国名は？	セネガル		"首都：ダカール
+正式名称：セネガル共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-sn.svg
+country-flag-rs	国旗	この国旗の国名は？	セルビア		"首都：ベオグラード
+正式名称：セルビア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-rs.svg
+country-flag-kn	国旗	この国旗の国名は？	セントクリストファー・ネービス		"首都：バセテール
+正式名称：セントクリストファー・ネービス"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-kn.svg
+country-flag-vc	国旗	この国旗の国名は？	セントビンセント及びグレナディーン諸島		"首都：キングスタウン
+正式名称：セントビンセント及びグレナディーン諸島"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-vc.svg
+country-flag-lc	国旗	この国旗の国名は？	セントルシア		"首都：カストリーズ
+正式名称：セントルシア"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-lc.svg
+country-flag-so	国旗	この国旗の国名は？	ソマリア		"首都：モガディシュ
+正式名称：ソマリア連邦共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-so.svg
+country-flag-sb	国旗	この国旗の国名は？	ソロモン諸島		"首都：ホニアラ
+正式名称：ソロモン諸島"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-sb.svg
+country-flag-th	国旗	この国旗の国名は？	タイ		"首都：バンコク
+正式名称：タイ王国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-th.svg
+country-flag-kr	国旗	この国旗の国名は？	大韓民国		"首都：ソウル
+正式名称：大韓民国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-kr.svg
+country-flag-tj	国旗	この国旗の国名は？	タジキスタン		"首都：ドゥシャンベ
+正式名称：タジキスタン共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-tj.svg
+country-flag-tz	国旗	この国旗の国名は？	タンザニア		"首都：ドドマ
+正式名称：タンザニア連合共和国
+注記：法律上の首都であり、国会議事堂が置かれている。経済面で中心となっているのはダルエスサラーム（外務省 基礎データ）"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-tz.svg
+country-flag-cz	国旗	この国旗の国名は？	チェコ		"首都：プラハ
+正式名称：チェコ共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-cz.svg
+country-flag-td	国旗	この国旗の国名は？	チャド		"首都：ウンジャメナ
+正式名称：チャド共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-td.svg
+country-flag-cf	国旗	この国旗の国名は？	中央アフリカ		"首都：バンギ
+正式名称：中央アフリカ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-cf.svg
+country-flag-cn	国旗	この国旗の国名は？	中国		"首都：北京
+正式名称：中華人民共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-cn.svg
+country-flag-tn	国旗	この国旗の国名は？	チュニジア		"首都：チュニス
+正式名称：チュニジア共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-tn.svg
+country-flag-cl	国旗	この国旗の国名は？	チリ		"首都：サンティアゴ
+正式名称：チリ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-cl.svg
+country-flag-tv	国旗	この国旗の国名は？	ツバル		"首都：フナフティ
+正式名称：ツバル"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-tv.svg
+country-flag-dk	国旗	この国旗の国名は？	デンマーク		"首都：コペンハーゲン
+正式名称：デンマーク王国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-dk.svg
+country-flag-de	国旗	この国旗の国名は？	ドイツ		"首都：ベルリン
+正式名称：ドイツ連邦共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-de.svg
+country-flag-tg	国旗	この国旗の国名は？	トーゴ		"首都：ロメ
+正式名称：トーゴ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-tg.svg
+country-flag-dm	国旗	この国旗の国名は？	ドミニカ国		"首都：ロゾー
+正式名称：ドミニカ国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-dm.svg
+country-flag-do	国旗	この国旗の国名は？	ドミニカ共和国		"首都：サントドミンゴ
+正式名称：ドミニカ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-do.svg
+country-flag-tt	国旗	この国旗の国名は？	トリニダード・トバゴ		"首都：ポート・オブ・スペイン
+正式名称：トリニダード・トバゴ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-tt.svg
+country-flag-tm	国旗	この国旗の国名は？	トルクメニスタン		"首都：アシガバット
+正式名称：トルクメニスタン"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-tm.svg
+country-flag-tr	国旗	この国旗の国名は？	トルコ		"首都：アンカラ
+正式名称：トルコ共和国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-tr.svg
+country-flag-to	国旗	この国旗の国名は？	トンガ		"首都：ヌクアロファ
+正式名称：トンガ王国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-to.svg
+country-flag-ng	国旗	この国旗の国名は？	ナイジェリア		"首都：アブジャ
+正式名称：ナイジェリア連邦共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ng.svg
+country-flag-nr	国旗	この国旗の国名は？	ナウル		"首都：ヤレン
+正式名称：ナウル共和国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-nr.svg
+country-flag-na	国旗	この国旗の国名は？	ナミビア		"首都：ウィントフック
+正式名称：ナミビア共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-na.svg
+country-flag-nu	国旗	この国旗の国名は？	ニウエ		"首都：アロフィ
+正式名称：ニウエ"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-nu.svg
+country-flag-ni	国旗	この国旗の国名は？	ニカラグア		"首都：マナグア
+正式名称：ニカラグア共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-ni.svg
+country-flag-ne	国旗	この国旗の国名は？	ニジェール		"首都：ニアメ
+正式名称：ニジェール共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ne.svg
+country-flag-jp	国旗	この国旗の国名は？	日本		"首都：東京
+正式名称：日本"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-jp.svg
+country-flag-nz	国旗	この国旗の国名は？	ニュージーランド		"首都：ウェリントン
+正式名称：ニュージーランド"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-nz.svg
+country-flag-np	国旗	この国旗の国名は？	ネパール		"首都：カトマンズ
+正式名称：ネパール"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-np.svg
+country-flag-no	国旗	この国旗の国名は？	ノルウェー		"首都：オスロ
+正式名称：ノルウェー王国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-no.svg
+country-flag-bh	国旗	この国旗の国名は？	バーレーン		"首都：マナーマ市
+正式名称：バーレーン王国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-bh.svg
+country-flag-ht	国旗	この国旗の国名は？	ハイチ		"首都：ポルトープランス
+正式名称：ハイチ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-ht.svg
+country-flag-pk	国旗	この国旗の国名は？	パキスタン		"首都：イスラマバード
+正式名称：パキスタン・イスラム共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-pk.svg
+country-flag-va	国旗	この国旗の国名は？	バチカン		"首都：バチカン市国
+正式名称：バチカン市国
+注記：都市国家のため、国名に首都の名称が含まれる。"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-va.svg
+country-flag-pa	国旗	この国旗の国名は？	パナマ		"首都：パナマシティー
+正式名称：パナマ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-pa.svg
+country-flag-vu	国旗	この国旗の国名は？	バヌアツ		"首都：ポートビラ
+正式名称：バヌアツ共和国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-vu.svg
+country-flag-bs	国旗	この国旗の国名は？	バハマ		"首都：ナッソー
+正式名称：バハマ国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-bs.svg
+country-flag-pg	国旗	この国旗の国名は？	パプアニューギニア		"首都：ポートモレスビー
+正式名称：パプアニューギニア独立国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-pg.svg
+country-flag-pw	国旗	この国旗の国名は？	パラオ		"首都：マルキョク
+正式名称：パラオ共和国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-pw.svg
+country-flag-py	国旗	この国旗の国名は？	パラグアイ		"首都：アスンシオン
+正式名称：パラグアイ共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-py.svg
+country-flag-bb	国旗	この国旗の国名は？	バルバドス		"首都：ブリッジタウン
+正式名称：バルバドス"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-bb.svg
+country-flag-hu	国旗	この国旗の国名は？	ハンガリー		"首都：ブダペスト
+正式名称：ハンガリー"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-hu.svg
+country-flag-bd	国旗	この国旗の国名は？	バングラデシュ		"首都：ダッカ
+正式名称：バングラデシュ人民共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-bd.svg
+country-flag-tl	国旗	この国旗の国名は？	東ティモール		"首都：ディリ
+正式名称：東ティモール民主共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-tl.svg
+country-flag-fj	国旗	この国旗の国名は？	フィジー		"首都：スバ
+正式名称：フィジー共和国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-fj.svg
+country-flag-ph	国旗	この国旗の国名は？	フィリピン		"首都：マニラ
+正式名称：フィリピン共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-ph.svg
+country-flag-fi	国旗	この国旗の国名は？	フィンランド		"首都：ヘルシンキ
+正式名称：フィンランド共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-fi.svg
+country-flag-bt	国旗	この国旗の国名は？	ブータン		"首都：ティンプー
+正式名称：ブータン王国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-bt.svg
+country-flag-br	国旗	この国旗の国名は？	ブラジル		"首都：ブラジリア
+正式名称：ブラジル連邦共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-br.svg
+country-flag-fr	国旗	この国旗の国名は？	フランス		"首都：パリ
+正式名称：フランス共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-fr.svg
+country-flag-bg	国旗	この国旗の国名は？	ブルガリア		"首都：ソフィア
+正式名称：ブルガリア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-bg.svg
+country-flag-bf	国旗	この国旗の国名は？	ブルキナファソ		"首都：ワガドゥグ
+正式名称：ブルキナファソ"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-bf.svg
+country-flag-bn	国旗	この国旗の国名は？	ブルネイ		"首都：バンダル・スリ・ブガワン
+正式名称：ブルネイ・ダルサラーム国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-bn.svg
+country-flag-bi	国旗	この国旗の国名は？	ブルンジ		"首都：ギテガ
+正式名称：ブルンジ共和国
+注記：経済の中心はブジュンブラ（外務省 基礎データ）"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-bi.svg
+country-flag-vn	国旗	この国旗の国名は？	ベトナム		"首都：ハノイ
+正式名称：ベトナム社会主義共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-vn.svg
+country-flag-bj	国旗	この国旗の国名は？	ベナン		"首都：ポルトノボ
+正式名称：ベナン共和国
+注記：実質的首都機能はコトヌ（外務省 基礎データ）"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-bj.svg
+country-flag-ve	国旗	この国旗の国名は？	ベネズエラ・ボリバル		"首都：カラカス
+正式名称：ベネズエラ・ボリバル共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-ve.svg
+country-flag-by	国旗	この国旗の国名は？	ベラルーシ		"首都：ミンスク
+正式名称：ベラルーシ共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-by.svg
+country-flag-bz	国旗	この国旗の国名は？	ベリーズ		"首都：ベルモパン
+正式名称：ベリーズ"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-bz.svg
+country-flag-pe	国旗	この国旗の国名は？	ペルー		"首都：リマ
+正式名称：ペルー共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-pe.svg
+country-flag-be	国旗	この国旗の国名は？	ベルギー		"首都：ブリュッセル
+正式名称：ベルギー王国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-be.svg
+country-flag-pl	国旗	この国旗の国名は？	ポーランド		"首都：ワルシャワ
+正式名称：ポーランド共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-pl.svg
+country-flag-ba	国旗	この国旗の国名は？	ボスニア・ヘルツェゴビナ		"首都：サラエボ
+正式名称：ボスニア・ヘルツェゴビナ"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ba.svg
+country-flag-bw	国旗	この国旗の国名は？	ボツワナ		"首都：ハボローネ
+正式名称：ボツワナ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-bw.svg
+country-flag-bo	国旗	この国旗の国名は？	ボリビア		"首都：ラパス
+正式名称：ボリビア多民族国
+注記：憲法上の首都はスクレ（外務省 基礎データ）"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-bo.svg
+country-flag-pt	国旗	この国旗の国名は？	ポルトガル		"首都：リスボン
+正式名称：ポルトガル共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-pt.svg
+country-flag-hn	国旗	この国旗の国名は？	ホンジュラス		"首都：テグシガルパ
+正式名称：ホンジュラス共和国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-hn.svg
+country-flag-mh	国旗	この国旗の国名は？	マーシャル諸島		"首都：マジュロ
+正式名称：マーシャル諸島共和国"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-mh.svg
+country-flag-mg	国旗	この国旗の国名は？	マダガスカル		"首都：アンタナナリボ
+正式名称：マダガスカル共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-mg.svg
+country-flag-mw	国旗	この国旗の国名は？	マラウイ		"首都：リロングウェ
+正式名称：マラウイ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-mw.svg
+country-flag-ml	国旗	この国旗の国名は？	マリ		"首都：バマコ
+正式名称：マリ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ml.svg
+country-flag-mt	国旗	この国旗の国名は？	マルタ		"首都：バレッタ
+正式名称：マルタ共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-mt.svg
+country-flag-my	国旗	この国旗の国名は？	マレーシア		"首都：クアラルンプール
+正式名称：マレーシア"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-my.svg
+country-flag-fm	国旗	この国旗の国名は？	ミクロネシア		"首都：パリキール
+正式名称：ミクロネシア連邦"	mofa_region_pacific	country country-flag 大洋州 country-flag-starter	flagpedia-fm.svg
+country-flag-za	国旗	この国旗の国名は？	南アフリカ		"首都：プレトリア
+正式名称：南アフリカ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-za.svg
+country-flag-ss	国旗	この国旗の国名は？	南スーダン		"首都：ジュバ
+正式名称：南スーダン共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ss.svg
+country-flag-mm	国旗	この国旗の国名は？	ミャンマー		"首都：ネーピードー
+正式名称：ミャンマー連邦共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-mm.svg
+country-flag-mx	国旗	この国旗の国名は？	メキシコ		"首都：メキシコ市
+正式名称：メキシコ合衆国"	mofa_region_latinamerica	country country-flag 中南米 country-flag-starter	flagpedia-mx.svg
+country-flag-mu	国旗	この国旗の国名は？	モーリシャス		"首都：ポートルイス
+正式名称：モーリシャス共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-mu.svg
+country-flag-mr	国旗	この国旗の国名は？	モーリタニア		"首都：ヌアクショット
+正式名称：モーリタニア・イスラム共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-mr.svg
+country-flag-mz	国旗	この国旗の国名は？	モザンビーク		"首都：マプト
+正式名称：モザンビーク共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-mz.svg
+country-flag-mc	国旗	この国旗の国名は？	モナコ		"首都：モナコ
+正式名称：モナコ公国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-mc.svg
+country-flag-mv	国旗	この国旗の国名は？	モルディブ		"首都：マレ
+正式名称：モルディブ共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-mv.svg
+country-flag-md	国旗	この国旗の国名は？	モルドバ		"首都：キシナウ
+正式名称：モルドバ共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-md.svg
+country-flag-ma	国旗	この国旗の国名は？	モロッコ		"首都：ラバト
+正式名称：モロッコ王国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ma.svg
+country-flag-mn	国旗	この国旗の国名は？	モンゴル		"首都：ウランバートル
+正式名称：モンゴル国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-mn.svg
+country-flag-me	国旗	この国旗の国名は？	モンテネグロ		"首都：ポドゴリツァ
+正式名称：モンテネグロ"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-me.svg
+country-flag-jo	国旗	この国旗の国名は？	ヨルダン		"首都：アンマン
+正式名称：ヨルダン"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-jo.svg
+country-flag-la	国旗	この国旗の国名は？	ラオス		"首都：ビエンチャン
+正式名称：ラオス人民民主共和国"	mofa_region_asia	country country-flag アジア country-flag-starter	flagpedia-la.svg
+country-flag-lv	国旗	この国旗の国名は？	ラトビア		"首都：リガ
+正式名称：ラトビア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-lv.svg
+country-flag-lt	国旗	この国旗の国名は？	リトアニア		"首都：ビリニュス
+正式名称：リトアニア共和国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-lt.svg
+country-flag-ly	国旗	この国旗の国名は？	リビア国		"首都：トリポリ
+正式名称：リビア"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ly.svg
+country-flag-li	国旗	この国旗の国名は？	リヒテンシュタイン		"首都：ファドーツ
+正式名称：リヒテンシュタイン公国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-li.svg
+country-flag-lr	国旗	この国旗の国名は？	リベリア		"首都：モンロビア
+正式名称：リベリア共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-lr.svg
+country-flag-ro	国旗	この国旗の国名は？	ルーマニア		"首都：ブカレスト
+正式名称：ルーマニア"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ro.svg
+country-flag-lu	国旗	この国旗の国名は？	ルクセンブルク		"首都：ルクセンブルク
+正式名称：ルクセンブルク大公国"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-lu.svg
+country-flag-rw	国旗	この国旗の国名は？	ルワンダ		"首都：キガリ
+正式名称：ルワンダ共和国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-rw.svg
+country-flag-ls	国旗	この国旗の国名は？	レソト		"首都：マセル
+正式名称：レソト王国"	mofa_region_africa	country country-flag アフリカ country-flag-starter	flagpedia-ls.svg
+country-flag-lb	国旗	この国旗の国名は？	レバノン		"首都：ベイルート
+正式名称：レバノン共和国"	mofa_region_middleeast	country country-flag 中東 country-flag-starter	flagpedia-lb.svg
+country-flag-ru	国旗	この国旗の国名は？	ロシア		"首都：モスクワ
+正式名称：ロシア連邦"	mofa_region_europe	country country-flag 欧州 country-flag-starter	flagpedia-ru.svg

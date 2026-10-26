@@ -1,208 +1,208 @@
-fact_id	category	prompt	answer	reading	detail	source_id	tags	reverse_prompt	reverse_answer	prompt_media	answer_media	reverse_prompt_media	reverse_answer_media
-country-capital-is	首都	アイスランドの首都は？	レイキャビク		正式名称：アイスランド	country_list	country 欧州 country-capital	首都がレイキャビクの国名は？	アイスランド				
-country-capital-ie	首都	アイルランドの首都は？	ダブリン		正式名称：アイルランド	country_list	country 欧州 country-capital	首都がダブリンの国名は？	アイルランド				
-country-capital-az	首都	アゼルバイジャンの首都は？	バクー		正式名称：アゼルバイジャン共和国	country_list	country 欧州 country-capital	首都がバクーの国名は？	アゼルバイジャン				
-country-capital-af	首都	アフガニスタンの首都は？	カブール		正式名称：アフガニスタン・イスラム共和国	country_list	country 中東 country-capital	首都がカブールの国名は？	アフガニスタン				
-country-capital-us	首都	アメリカの首都は？	ワシントンD. C.		正式名称：アメリカ合衆国	country_list	country 北米 country-capital	首都がワシントンD. C.の国名は？	アメリカ				
-country-capital-ae	首都	アラブ首長国連邦の首都は？	アブダビ		正式名称：アラブ首長国連邦	country_list	country 中東 country-capital	首都がアブダビの国名は？	アラブ首長国連邦				
-country-capital-dz	首都	アルジェリアの首都は？	アルジェ		正式名称：アルジェリア民主人民共和国	country_list	country アフリカ country-capital	首都がアルジェの国名は？	アルジェリア				
-country-capital-ar	首都	アルゼンチンの首都は？	ブエノスアイレス		正式名称：アルゼンチン共和国	country_list	country 中南米 country-capital	首都がブエノスアイレスの国名は？	アルゼンチン				
-country-capital-al	首都	アルバニアの首都は？	ティラナ		正式名称：アルバニア共和国	country_list	country 欧州 country-capital	首都がティラナの国名は？	アルバニア				
-country-capital-am	首都	アルメニアの首都は？	エレバン		正式名称：アルメニア共和国	country_list	country 欧州 country-capital	首都がエレバンの国名は？	アルメニア				
-country-capital-ao	首都	アンゴラの首都は？	ルアンダ		正式名称：アンゴラ共和国	country_list	country アフリカ country-capital	首都がルアンダの国名は？	アンゴラ				
-country-capital-ag	首都	アンティグア・バーブーダの首都は？	セントジョンズ		正式名称：アンティグア・バーブーダ	country_list	country 中南米 country-capital	首都がセントジョンズの国名は？	アンティグア・バーブーダ				
-country-capital-ad	首都	アンドラの首都は？	アンドラ・ラ・ベリャ		正式名称：アンドラ公国	country_list	country 欧州 country-capital	首都がアンドラ・ラ・ベリャの国名は？	アンドラ				
-country-capital-ye	首都	イエメンの首都は？	サヌア		正式名称：イエメン共和国	country_list	country 中東 country-capital	首都がサヌアの国名は？	イエメン				
+fact_id	category	prompt	answer	reading	detail	source_id	tags
+country-capital-is	首都	アイスランドの首都は？	レイキャビク		正式名称：アイスランド	country_list	country 欧州 country-capital
+country-capital-ie	首都	アイルランドの首都は？	ダブリン		正式名称：アイルランド	country_list	country 欧州 country-capital
+country-capital-az	首都	アゼルバイジャンの首都は？	バクー		正式名称：アゼルバイジャン共和国	country_list	country 欧州 country-capital
+country-capital-af	首都	アフガニスタンの首都は？	カブール		正式名称：アフガニスタン・イスラム共和国	country_list	country 中東 country-capital
+country-capital-us	首都	アメリカの首都は？	ワシントンD. C.		正式名称：アメリカ合衆国	country_list	country 北米 country-capital
+country-capital-ae	首都	アラブ首長国連邦の首都は？	アブダビ		正式名称：アラブ首長国連邦	country_list	country 中東 country-capital
+country-capital-dz	首都	アルジェリアの首都は？	アルジェ		正式名称：アルジェリア民主人民共和国	country_list	country アフリカ country-capital
+country-capital-ar	首都	アルゼンチンの首都は？	ブエノスアイレス		正式名称：アルゼンチン共和国	country_list	country 中南米 country-capital
+country-capital-al	首都	アルバニアの首都は？	ティラナ		正式名称：アルバニア共和国	country_list	country 欧州 country-capital
+country-capital-am	首都	アルメニアの首都は？	エレバン		正式名称：アルメニア共和国	country_list	country 欧州 country-capital
+country-capital-ao	首都	アンゴラの首都は？	ルアンダ		正式名称：アンゴラ共和国	country_list	country アフリカ country-capital
+country-capital-ag	首都	アンティグア・バーブーダの首都は？	セントジョンズ		正式名称：アンティグア・バーブーダ	country_list	country 中南米 country-capital
+country-capital-ad	首都	アンドラの首都は？	アンドラ・ラ・ベリャ		正式名称：アンドラ公国	country_list	country 欧州 country-capital
+country-capital-ye	首都	イエメンの首都は？	サヌア		正式名称：イエメン共和国	country_list	country 中東 country-capital
 country-capital-il	首都	イスラエルの首都は？	エルサレム		"正式名称：イスラエル国
-注記：日本を含め国際社会の大多数には認められていない（外務省 基礎データの注2）"	country_list	country 中東 country-capital	首都がエルサレムの国名は？	イスラエル				
-country-capital-it	首都	イタリアの首都は？	ローマ		正式名称：イタリア共和国	country_list	country 欧州 country-capital	首都がローマの国名は？	イタリア				
-country-capital-iq	首都	イラクの首都は？	バグダッド		正式名称：イラク共和国	country_list	country 中東 country-capital	首都がバグダッドの国名は？	イラク				
-country-capital-ir	首都	イランの首都は？	テヘラン		正式名称：イラン・イスラム共和国	country_list	country 中東 country-capital	首都がテヘランの国名は？	イラン				
-country-capital-in	首都	インドの首都は？	ニューデリー		正式名称：インド	country_list	country アジア country-capital	首都がニューデリーの国名は？	インド				
-country-capital-id	首都	インドネシアの首都は？	ジャカルタ		正式名称：インドネシア共和国	country_list	country アジア country-capital	首都がジャカルタの国名は？	インドネシア				
-country-capital-ug	首都	ウガンダの首都は？	カンパラ		正式名称：ウガンダ共和国	country_list	country アフリカ country-capital	首都がカンパラの国名は？	ウガンダ				
-country-capital-ua	首都	ウクライナの首都は？	キーウ		正式名称：ウクライナ	country_list	country 欧州 country-capital	首都がキーウの国名は？	ウクライナ				
-country-capital-uz	首都	ウズベキスタンの首都は？	タシケント		正式名称：ウズベキスタン共和国	country_list	country 欧州 country-capital	首都がタシケントの国名は？	ウズベキスタン				
-country-capital-uy	首都	ウルグアイの首都は？	モンテビデオ		正式名称：ウルグアイ東方共和国	country_list	country 中南米 country-capital	首都がモンテビデオの国名は？	ウルグアイ				
-country-capital-gb	首都	英国の首都は？	ロンドン		正式名称：英国（グレートブリテン及び北アイルランド連合王国）	country_list	country 欧州 country-capital	首都がロンドンの国名は？	英国				
-country-capital-ec	首都	エクアドルの首都は？	キト		正式名称：エクアドル共和国	country_list	country 中南米 country-capital	首都がキトの国名は？	エクアドル				
-country-capital-eg	首都	エジプトの首都は？	カイロ		正式名称：エジプト・アラブ共和国	country_list	country アフリカ country-capital	首都がカイロの国名は？	エジプト				
-country-capital-ee	首都	エストニアの首都は？	タリン		正式名称：エストニア共和国	country_list	country 欧州 country-capital	首都がタリンの国名は？	エストニア				
-country-capital-sz	首都	エスワティニの首都は？	ムババーネ		正式名称：エスワティニ王国	country_list	country アフリカ country-capital	首都がムババーネの国名は？	エスワティニ				
-country-capital-et	首都	エチオピアの首都は？	アディスアベバ		正式名称：エチオピア連邦民主共和国	country_list	country アフリカ country-capital	首都がアディスアベバの国名は？	エチオピア				
-country-capital-er	首都	エリトリアの首都は？	アスマラ		正式名称：エリトリア国	country_list	country アフリカ country-capital	首都がアスマラの国名は？	エリトリア				
-country-capital-sv	首都	エルサルバドルの首都は？	サンサルバドル		正式名称：エルサルバドル共和国	country_list	country 中南米 country-capital	首都がサンサルバドルの国名は？	エルサルバドル				
-country-capital-au	首都	オーストラリアの首都は？	キャンベラ		正式名称：オーストラリア連邦	country_list	country 大洋州 country-capital	首都がキャンベラの国名は？	オーストラリア				
-country-capital-at	首都	オーストリアの首都は？	ウィーン		正式名称：オーストリア共和国	country_list	country 欧州 country-capital	首都がウィーンの国名は？	オーストリア				
-country-capital-om	首都	オマーンの首都は？	マスカット		正式名称：オマーン国	country_list	country 中東 country-capital	首都がマスカットの国名は？	オマーン				
+注記：日本を含め国際社会の大多数には認められていない（外務省 基礎データの注2）"	country_list	country 中東 country-capital
+country-capital-it	首都	イタリアの首都は？	ローマ		正式名称：イタリア共和国	country_list	country 欧州 country-capital
+country-capital-iq	首都	イラクの首都は？	バグダッド		正式名称：イラク共和国	country_list	country 中東 country-capital
+country-capital-ir	首都	イランの首都は？	テヘラン		正式名称：イラン・イスラム共和国	country_list	country 中東 country-capital
+country-capital-in	首都	インドの首都は？	ニューデリー		正式名称：インド	country_list	country アジア country-capital
+country-capital-id	首都	インドネシアの首都は？	ジャカルタ		正式名称：インドネシア共和国	country_list	country アジア country-capital
+country-capital-ug	首都	ウガンダの首都は？	カンパラ		正式名称：ウガンダ共和国	country_list	country アフリカ country-capital
+country-capital-ua	首都	ウクライナの首都は？	キーウ		正式名称：ウクライナ	country_list	country 欧州 country-capital
+country-capital-uz	首都	ウズベキスタンの首都は？	タシケント		正式名称：ウズベキスタン共和国	country_list	country 欧州 country-capital
+country-capital-uy	首都	ウルグアイの首都は？	モンテビデオ		正式名称：ウルグアイ東方共和国	country_list	country 中南米 country-capital
+country-capital-gb	首都	英国の首都は？	ロンドン		正式名称：英国（グレートブリテン及び北アイルランド連合王国）	country_list	country 欧州 country-capital
+country-capital-ec	首都	エクアドルの首都は？	キト		正式名称：エクアドル共和国	country_list	country 中南米 country-capital
+country-capital-eg	首都	エジプトの首都は？	カイロ		正式名称：エジプト・アラブ共和国	country_list	country アフリカ country-capital
+country-capital-ee	首都	エストニアの首都は？	タリン		正式名称：エストニア共和国	country_list	country 欧州 country-capital
+country-capital-sz	首都	エスワティニの首都は？	ムババーネ		正式名称：エスワティニ王国	country_list	country アフリカ country-capital
+country-capital-et	首都	エチオピアの首都は？	アディスアベバ		正式名称：エチオピア連邦民主共和国	country_list	country アフリカ country-capital
+country-capital-er	首都	エリトリアの首都は？	アスマラ		正式名称：エリトリア国	country_list	country アフリカ country-capital
+country-capital-sv	首都	エルサルバドルの首都は？	サンサルバドル		正式名称：エルサルバドル共和国	country_list	country 中南米 country-capital
+country-capital-au	首都	オーストラリアの首都は？	キャンベラ		正式名称：オーストラリア連邦	country_list	country 大洋州 country-capital
+country-capital-at	首都	オーストリアの首都は？	ウィーン		正式名称：オーストリア共和国	country_list	country 欧州 country-capital
+country-capital-om	首都	オマーンの首都は？	マスカット		正式名称：オマーン国	country_list	country 中東 country-capital
 country-capital-nl	首都	オランダの首都は？	アムステルダム		"正式名称：オランダ王国
-注記：政治機能所在地はハーグ（外務省 基礎データ）"	country_list	country 欧州 country-capital	首都がアムステルダムの国名は？	オランダ				
-country-capital-gh	首都	ガーナの首都は？	アクラ		正式名称：ガーナ共和国	country_list	country アフリカ country-capital	首都がアクラの国名は？	ガーナ				
-country-capital-cv	首都	カーボベルデの首都は？	プライア		正式名称：カーボベルデ共和国	country_list	country アフリカ country-capital	首都がプライアの国名は？	カーボベルデ				
-country-capital-gy	首都	ガイアナの首都は？	ジョージタウン		正式名称：ガイアナ協同共和国	country_list	country 中南米 country-capital	首都がジョージタウンの国名は？	ガイアナ				
-country-capital-kz	首都	カザフスタンの首都は？	アスタナ		正式名称：カザフスタン共和国	country_list	country 欧州 country-capital	首都がアスタナの国名は？	カザフスタン				
-country-capital-qa	首都	カタールの首都は？	ドーハ		正式名称：カタール国	country_list	country 中東 country-capital	首都がドーハの国名は？	カタール				
-country-capital-ca	首都	カナダの首都は？	オタワ		正式名称：カナダ	country_list	country 北米 country-capital	首都がオタワの国名は？	カナダ				
-country-capital-ga	首都	ガボンの首都は？	リーブルビル		正式名称：ガボン共和国	country_list	country アフリカ country-capital	首都がリーブルビルの国名は？	ガボン				
-country-capital-cm	首都	カメルーンの首都は？	ヤウンデ		正式名称：カメルーン共和国	country_list	country アフリカ country-capital	首都がヤウンデの国名は？	カメルーン				
-country-capital-gm	首都	ガンビアの首都は？	バンジュール		正式名称：ガンビア共和国	country_list	country アフリカ country-capital	首都がバンジュールの国名は？	ガンビア				
-country-capital-kh	首都	カンボジアの首都は？	プノンペン		正式名称：カンボジア王国	country_list	country アジア country-capital	首都がプノンペンの国名は？	カンボジア				
-country-capital-mk	首都	北マケドニアの首都は？	スコピエ		正式名称：北マケドニア共和国	country_list	country 欧州 country-capital	首都がスコピエの国名は？	北マケドニア				
-country-capital-gn	首都	ギニアの首都は？	コナクリ		正式名称：ギニア共和国	country_list	country アフリカ country-capital	首都がコナクリの国名は？	ギニア				
-country-capital-gw	首都	ギニアビサウの首都は？	ビサウ		正式名称：ギニアビサウ共和国	country_list	country アフリカ country-capital	首都がビサウの国名は？	ギニアビサウ				
-country-capital-cy	首都	キプロスの首都は？	ニコシア		正式名称：キプロス共和国	country_list	country 欧州 country-capital	首都がニコシアの国名は？	キプロス				
-country-capital-cu	首都	キューバの首都は？	ハバナ		正式名称：キューバ共和国	country_list	country 中南米 country-capital	首都がハバナの国名は？	キューバ				
-country-capital-gr	首都	ギリシャの首都は？	アテネ		正式名称：ギリシャ共和国	country_list	country 欧州 country-capital	首都がアテネの国名は？	ギリシャ				
-country-capital-ki	首都	キリバスの首都は？	タラワ		正式名称：キリバス共和国	country_list	country 大洋州 country-capital	首都がタラワの国名は？	キリバス				
-country-capital-kg	首都	キルギスの首都は？	ビシュケク		正式名称：キルギス共和国	country_list	country 欧州 country-capital	首都がビシュケクの国名は？	キルギス				
-country-capital-gt	首都	グアテマラの首都は？	グアテマラ市		正式名称：グアテマラ共和国	country_list	country 中南米 country-capital	首都がグアテマラ市の国名は？	グアテマラ				
-country-capital-kw	首都	クウェートの首都は？	クウェート		正式名称：クウェート国	country_list	country 中東 country-capital	首都がクウェートの国名は？	クウェート				
+注記：政治機能所在地はハーグ（外務省 基礎データ）"	country_list	country 欧州 country-capital
+country-capital-gh	首都	ガーナの首都は？	アクラ		正式名称：ガーナ共和国	country_list	country アフリカ country-capital
+country-capital-cv	首都	カーボベルデの首都は？	プライア		正式名称：カーボベルデ共和国	country_list	country アフリカ country-capital
+country-capital-gy	首都	ガイアナの首都は？	ジョージタウン		正式名称：ガイアナ協同共和国	country_list	country 中南米 country-capital
+country-capital-kz	首都	カザフスタンの首都は？	アスタナ		正式名称：カザフスタン共和国	country_list	country 欧州 country-capital
+country-capital-qa	首都	カタールの首都は？	ドーハ		正式名称：カタール国	country_list	country 中東 country-capital
+country-capital-ca	首都	カナダの首都は？	オタワ		正式名称：カナダ	country_list	country 北米 country-capital
+country-capital-ga	首都	ガボンの首都は？	リーブルビル		正式名称：ガボン共和国	country_list	country アフリカ country-capital
+country-capital-cm	首都	カメルーンの首都は？	ヤウンデ		正式名称：カメルーン共和国	country_list	country アフリカ country-capital
+country-capital-gm	首都	ガンビアの首都は？	バンジュール		正式名称：ガンビア共和国	country_list	country アフリカ country-capital
+country-capital-kh	首都	カンボジアの首都は？	プノンペン		正式名称：カンボジア王国	country_list	country アジア country-capital
+country-capital-mk	首都	北マケドニアの首都は？	スコピエ		正式名称：北マケドニア共和国	country_list	country 欧州 country-capital
+country-capital-gn	首都	ギニアの首都は？	コナクリ		正式名称：ギニア共和国	country_list	country アフリカ country-capital
+country-capital-gw	首都	ギニアビサウの首都は？	ビサウ		正式名称：ギニアビサウ共和国	country_list	country アフリカ country-capital
+country-capital-cy	首都	キプロスの首都は？	ニコシア		正式名称：キプロス共和国	country_list	country 欧州 country-capital
+country-capital-cu	首都	キューバの首都は？	ハバナ		正式名称：キューバ共和国	country_list	country 中南米 country-capital
+country-capital-gr	首都	ギリシャの首都は？	アテネ		正式名称：ギリシャ共和国	country_list	country 欧州 country-capital
+country-capital-ki	首都	キリバスの首都は？	タラワ		正式名称：キリバス共和国	country_list	country 大洋州 country-capital
+country-capital-kg	首都	キルギスの首都は？	ビシュケク		正式名称：キルギス共和国	country_list	country 欧州 country-capital
+country-capital-gt	首都	グアテマラの首都は？	グアテマラ市		正式名称：グアテマラ共和国	country_list	country 中南米 country-capital
+country-capital-kw	首都	クウェートの首都は？	クウェート		正式名称：クウェート国	country_list	country 中東 country-capital
 country-capital-ck	首都	クック諸島の首都は？	アバルア		"正式名称：クック諸島
-注記：ラロトンガ島（外務省 キッズ「世界の国々 基本情報」）"	country_list	country 大洋州 country-capital	首都がアバルアの国名は？	クック諸島				
-country-capital-gd	首都	グレナダの首都は？	セントジョージズ		正式名称：グレナダ	country_list	country 中南米 country-capital	首都がセントジョージズの国名は？	グレナダ				
-country-capital-hr	首都	クロアチアの首都は？	ザグレブ		正式名称：クロアチア共和国	country_list	country 欧州 country-capital	首都がザグレブの国名は？	クロアチア				
-country-capital-ke	首都	ケニアの首都は？	ナイロビ		正式名称：ケニア共和国	country_list	country アフリカ country-capital	首都がナイロビの国名は？	ケニア				
+注記：ラロトンガ島（外務省 キッズ「世界の国々 基本情報」）"	country_list	country 大洋州 country-capital
+country-capital-gd	首都	グレナダの首都は？	セントジョージズ		正式名称：グレナダ	country_list	country 中南米 country-capital
+country-capital-hr	首都	クロアチアの首都は？	ザグレブ		正式名称：クロアチア共和国	country_list	country 欧州 country-capital
+country-capital-ke	首都	ケニアの首都は？	ナイロビ		正式名称：ケニア共和国	country_list	country アフリカ country-capital
 country-capital-ci	首都	コートジボワールの首都は？	ヤムスクロ		"正式名称：コートジボワール共和国
-注記：実質的首都機能はアビジャン（外務省 基礎データ）"	country_list	country アフリカ country-capital	首都がヤムスクロの国名は？	コートジボワール				
-country-capital-cr	首都	コスタリカの首都は？	サンホセ		正式名称：コスタリカ共和国	country_list	country 中南米 country-capital	首都がサンホセの国名は？	コスタリカ				
-country-capital-xk	首都	コソボの首都は？	プリシュティナ		正式名称：コソボ共和国	country_list	country 欧州 country-capital	首都がプリシュティナの国名は？	コソボ				
-country-capital-km	首都	コモロの首都は？	モロニ		正式名称：コモロ連合	country_list	country アフリカ country-capital	首都がモロニの国名は？	コモロ				
-country-capital-co	首都	コロンビアの首都は？	ボゴタ		正式名称：コロンビア共和国	country_list	country 中南米 country-capital	首都がボゴタの国名は？	コロンビア				
-country-capital-cg	首都	コンゴ共和国の首都は？	ブラザビル		正式名称：コンゴ共和国	country_list	country アフリカ country-capital	首都がブラザビルの国名は？	コンゴ共和国				
-country-capital-cd	首都	コンゴ民主共和国の首都は？	キンシャサ		正式名称：コンゴ民主共和国	country_list	country アフリカ country-capital	首都がキンシャサの国名は？	コンゴ民主共和国				
-country-capital-sa	首都	サウジアラビアの首都は？	リヤド		正式名称：サウジアラビア王国	country_list	country 中東 country-capital	首都がリヤドの国名は？	サウジアラビア				
-country-capital-ws	首都	サモアの首都は？	アピア		正式名称：サモア独立国	country_list	country 大洋州 country-capital	首都がアピアの国名は？	サモア				
-country-capital-st	首都	サントメ・プリンシペの首都は？	サントメ		正式名称：サントメ・プリンシペ民主共和国	country_list	country アフリカ country-capital	首都がサントメの国名は？	サントメ・プリンシペ				
-country-capital-zm	首都	ザンビアの首都は？	ルサカ		正式名称：ザンビア共和国	country_list	country アフリカ country-capital	首都がルサカの国名は？	ザンビア				
-country-capital-sm	首都	サンマリノの首都は？	サンマリノ		正式名称：サンマリノ共和国	country_list	country 欧州 country-capital	首都がサンマリノの国名は？	サンマリノ				
-country-capital-sl	首都	シエラレオネの首都は？	フリータウン		正式名称：シエラレオネ共和国	country_list	country アフリカ country-capital	首都がフリータウンの国名は？	シエラレオネ				
-country-capital-dj	首都	ジブチの首都は？	ジブチ		正式名称：ジブチ共和国	country_list	country アフリカ country-capital	首都がジブチの国名は？	ジブチ				
-country-capital-jm	首都	ジャマイカの首都は？	キングストン		正式名称：ジャマイカ	country_list	country 中南米 country-capital	首都がキングストンの国名は？	ジャマイカ				
-country-capital-ge	首都	ジョージアの首都は？	トビリシ		正式名称：ジョージア	country_list	country 欧州 country-capital	首都がトビリシの国名は？	ジョージア				
-country-capital-sy	首都	シリアの首都は？	ダマスカス		正式名称：シリア・アラブ共和国	country_list	country 中東 country-capital	首都がダマスカスの国名は？	シリア				
+注記：実質的首都機能はアビジャン（外務省 基礎データ）"	country_list	country アフリカ country-capital
+country-capital-cr	首都	コスタリカの首都は？	サンホセ		正式名称：コスタリカ共和国	country_list	country 中南米 country-capital
+country-capital-xk	首都	コソボの首都は？	プリシュティナ		正式名称：コソボ共和国	country_list	country 欧州 country-capital
+country-capital-km	首都	コモロの首都は？	モロニ		正式名称：コモロ連合	country_list	country アフリカ country-capital
+country-capital-co	首都	コロンビアの首都は？	ボゴタ		正式名称：コロンビア共和国	country_list	country 中南米 country-capital
+country-capital-cg	首都	コンゴ共和国の首都は？	ブラザビル		正式名称：コンゴ共和国	country_list	country アフリカ country-capital
+country-capital-cd	首都	コンゴ民主共和国の首都は？	キンシャサ		正式名称：コンゴ民主共和国	country_list	country アフリカ country-capital
+country-capital-sa	首都	サウジアラビアの首都は？	リヤド		正式名称：サウジアラビア王国	country_list	country 中東 country-capital
+country-capital-ws	首都	サモアの首都は？	アピア		正式名称：サモア独立国	country_list	country 大洋州 country-capital
+country-capital-st	首都	サントメ・プリンシペの首都は？	サントメ		正式名称：サントメ・プリンシペ民主共和国	country_list	country アフリカ country-capital
+country-capital-zm	首都	ザンビアの首都は？	ルサカ		正式名称：ザンビア共和国	country_list	country アフリカ country-capital
+country-capital-sm	首都	サンマリノの首都は？	サンマリノ		正式名称：サンマリノ共和国	country_list	country 欧州 country-capital
+country-capital-sl	首都	シエラレオネの首都は？	フリータウン		正式名称：シエラレオネ共和国	country_list	country アフリカ country-capital
+country-capital-dj	首都	ジブチの首都は？	ジブチ		正式名称：ジブチ共和国	country_list	country アフリカ country-capital
+country-capital-jm	首都	ジャマイカの首都は？	キングストン		正式名称：ジャマイカ	country_list	country 中南米 country-capital
+country-capital-ge	首都	ジョージアの首都は？	トビリシ		正式名称：ジョージア	country_list	country 欧州 country-capital
+country-capital-sy	首都	シリアの首都は？	ダマスカス		正式名称：シリア・アラブ共和国	country_list	country 中東 country-capital
 country-capital-sg	首都	シンガポールの首都は？	シンガポール		"正式名称：シンガポール共和国
-注記：都市国家のため、国名と首都名が同じ。"	country_list	country アジア country-capital	首都がシンガポールの国名は？	シンガポール				
-country-capital-zw	首都	ジンバブエの首都は？	ハラレ		正式名称：ジンバブエ共和国	country_list	country アフリカ country-capital	首都がハラレの国名は？	ジンバブエ				
-country-capital-ch	首都	スイスの首都は？	ベルン		正式名称：スイス連邦	country_list	country 欧州 country-capital	首都がベルンの国名は？	スイス				
-country-capital-se	首都	スウェーデンの首都は？	ストックホルム		正式名称：スウェーデン王国	country_list	country 欧州 country-capital	首都がストックホルムの国名は？	スウェーデン				
-country-capital-sd	首都	スーダンの首都は？	ハルツーム		正式名称：スーダン共和国	country_list	country アフリカ country-capital	首都がハルツームの国名は？	スーダン				
-country-capital-es	首都	スペインの首都は？	マドリード		正式名称：スペイン王国	country_list	country 欧州 country-capital	首都がマドリードの国名は？	スペイン				
-country-capital-sr	首都	スリナムの首都は？	パラマリボ		正式名称：スリナム共和国	country_list	country 中南米 country-capital	首都がパラマリボの国名は？	スリナム				
-country-capital-lk	首都	スリランカの首都は？	スリ・ジャヤワルダナプラ・コッテ		正式名称：スリランカ民主社会主義共和国	country_list	country アジア country-capital	首都がスリ・ジャヤワルダナプラ・コッテの国名は？	スリランカ				
-country-capital-sk	首都	スロバキアの首都は？	ブラチスラバ		正式名称：スロバキア共和国	country_list	country 欧州 country-capital	首都がブラチスラバの国名は？	スロバキア				
-country-capital-si	首都	スロベニアの首都は？	リュブリャナ		正式名称：スロベニア共和国	country_list	country 欧州 country-capital	首都がリュブリャナの国名は？	スロベニア				
-country-capital-sc	首都	セーシェルの首都は？	ヴィクトリア		正式名称：セーシェル共和国	country_list	country アフリカ country-capital	首都がヴィクトリアの国名は？	セーシェル				
+注記：都市国家のため、国名と首都名が同じ。"	country_list	country アジア country-capital
+country-capital-zw	首都	ジンバブエの首都は？	ハラレ		正式名称：ジンバブエ共和国	country_list	country アフリカ country-capital
+country-capital-ch	首都	スイスの首都は？	ベルン		正式名称：スイス連邦	country_list	country 欧州 country-capital
+country-capital-se	首都	スウェーデンの首都は？	ストックホルム		正式名称：スウェーデン王国	country_list	country 欧州 country-capital
+country-capital-sd	首都	スーダンの首都は？	ハルツーム		正式名称：スーダン共和国	country_list	country アフリカ country-capital
+country-capital-es	首都	スペインの首都は？	マドリード		正式名称：スペイン王国	country_list	country 欧州 country-capital
+country-capital-sr	首都	スリナムの首都は？	パラマリボ		正式名称：スリナム共和国	country_list	country 中南米 country-capital
+country-capital-lk	首都	スリランカの首都は？	スリ・ジャヤワルダナプラ・コッテ		正式名称：スリランカ民主社会主義共和国	country_list	country アジア country-capital
+country-capital-sk	首都	スロバキアの首都は？	ブラチスラバ		正式名称：スロバキア共和国	country_list	country 欧州 country-capital
+country-capital-si	首都	スロベニアの首都は？	リュブリャナ		正式名称：スロベニア共和国	country_list	country 欧州 country-capital
+country-capital-sc	首都	セーシェルの首都は？	ヴィクトリア		正式名称：セーシェル共和国	country_list	country アフリカ country-capital
 country-capital-gq	首都	赤道ギニアの首都は？	シウダ・デ・ラ・パス		"正式名称：赤道ギニア共和国
-注記：2026年1月にマラボからの移転が宣言された。実質的首都機能は引き続きマラボ（外務省 基礎データ）"	country_list	country アフリカ country-capital	首都がシウダ・デ・ラ・パスの国名は？	赤道ギニア				
-country-capital-sn	首都	セネガルの首都は？	ダカール		正式名称：セネガル共和国	country_list	country アフリカ country-capital	首都がダカールの国名は？	セネガル				
-country-capital-rs	首都	セルビアの首都は？	ベオグラード		正式名称：セルビア共和国	country_list	country 欧州 country-capital	首都がベオグラードの国名は？	セルビア				
-country-capital-kn	首都	セントクリストファー・ネービスの首都は？	バセテール		正式名称：セントクリストファー・ネービス	country_list	country 中南米 country-capital	首都がバセテールの国名は？	セントクリストファー・ネービス				
-country-capital-vc	首都	セントビンセント及びグレナディーン諸島の首都は？	キングスタウン		正式名称：セントビンセント及びグレナディーン諸島	country_list	country 中南米 country-capital	首都がキングスタウンの国名は？	セントビンセント及びグレナディーン諸島				
-country-capital-lc	首都	セントルシアの首都は？	カストリーズ		正式名称：セントルシア	country_list	country 中南米 country-capital	首都がカストリーズの国名は？	セントルシア				
-country-capital-so	首都	ソマリアの首都は？	モガディシュ		正式名称：ソマリア連邦共和国	country_list	country アフリカ country-capital	首都がモガディシュの国名は？	ソマリア				
-country-capital-sb	首都	ソロモン諸島の首都は？	ホニアラ		正式名称：ソロモン諸島	country_list	country 大洋州 country-capital	首都がホニアラの国名は？	ソロモン諸島				
-country-capital-th	首都	タイの首都は？	バンコク		正式名称：タイ王国	country_list	country アジア country-capital	首都がバンコクの国名は？	タイ				
-country-capital-kr	首都	大韓民国の首都は？	ソウル		正式名称：大韓民国	country_list	country アジア country-capital	首都がソウルの国名は？	大韓民国				
-country-capital-tj	首都	タジキスタンの首都は？	ドゥシャンベ		正式名称：タジキスタン共和国	country_list	country 欧州 country-capital	首都がドゥシャンベの国名は？	タジキスタン				
+注記：2026年1月にマラボからの移転が宣言された。実質的首都機能は引き続きマラボ（外務省 基礎データ）"	country_list	country アフリカ country-capital
+country-capital-sn	首都	セネガルの首都は？	ダカール		正式名称：セネガル共和国	country_list	country アフリカ country-capital
+country-capital-rs	首都	セルビアの首都は？	ベオグラード		正式名称：セルビア共和国	country_list	country 欧州 country-capital
+country-capital-kn	首都	セントクリストファー・ネービスの首都は？	バセテール		正式名称：セントクリストファー・ネービス	country_list	country 中南米 country-capital
+country-capital-vc	首都	セントビンセント及びグレナディーン諸島の首都は？	キングスタウン		正式名称：セントビンセント及びグレナディーン諸島	country_list	country 中南米 country-capital
+country-capital-lc	首都	セントルシアの首都は？	カストリーズ		正式名称：セントルシア	country_list	country 中南米 country-capital
+country-capital-so	首都	ソマリアの首都は？	モガディシュ		正式名称：ソマリア連邦共和国	country_list	country アフリカ country-capital
+country-capital-sb	首都	ソロモン諸島の首都は？	ホニアラ		正式名称：ソロモン諸島	country_list	country 大洋州 country-capital
+country-capital-th	首都	タイの首都は？	バンコク		正式名称：タイ王国	country_list	country アジア country-capital
+country-capital-kr	首都	大韓民国の首都は？	ソウル		正式名称：大韓民国	country_list	country アジア country-capital
+country-capital-tj	首都	タジキスタンの首都は？	ドゥシャンベ		正式名称：タジキスタン共和国	country_list	country 欧州 country-capital
 country-capital-tz	首都	タンザニアの首都は？	ドドマ		"正式名称：タンザニア連合共和国
-注記：法律上の首都であり、国会議事堂が置かれている。経済面で中心となっているのはダルエスサラーム（外務省 基礎データ）"	country_list	country アフリカ country-capital	首都がドドマの国名は？	タンザニア				
-country-capital-cz	首都	チェコの首都は？	プラハ		正式名称：チェコ共和国	country_list	country 欧州 country-capital	首都がプラハの国名は？	チェコ				
-country-capital-td	首都	チャドの首都は？	ウンジャメナ		正式名称：チャド共和国	country_list	country アフリカ country-capital	首都がウンジャメナの国名は？	チャド				
-country-capital-cf	首都	中央アフリカの首都は？	バンギ		正式名称：中央アフリカ共和国	country_list	country アフリカ country-capital	首都がバンギの国名は？	中央アフリカ				
-country-capital-cn	首都	中国の首都は？	北京		正式名称：中華人民共和国	country_list	country アジア country-capital	首都が北京の国名は？	中国				
-country-capital-tn	首都	チュニジアの首都は？	チュニス		正式名称：チュニジア共和国	country_list	country アフリカ country-capital	首都がチュニスの国名は？	チュニジア				
-country-capital-cl	首都	チリの首都は？	サンティアゴ		正式名称：チリ共和国	country_list	country 中南米 country-capital	首都がサンティアゴの国名は？	チリ				
-country-capital-tv	首都	ツバルの首都は？	フナフティ		正式名称：ツバル	country_list	country 大洋州 country-capital	首都がフナフティの国名は？	ツバル				
-country-capital-dk	首都	デンマークの首都は？	コペンハーゲン		正式名称：デンマーク王国	country_list	country 欧州 country-capital	首都がコペンハーゲンの国名は？	デンマーク				
-country-capital-de	首都	ドイツの首都は？	ベルリン		正式名称：ドイツ連邦共和国	country_list	country 欧州 country-capital	首都がベルリンの国名は？	ドイツ				
-country-capital-tg	首都	トーゴの首都は？	ロメ		正式名称：トーゴ共和国	country_list	country アフリカ country-capital	首都がロメの国名は？	トーゴ				
-country-capital-dm	首都	ドミニカ国の首都は？	ロゾー		正式名称：ドミニカ国	country_list	country 中南米 country-capital	首都がロゾーの国名は？	ドミニカ国				
-country-capital-do	首都	ドミニカ共和国の首都は？	サントドミンゴ		正式名称：ドミニカ共和国	country_list	country 中南米 country-capital	首都がサントドミンゴの国名は？	ドミニカ共和国				
-country-capital-tt	首都	トリニダード・トバゴの首都は？	ポート・オブ・スペイン		正式名称：トリニダード・トバゴ共和国	country_list	country 中南米 country-capital	首都がポート・オブ・スペインの国名は？	トリニダード・トバゴ				
-country-capital-tm	首都	トルクメニスタンの首都は？	アシガバット		正式名称：トルクメニスタン	country_list	country 欧州 country-capital	首都がアシガバットの国名は？	トルクメニスタン				
-country-capital-tr	首都	トルコの首都は？	アンカラ		正式名称：トルコ共和国	country_list	country 中東 country-capital	首都がアンカラの国名は？	トルコ				
-country-capital-to	首都	トンガの首都は？	ヌクアロファ		正式名称：トンガ王国	country_list	country 大洋州 country-capital	首都がヌクアロファの国名は？	トンガ				
-country-capital-ng	首都	ナイジェリアの首都は？	アブジャ		正式名称：ナイジェリア連邦共和国	country_list	country アフリカ country-capital	首都がアブジャの国名は？	ナイジェリア				
-country-capital-nr	首都	ナウルの首都は？	ヤレン		正式名称：ナウル共和国	country_list	country 大洋州 country-capital	首都がヤレンの国名は？	ナウル				
-country-capital-na	首都	ナミビアの首都は？	ウィントフック		正式名称：ナミビア共和国	country_list	country アフリカ country-capital	首都がウィントフックの国名は？	ナミビア				
-country-capital-nu	首都	ニウエの首都は？	アロフィ		正式名称：ニウエ	country_list	country 大洋州 country-capital	首都がアロフィの国名は？	ニウエ				
-country-capital-ni	首都	ニカラグアの首都は？	マナグア		正式名称：ニカラグア共和国	country_list	country 中南米 country-capital	首都がマナグアの国名は？	ニカラグア				
-country-capital-ne	首都	ニジェールの首都は？	ニアメ		正式名称：ニジェール共和国	country_list	country アフリカ country-capital	首都がニアメの国名は？	ニジェール				
-country-capital-jp	首都	日本の首都は？	東京		正式名称：日本	country_list	country アジア country-capital	首都が東京の国名は？	日本				
-country-capital-nz	首都	ニュージーランドの首都は？	ウェリントン		正式名称：ニュージーランド	country_list	country 大洋州 country-capital	首都がウェリントンの国名は？	ニュージーランド				
-country-capital-np	首都	ネパールの首都は？	カトマンズ		正式名称：ネパール	country_list	country アジア country-capital	首都がカトマンズの国名は？	ネパール				
-country-capital-no	首都	ノルウェーの首都は？	オスロ		正式名称：ノルウェー王国	country_list	country 欧州 country-capital	首都がオスロの国名は？	ノルウェー				
-country-capital-bh	首都	バーレーンの首都は？	マナーマ市		正式名称：バーレーン王国	country_list	country 中東 country-capital	首都がマナーマ市の国名は？	バーレーン				
-country-capital-ht	首都	ハイチの首都は？	ポルトープランス		正式名称：ハイチ共和国	country_list	country 中南米 country-capital	首都がポルトープランスの国名は？	ハイチ				
-country-capital-pk	首都	パキスタンの首都は？	イスラマバード		正式名称：パキスタン・イスラム共和国	country_list	country アジア country-capital	首都がイスラマバードの国名は？	パキスタン				
+注記：法律上の首都であり、国会議事堂が置かれている。経済面で中心となっているのはダルエスサラーム（外務省 基礎データ）"	country_list	country アフリカ country-capital
+country-capital-cz	首都	チェコの首都は？	プラハ		正式名称：チェコ共和国	country_list	country 欧州 country-capital
+country-capital-td	首都	チャドの首都は？	ウンジャメナ		正式名称：チャド共和国	country_list	country アフリカ country-capital
+country-capital-cf	首都	中央アフリカの首都は？	バンギ		正式名称：中央アフリカ共和国	country_list	country アフリカ country-capital
+country-capital-cn	首都	中国の首都は？	北京		正式名称：中華人民共和国	country_list	country アジア country-capital
+country-capital-tn	首都	チュニジアの首都は？	チュニス		正式名称：チュニジア共和国	country_list	country アフリカ country-capital
+country-capital-cl	首都	チリの首都は？	サンティアゴ		正式名称：チリ共和国	country_list	country 中南米 country-capital
+country-capital-tv	首都	ツバルの首都は？	フナフティ		正式名称：ツバル	country_list	country 大洋州 country-capital
+country-capital-dk	首都	デンマークの首都は？	コペンハーゲン		正式名称：デンマーク王国	country_list	country 欧州 country-capital
+country-capital-de	首都	ドイツの首都は？	ベルリン		正式名称：ドイツ連邦共和国	country_list	country 欧州 country-capital
+country-capital-tg	首都	トーゴの首都は？	ロメ		正式名称：トーゴ共和国	country_list	country アフリカ country-capital
+country-capital-dm	首都	ドミニカ国の首都は？	ロゾー		正式名称：ドミニカ国	country_list	country 中南米 country-capital
+country-capital-do	首都	ドミニカ共和国の首都は？	サントドミンゴ		正式名称：ドミニカ共和国	country_list	country 中南米 country-capital
+country-capital-tt	首都	トリニダード・トバゴの首都は？	ポート・オブ・スペイン		正式名称：トリニダード・トバゴ共和国	country_list	country 中南米 country-capital
+country-capital-tm	首都	トルクメニスタンの首都は？	アシガバット		正式名称：トルクメニスタン	country_list	country 欧州 country-capital
+country-capital-tr	首都	トルコの首都は？	アンカラ		正式名称：トルコ共和国	country_list	country 中東 country-capital
+country-capital-to	首都	トンガの首都は？	ヌクアロファ		正式名称：トンガ王国	country_list	country 大洋州 country-capital
+country-capital-ng	首都	ナイジェリアの首都は？	アブジャ		正式名称：ナイジェリア連邦共和国	country_list	country アフリカ country-capital
+country-capital-nr	首都	ナウルの首都は？	ヤレン		正式名称：ナウル共和国	country_list	country 大洋州 country-capital
+country-capital-na	首都	ナミビアの首都は？	ウィントフック		正式名称：ナミビア共和国	country_list	country アフリカ country-capital
+country-capital-nu	首都	ニウエの首都は？	アロフィ		正式名称：ニウエ	country_list	country 大洋州 country-capital
+country-capital-ni	首都	ニカラグアの首都は？	マナグア		正式名称：ニカラグア共和国	country_list	country 中南米 country-capital
+country-capital-ne	首都	ニジェールの首都は？	ニアメ		正式名称：ニジェール共和国	country_list	country アフリカ country-capital
+country-capital-jp	首都	日本の首都は？	東京		正式名称：日本	country_list	country アジア country-capital
+country-capital-nz	首都	ニュージーランドの首都は？	ウェリントン		正式名称：ニュージーランド	country_list	country 大洋州 country-capital
+country-capital-np	首都	ネパールの首都は？	カトマンズ		正式名称：ネパール	country_list	country アジア country-capital
+country-capital-no	首都	ノルウェーの首都は？	オスロ		正式名称：ノルウェー王国	country_list	country 欧州 country-capital
+country-capital-bh	首都	バーレーンの首都は？	マナーマ市		正式名称：バーレーン王国	country_list	country 中東 country-capital
+country-capital-ht	首都	ハイチの首都は？	ポルトープランス		正式名称：ハイチ共和国	country_list	country 中南米 country-capital
+country-capital-pk	首都	パキスタンの首都は？	イスラマバード		正式名称：パキスタン・イスラム共和国	country_list	country アジア country-capital
 country-capital-va	首都	バチカンの首都は？	バチカン市国		"正式名称：バチカン市国
-注記：都市国家のため、国名に首都の名称が含まれる。"	country_list	country 欧州 country-capital	首都がバチカン市国の国名は？	バチカン				
-country-capital-pa	首都	パナマの首都は？	パナマシティー		正式名称：パナマ共和国	country_list	country 中南米 country-capital	首都がパナマシティーの国名は？	パナマ				
-country-capital-vu	首都	バヌアツの首都は？	ポートビラ		正式名称：バヌアツ共和国	country_list	country 大洋州 country-capital	首都がポートビラの国名は？	バヌアツ				
-country-capital-bs	首都	バハマの首都は？	ナッソー		正式名称：バハマ国	country_list	country 中南米 country-capital	首都がナッソーの国名は？	バハマ				
-country-capital-pg	首都	パプアニューギニアの首都は？	ポートモレスビー		正式名称：パプアニューギニア独立国	country_list	country 大洋州 country-capital	首都がポートモレスビーの国名は？	パプアニューギニア				
-country-capital-pw	首都	パラオの首都は？	マルキョク		正式名称：パラオ共和国	country_list	country 大洋州 country-capital	首都がマルキョクの国名は？	パラオ				
-country-capital-py	首都	パラグアイの首都は？	アスンシオン		正式名称：パラグアイ共和国	country_list	country 中南米 country-capital	首都がアスンシオンの国名は？	パラグアイ				
-country-capital-bb	首都	バルバドスの首都は？	ブリッジタウン		正式名称：バルバドス	country_list	country 中南米 country-capital	首都がブリッジタウンの国名は？	バルバドス				
-country-capital-hu	首都	ハンガリーの首都は？	ブダペスト		正式名称：ハンガリー	country_list	country 欧州 country-capital	首都がブダペストの国名は？	ハンガリー				
-country-capital-bd	首都	バングラデシュの首都は？	ダッカ		正式名称：バングラデシュ人民共和国	country_list	country アジア country-capital	首都がダッカの国名は？	バングラデシュ				
-country-capital-tl	首都	東ティモールの首都は？	ディリ		正式名称：東ティモール民主共和国	country_list	country アジア country-capital	首都がディリの国名は？	東ティモール				
-country-capital-fj	首都	フィジーの首都は？	スバ		正式名称：フィジー共和国	country_list	country 大洋州 country-capital	首都がスバの国名は？	フィジー				
-country-capital-ph	首都	フィリピンの首都は？	マニラ		正式名称：フィリピン共和国	country_list	country アジア country-capital	首都がマニラの国名は？	フィリピン				
-country-capital-fi	首都	フィンランドの首都は？	ヘルシンキ		正式名称：フィンランド共和国	country_list	country 欧州 country-capital	首都がヘルシンキの国名は？	フィンランド				
-country-capital-bt	首都	ブータンの首都は？	ティンプー		正式名称：ブータン王国	country_list	country アジア country-capital	首都がティンプーの国名は？	ブータン				
-country-capital-br	首都	ブラジルの首都は？	ブラジリア		正式名称：ブラジル連邦共和国	country_list	country 中南米 country-capital	首都がブラジリアの国名は？	ブラジル				
-country-capital-fr	首都	フランスの首都は？	パリ		正式名称：フランス共和国	country_list	country 欧州 country-capital	首都がパリの国名は？	フランス				
-country-capital-bg	首都	ブルガリアの首都は？	ソフィア		正式名称：ブルガリア共和国	country_list	country 欧州 country-capital	首都がソフィアの国名は？	ブルガリア				
-country-capital-bf	首都	ブルキナファソの首都は？	ワガドゥグ		正式名称：ブルキナファソ	country_list	country アフリカ country-capital	首都がワガドゥグの国名は？	ブルキナファソ				
-country-capital-bn	首都	ブルネイの首都は？	バンダル・スリ・ブガワン		正式名称：ブルネイ・ダルサラーム国	country_list	country アジア country-capital	首都がバンダル・スリ・ブガワンの国名は？	ブルネイ				
+注記：都市国家のため、国名に首都の名称が含まれる。"	country_list	country 欧州 country-capital
+country-capital-pa	首都	パナマの首都は？	パナマシティー		正式名称：パナマ共和国	country_list	country 中南米 country-capital
+country-capital-vu	首都	バヌアツの首都は？	ポートビラ		正式名称：バヌアツ共和国	country_list	country 大洋州 country-capital
+country-capital-bs	首都	バハマの首都は？	ナッソー		正式名称：バハマ国	country_list	country 中南米 country-capital
+country-capital-pg	首都	パプアニューギニアの首都は？	ポートモレスビー		正式名称：パプアニューギニア独立国	country_list	country 大洋州 country-capital
+country-capital-pw	首都	パラオの首都は？	マルキョク		正式名称：パラオ共和国	country_list	country 大洋州 country-capital
+country-capital-py	首都	パラグアイの首都は？	アスンシオン		正式名称：パラグアイ共和国	country_list	country 中南米 country-capital
+country-capital-bb	首都	バルバドスの首都は？	ブリッジタウン		正式名称：バルバドス	country_list	country 中南米 country-capital
+country-capital-hu	首都	ハンガリーの首都は？	ブダペスト		正式名称：ハンガリー	country_list	country 欧州 country-capital
+country-capital-bd	首都	バングラデシュの首都は？	ダッカ		正式名称：バングラデシュ人民共和国	country_list	country アジア country-capital
+country-capital-tl	首都	東ティモールの首都は？	ディリ		正式名称：東ティモール民主共和国	country_list	country アジア country-capital
+country-capital-fj	首都	フィジーの首都は？	スバ		正式名称：フィジー共和国	country_list	country 大洋州 country-capital
+country-capital-ph	首都	フィリピンの首都は？	マニラ		正式名称：フィリピン共和国	country_list	country アジア country-capital
+country-capital-fi	首都	フィンランドの首都は？	ヘルシンキ		正式名称：フィンランド共和国	country_list	country 欧州 country-capital
+country-capital-bt	首都	ブータンの首都は？	ティンプー		正式名称：ブータン王国	country_list	country アジア country-capital
+country-capital-br	首都	ブラジルの首都は？	ブラジリア		正式名称：ブラジル連邦共和国	country_list	country 中南米 country-capital
+country-capital-fr	首都	フランスの首都は？	パリ		正式名称：フランス共和国	country_list	country 欧州 country-capital
+country-capital-bg	首都	ブルガリアの首都は？	ソフィア		正式名称：ブルガリア共和国	country_list	country 欧州 country-capital
+country-capital-bf	首都	ブルキナファソの首都は？	ワガドゥグ		正式名称：ブルキナファソ	country_list	country アフリカ country-capital
+country-capital-bn	首都	ブルネイの首都は？	バンダル・スリ・ブガワン		正式名称：ブルネイ・ダルサラーム国	country_list	country アジア country-capital
 country-capital-bi	首都	ブルンジの首都は？	ギテガ		"正式名称：ブルンジ共和国
-注記：経済の中心はブジュンブラ（外務省 基礎データ）"	country_list	country アフリカ country-capital	首都がギテガの国名は？	ブルンジ				
-country-capital-vn	首都	ベトナムの首都は？	ハノイ		正式名称：ベトナム社会主義共和国	country_list	country アジア country-capital	首都がハノイの国名は？	ベトナム				
+注記：経済の中心はブジュンブラ（外務省 基礎データ）"	country_list	country アフリカ country-capital
+country-capital-vn	首都	ベトナムの首都は？	ハノイ		正式名称：ベトナム社会主義共和国	country_list	country アジア country-capital
 country-capital-bj	首都	ベナンの首都は？	ポルトノボ		"正式名称：ベナン共和国
-注記：実質的首都機能はコトヌ（外務省 基礎データ）"	country_list	country アフリカ country-capital	首都がポルトノボの国名は？	ベナン				
-country-capital-ve	首都	ベネズエラ・ボリバルの首都は？	カラカス		正式名称：ベネズエラ・ボリバル共和国	country_list	country 中南米 country-capital	首都がカラカスの国名は？	ベネズエラ・ボリバル				
-country-capital-by	首都	ベラルーシの首都は？	ミンスク		正式名称：ベラルーシ共和国	country_list	country 欧州 country-capital	首都がミンスクの国名は？	ベラルーシ				
-country-capital-bz	首都	ベリーズの首都は？	ベルモパン		正式名称：ベリーズ	country_list	country 中南米 country-capital	首都がベルモパンの国名は？	ベリーズ				
-country-capital-pe	首都	ペルーの首都は？	リマ		正式名称：ペルー共和国	country_list	country 中南米 country-capital	首都がリマの国名は？	ペルー				
-country-capital-be	首都	ベルギーの首都は？	ブリュッセル		正式名称：ベルギー王国	country_list	country 欧州 country-capital	首都がブリュッセルの国名は？	ベルギー				
-country-capital-pl	首都	ポーランドの首都は？	ワルシャワ		正式名称：ポーランド共和国	country_list	country 欧州 country-capital	首都がワルシャワの国名は？	ポーランド				
-country-capital-ba	首都	ボスニア・ヘルツェゴビナの首都は？	サラエボ		正式名称：ボスニア・ヘルツェゴビナ	country_list	country 欧州 country-capital	首都がサラエボの国名は？	ボスニア・ヘルツェゴビナ				
-country-capital-bw	首都	ボツワナの首都は？	ハボローネ		正式名称：ボツワナ共和国	country_list	country アフリカ country-capital	首都がハボローネの国名は？	ボツワナ				
+注記：実質的首都機能はコトヌ（外務省 基礎データ）"	country_list	country アフリカ country-capital
+country-capital-ve	首都	ベネズエラ・ボリバルの首都は？	カラカス		正式名称：ベネズエラ・ボリバル共和国	country_list	country 中南米 country-capital
+country-capital-by	首都	ベラルーシの首都は？	ミンスク		正式名称：ベラルーシ共和国	country_list	country 欧州 country-capital
+country-capital-bz	首都	ベリーズの首都は？	ベルモパン		正式名称：ベリーズ	country_list	country 中南米 country-capital
+country-capital-pe	首都	ペルーの首都は？	リマ		正式名称：ペルー共和国	country_list	country 中南米 country-capital
+country-capital-be	首都	ベルギーの首都は？	ブリュッセル		正式名称：ベルギー王国	country_list	country 欧州 country-capital
+country-capital-pl	首都	ポーランドの首都は？	ワルシャワ		正式名称：ポーランド共和国	country_list	country 欧州 country-capital
+country-capital-ba	首都	ボスニア・ヘルツェゴビナの首都は？	サラエボ		正式名称：ボスニア・ヘルツェゴビナ	country_list	country 欧州 country-capital
+country-capital-bw	首都	ボツワナの首都は？	ハボローネ		正式名称：ボツワナ共和国	country_list	country アフリカ country-capital
 country-capital-bo	首都	ボリビアの首都は？	ラパス		"正式名称：ボリビア多民族国
-注記：憲法上の首都はスクレ（外務省 基礎データ）"	country_list	country 中南米 country-capital	首都がラパスの国名は？	ボリビア				
-country-capital-pt	首都	ポルトガルの首都は？	リスボン		正式名称：ポルトガル共和国	country_list	country 欧州 country-capital	首都がリスボンの国名は？	ポルトガル				
-country-capital-hn	首都	ホンジュラスの首都は？	テグシガルパ		正式名称：ホンジュラス共和国	country_list	country 中南米 country-capital	首都がテグシガルパの国名は？	ホンジュラス				
-country-capital-mh	首都	マーシャル諸島の首都は？	マジュロ		正式名称：マーシャル諸島共和国	country_list	country 大洋州 country-capital	首都がマジュロの国名は？	マーシャル諸島				
-country-capital-mg	首都	マダガスカルの首都は？	アンタナナリボ		正式名称：マダガスカル共和国	country_list	country アフリカ country-capital	首都がアンタナナリボの国名は？	マダガスカル				
-country-capital-mw	首都	マラウイの首都は？	リロングウェ		正式名称：マラウイ共和国	country_list	country アフリカ country-capital	首都がリロングウェの国名は？	マラウイ				
-country-capital-ml	首都	マリの首都は？	バマコ		正式名称：マリ共和国	country_list	country アフリカ country-capital	首都がバマコの国名は？	マリ				
-country-capital-mt	首都	マルタの首都は？	バレッタ		正式名称：マルタ共和国	country_list	country 欧州 country-capital	首都がバレッタの国名は？	マルタ				
-country-capital-my	首都	マレーシアの首都は？	クアラルンプール		正式名称：マレーシア	country_list	country アジア country-capital	首都がクアラルンプールの国名は？	マレーシア				
-country-capital-fm	首都	ミクロネシアの首都は？	パリキール		正式名称：ミクロネシア連邦	country_list	country 大洋州 country-capital	首都がパリキールの国名は？	ミクロネシア				
-country-capital-za	首都	南アフリカの首都は？	プレトリア		正式名称：南アフリカ共和国	country_list	country アフリカ country-capital	首都がプレトリアの国名は？	南アフリカ				
-country-capital-ss	首都	南スーダンの首都は？	ジュバ		正式名称：南スーダン共和国	country_list	country アフリカ country-capital	首都がジュバの国名は？	南スーダン				
-country-capital-mm	首都	ミャンマーの首都は？	ネーピードー		正式名称：ミャンマー連邦共和国	country_list	country アジア country-capital	首都がネーピードーの国名は？	ミャンマー				
-country-capital-mx	首都	メキシコの首都は？	メキシコ市		正式名称：メキシコ合衆国	country_list	country 中南米 country-capital	首都がメキシコ市の国名は？	メキシコ				
-country-capital-mu	首都	モーリシャスの首都は？	ポートルイス		正式名称：モーリシャス共和国	country_list	country アフリカ country-capital	首都がポートルイスの国名は？	モーリシャス				
-country-capital-mr	首都	モーリタニアの首都は？	ヌアクショット		正式名称：モーリタニア・イスラム共和国	country_list	country アフリカ country-capital	首都がヌアクショットの国名は？	モーリタニア				
-country-capital-mz	首都	モザンビークの首都は？	マプト		正式名称：モザンビーク共和国	country_list	country アフリカ country-capital	首都がマプトの国名は？	モザンビーク				
-country-capital-mc	首都	モナコの首都は？	モナコ		正式名称：モナコ公国	country_list	country 欧州 country-capital	首都がモナコの国名は？	モナコ				
-country-capital-mv	首都	モルディブの首都は？	マレ		正式名称：モルディブ共和国	country_list	country アジア country-capital	首都がマレの国名は？	モルディブ				
-country-capital-md	首都	モルドバの首都は？	キシナウ		正式名称：モルドバ共和国	country_list	country 欧州 country-capital	首都がキシナウの国名は？	モルドバ				
-country-capital-ma	首都	モロッコの首都は？	ラバト		正式名称：モロッコ王国	country_list	country アフリカ country-capital	首都がラバトの国名は？	モロッコ				
-country-capital-mn	首都	モンゴルの首都は？	ウランバートル		正式名称：モンゴル国	country_list	country アジア country-capital	首都がウランバートルの国名は？	モンゴル				
-country-capital-me	首都	モンテネグロの首都は？	ポドゴリツァ		正式名称：モンテネグロ	country_list	country 欧州 country-capital	首都がポドゴリツァの国名は？	モンテネグロ				
-country-capital-jo	首都	ヨルダンの首都は？	アンマン		正式名称：ヨルダン	country_list	country 中東 country-capital	首都がアンマンの国名は？	ヨルダン				
-country-capital-la	首都	ラオスの首都は？	ビエンチャン		正式名称：ラオス人民民主共和国	country_list	country アジア country-capital	首都がビエンチャンの国名は？	ラオス				
-country-capital-lv	首都	ラトビアの首都は？	リガ		正式名称：ラトビア共和国	country_list	country 欧州 country-capital	首都がリガの国名は？	ラトビア				
-country-capital-lt	首都	リトアニアの首都は？	ビリニュス		正式名称：リトアニア共和国	country_list	country 欧州 country-capital	首都がビリニュスの国名は？	リトアニア				
-country-capital-ly	首都	リビア国の首都は？	トリポリ		正式名称：リビア	country_list	country アフリカ country-capital	首都がトリポリの国名は？	リビア国				
-country-capital-li	首都	リヒテンシュタインの首都は？	ファドーツ		正式名称：リヒテンシュタイン公国	country_list	country 欧州 country-capital	首都がファドーツの国名は？	リヒテンシュタイン				
-country-capital-lr	首都	リベリアの首都は？	モンロビア		正式名称：リベリア共和国	country_list	country アフリカ country-capital	首都がモンロビアの国名は？	リベリア				
-country-capital-ro	首都	ルーマニアの首都は？	ブカレスト		正式名称：ルーマニア	country_list	country 欧州 country-capital	首都がブカレストの国名は？	ルーマニア				
-country-capital-lu	首都	ルクセンブルクの首都は？	ルクセンブルク		正式名称：ルクセンブルク大公国	country_list	country 欧州 country-capital	首都がルクセンブルクの国名は？	ルクセンブルク				
-country-capital-rw	首都	ルワンダの首都は？	キガリ		正式名称：ルワンダ共和国	country_list	country アフリカ country-capital	首都がキガリの国名は？	ルワンダ				
-country-capital-ls	首都	レソトの首都は？	マセル		正式名称：レソト王国	country_list	country アフリカ country-capital	首都がマセルの国名は？	レソト				
-country-capital-lb	首都	レバノンの首都は？	ベイルート		正式名称：レバノン共和国	country_list	country 中東 country-capital	首都がベイルートの国名は？	レバノン				
-country-capital-ru	首都	ロシアの首都は？	モスクワ		正式名称：ロシア連邦	country_list	country 欧州 country-capital	首都がモスクワの国名は？	ロシア				
+注記：憲法上の首都はスクレ（外務省 基礎データ）"	country_list	country 中南米 country-capital
+country-capital-pt	首都	ポルトガルの首都は？	リスボン		正式名称：ポルトガル共和国	country_list	country 欧州 country-capital
+country-capital-hn	首都	ホンジュラスの首都は？	テグシガルパ		正式名称：ホンジュラス共和国	country_list	country 中南米 country-capital
+country-capital-mh	首都	マーシャル諸島の首都は？	マジュロ		正式名称：マーシャル諸島共和国	country_list	country 大洋州 country-capital
+country-capital-mg	首都	マダガスカルの首都は？	アンタナナリボ		正式名称：マダガスカル共和国	country_list	country アフリカ country-capital
+country-capital-mw	首都	マラウイの首都は？	リロングウェ		正式名称：マラウイ共和国	country_list	country アフリカ country-capital
+country-capital-ml	首都	マリの首都は？	バマコ		正式名称：マリ共和国	country_list	country アフリカ country-capital
+country-capital-mt	首都	マルタの首都は？	バレッタ		正式名称：マルタ共和国	country_list	country 欧州 country-capital
+country-capital-my	首都	マレーシアの首都は？	クアラルンプール		正式名称：マレーシア	country_list	country アジア country-capital
+country-capital-fm	首都	ミクロネシアの首都は？	パリキール		正式名称：ミクロネシア連邦	country_list	country 大洋州 country-capital
+country-capital-za	首都	南アフリカの首都は？	プレトリア		正式名称：南アフリカ共和国	country_list	country アフリカ country-capital
+country-capital-ss	首都	南スーダンの首都は？	ジュバ		正式名称：南スーダン共和国	country_list	country アフリカ country-capital
+country-capital-mm	首都	ミャンマーの首都は？	ネーピードー		正式名称：ミャンマー連邦共和国	country_list	country アジア country-capital
+country-capital-mx	首都	メキシコの首都は？	メキシコ市		正式名称：メキシコ合衆国	country_list	country 中南米 country-capital
+country-capital-mu	首都	モーリシャスの首都は？	ポートルイス		正式名称：モーリシャス共和国	country_list	country アフリカ country-capital
+country-capital-mr	首都	モーリタニアの首都は？	ヌアクショット		正式名称：モーリタニア・イスラム共和国	country_list	country アフリカ country-capital
+country-capital-mz	首都	モザンビークの首都は？	マプト		正式名称：モザンビーク共和国	country_list	country アフリカ country-capital
+country-capital-mc	首都	モナコの首都は？	モナコ		正式名称：モナコ公国	country_list	country 欧州 country-capital
+country-capital-mv	首都	モルディブの首都は？	マレ		正式名称：モルディブ共和国	country_list	country アジア country-capital
+country-capital-md	首都	モルドバの首都は？	キシナウ		正式名称：モルドバ共和国	country_list	country 欧州 country-capital
+country-capital-ma	首都	モロッコの首都は？	ラバト		正式名称：モロッコ王国	country_list	country アフリカ country-capital
+country-capital-mn	首都	モンゴルの首都は？	ウランバートル		正式名称：モンゴル国	country_list	country アジア country-capital
+country-capital-me	首都	モンテネグロの首都は？	ポドゴリツァ		正式名称：モンテネグロ	country_list	country 欧州 country-capital
+country-capital-jo	首都	ヨルダンの首都は？	アンマン		正式名称：ヨルダン	country_list	country 中東 country-capital
+country-capital-la	首都	ラオスの首都は？	ビエンチャン		正式名称：ラオス人民民主共和国	country_list	country アジア country-capital
+country-capital-lv	首都	ラトビアの首都は？	リガ		正式名称：ラトビア共和国	country_list	country 欧州 country-capital
+country-capital-lt	首都	リトアニアの首都は？	ビリニュス		正式名称：リトアニア共和国	country_list	country 欧州 country-capital
+country-capital-ly	首都	リビア国の首都は？	トリポリ		正式名称：リビア	country_list	country アフリカ country-capital
+country-capital-li	首都	リヒテンシュタインの首都は？	ファドーツ		正式名称：リヒテンシュタイン公国	country_list	country 欧州 country-capital
+country-capital-lr	首都	リベリアの首都は？	モンロビア		正式名称：リベリア共和国	country_list	country アフリカ country-capital
+country-capital-ro	首都	ルーマニアの首都は？	ブカレスト		正式名称：ルーマニア	country_list	country 欧州 country-capital
+country-capital-lu	首都	ルクセンブルクの首都は？	ルクセンブルク		正式名称：ルクセンブルク大公国	country_list	country 欧州 country-capital
+country-capital-rw	首都	ルワンダの首都は？	キガリ		正式名称：ルワンダ共和国	country_list	country アフリカ country-capital
+country-capital-ls	首都	レソトの首都は？	マセル		正式名称：レソト王国	country_list	country アフリカ country-capital
+country-capital-lb	首都	レバノンの首都は？	ベイルート		正式名称：レバノン共和国	country_list	country 中東 country-capital
+country-capital-ru	首都	ロシアの首都は？	モスクワ		正式名称：ロシア連邦	country_list	country 欧州 country-capital

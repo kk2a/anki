@@ -1,0 +1,15 @@
+[deck]
+id = 2601020304
+model_id = 2601020102
+name = "国名スターター::アフリカ"
+slug = "country-name-africa"
+model_name = "Country Fact"
+data_file = "../../data/starter-country-name-facts.tsv"
+sources_file = "../../data/starter-sources.tsv"
+include_reverse = false
+fact_id_prefix = "starter-"
+required_tags = ["アフリカ"]
+
+[validation]
+expected_rows = 54
+required_categories = ["国名"]

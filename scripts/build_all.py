@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 TOPIC_BUILDER = ROOT / "scripts/build_topic_deck.py"
 TOPIC_VALIDATOR = ROOT / "scripts/validate_topic.py"
 COUNTRY_FETCHER = ROOT / "scripts/fetch_countries.py"
+COUNTRY_STARTER_GENERATOR = ROOT / "scripts/generate_country_starters.py"
 CONSTELLATION_FETCHER = ROOT / "scripts/fetch_constellations.py"
 WORLD_HERITAGE_FETCHER = ROOT / "scripts/fetch_world_heritage.py"
 VISUAL_TAXA_FETCHER = ROOT / "scripts/fetch_visual_taxa.py"
@@ -111,6 +112,7 @@ def main() -> int:
     if args.refresh_visual_assets:
         run([sys.executable, str(VISUAL_ASSET_FETCHER), "--all"])
 
+    run([sys.executable, str(COUNTRY_STARTER_GENERATOR)])
     topic_count = build_topic_decks()
     build_kitauji()
     print(f"PASS all builds: {topic_count} topic configs and 2 Kitauji packages")

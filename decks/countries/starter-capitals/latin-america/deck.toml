@@ -1,0 +1,15 @@
+[deck]
+id = 2601020406
+model_id = 2601020106
+name = "首都スターター::中南米"
+slug = "country-capital-latin-america"
+model_name = "Country Fact"
+data_file = "../../data/starter-capital-facts.tsv"
+sources_file = "../../data/starter-sources.tsv"
+include_reverse = false
+fact_id_prefix = "starter-"
+required_tags = ["中南米"]
+
+[validation]
+expected_rows = 33
+required_categories = ["首都"]

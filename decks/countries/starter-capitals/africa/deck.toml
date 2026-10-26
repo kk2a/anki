@@ -1,0 +1,15 @@
+[deck]
+id = 2601020404
+model_id = 2601020106
+name = "首都スターター::アフリカ"
+slug = "country-capital-africa"
+model_name = "Country Fact"
+data_file = "../../data/starter-capital-facts.tsv"
+sources_file = "../../data/starter-sources.tsv"
+include_reverse = false
+fact_id_prefix = "starter-"
+required_tags = ["アフリカ"]
+
+[validation]
+expected_rows = 54
+required_categories = ["首都"]

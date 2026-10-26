@@ -6,7 +6,7 @@ slug = "country-name"
 model_name = "Country Fact"
 data_file = "../data/country-name-facts.tsv"
 sources_file = "../data/sources.tsv"
-include_reverse = true
+include_reverse = false
 
 [validation]
 expected_rows = 196

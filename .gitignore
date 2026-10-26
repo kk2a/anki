@@ -1,4 +1,5 @@
 .venv/
+/private/
 .yomiyasu/
 __pycache__/
 *.py[cod]

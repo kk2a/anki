@@ -60,6 +60,12 @@ def load_deck(deck_dir: Path) -> tuple[dict[str, Any], list[dict[str, str]], lis
     if categories is not None:
         allowed_categories = set(categories)
         facts = [row for row in facts if row["category"] in allowed_categories]
+    required_tags = set(deck_config.get("required_tags", []))
+    if required_tags:
+        facts = [row for row in facts if required_tags <= set(row["tags"].split())]
+    fact_id_prefix = deck_config.get("fact_id_prefix", "")
+    if fact_id_prefix:
+        facts = [dict(row, fact_id=fact_id_prefix + row["fact_id"]) for row in facts]
     return config, facts, sources
 
 

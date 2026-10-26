@@ -1,0 +1,208 @@
+fact_id	category	prompt	answer	reading	detail	source_id	tags
+country-capital-is	首都	アイスランドの首都は？	レイキャビク		正式名称：アイスランド	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ie	首都	アイルランドの首都は？	ダブリン		正式名称：アイルランド	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-az	首都	アゼルバイジャンの首都は？	バクー		正式名称：アゼルバイジャン共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-af	首都	アフガニスタンの首都は？	カブール		正式名称：アフガニスタン・イスラム共和国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-us	首都	アメリカの首都は？	ワシントンD. C.		正式名称：アメリカ合衆国	mofa_region_n_america	country country-capital 北米 country-capital-starter
+country-capital-ae	首都	アラブ首長国連邦の首都は？	アブダビ		正式名称：アラブ首長国連邦	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-dz	首都	アルジェリアの首都は？	アルジェ		正式名称：アルジェリア民主人民共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ar	首都	アルゼンチンの首都は？	ブエノスアイレス		正式名称：アルゼンチン共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-al	首都	アルバニアの首都は？	ティラナ		正式名称：アルバニア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-am	首都	アルメニアの首都は？	エレバン		正式名称：アルメニア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ao	首都	アンゴラの首都は？	ルアンダ		正式名称：アンゴラ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ag	首都	アンティグア・バーブーダの首都は？	セントジョンズ		正式名称：アンティグア・バーブーダ	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-ad	首都	アンドラの首都は？	アンドラ・ラ・ベリャ		正式名称：アンドラ公国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ye	首都	イエメンの首都は？	サヌア		正式名称：イエメン共和国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-il	首都	イスラエルの首都は？	エルサレム		"正式名称：イスラエル国
+注記：日本を含め国際社会の大多数には認められていない（外務省 基礎データの注2）"	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-it	首都	イタリアの首都は？	ローマ		正式名称：イタリア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-iq	首都	イラクの首都は？	バグダッド		正式名称：イラク共和国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-ir	首都	イランの首都は？	テヘラン		正式名称：イラン・イスラム共和国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-in	首都	インドの首都は？	ニューデリー		正式名称：インド	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-id	首都	インドネシアの首都は？	ジャカルタ		正式名称：インドネシア共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-ug	首都	ウガンダの首都は？	カンパラ		正式名称：ウガンダ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ua	首都	ウクライナの首都は？	キーウ		正式名称：ウクライナ	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-uz	首都	ウズベキスタンの首都は？	タシケント		正式名称：ウズベキスタン共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-uy	首都	ウルグアイの首都は？	モンテビデオ		正式名称：ウルグアイ東方共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-gb	首都	英国の首都は？	ロンドン		正式名称：英国（グレートブリテン及び北アイルランド連合王国）	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ec	首都	エクアドルの首都は？	キト		正式名称：エクアドル共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-eg	首都	エジプトの首都は？	カイロ		正式名称：エジプト・アラブ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ee	首都	エストニアの首都は？	タリン		正式名称：エストニア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-sz	首都	エスワティニの首都は？	ムババーネ		正式名称：エスワティニ王国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-et	首都	エチオピアの首都は？	アディスアベバ		正式名称：エチオピア連邦民主共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-er	首都	エリトリアの首都は？	アスマラ		正式名称：エリトリア国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-sv	首都	エルサルバドルの首都は？	サンサルバドル		正式名称：エルサルバドル共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-au	首都	オーストラリアの首都は？	キャンベラ		正式名称：オーストラリア連邦	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-at	首都	オーストリアの首都は？	ウィーン		正式名称：オーストリア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-om	首都	オマーンの首都は？	マスカット		正式名称：オマーン国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-nl	首都	オランダの首都は？	アムステルダム		"正式名称：オランダ王国
+注記：政治機能所在地はハーグ（外務省 基礎データ）"	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-gh	首都	ガーナの首都は？	アクラ		正式名称：ガーナ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cv	首都	カーボベルデの首都は？	プライア		正式名称：カーボベルデ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-gy	首都	ガイアナの首都は？	ジョージタウン		正式名称：ガイアナ協同共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-kz	首都	カザフスタンの首都は？	アスタナ		正式名称：カザフスタン共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-qa	首都	カタールの首都は？	ドーハ		正式名称：カタール国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-ca	首都	カナダの首都は？	オタワ		正式名称：カナダ	mofa_region_n_america	country country-capital 北米 country-capital-starter
+country-capital-ga	首都	ガボンの首都は？	リーブルビル		正式名称：ガボン共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cm	首都	カメルーンの首都は？	ヤウンデ		正式名称：カメルーン共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-gm	首都	ガンビアの首都は？	バンジュール		正式名称：ガンビア共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-kh	首都	カンボジアの首都は？	プノンペン		正式名称：カンボジア王国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-mk	首都	北マケドニアの首都は？	スコピエ		正式名称：北マケドニア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-gn	首都	ギニアの首都は？	コナクリ		正式名称：ギニア共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-gw	首都	ギニアビサウの首都は？	ビサウ		正式名称：ギニアビサウ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cy	首都	キプロスの首都は？	ニコシア		正式名称：キプロス共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-cu	首都	キューバの首都は？	ハバナ		正式名称：キューバ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-gr	首都	ギリシャの首都は？	アテネ		正式名称：ギリシャ共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ki	首都	キリバスの首都は？	タラワ		正式名称：キリバス共和国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-kg	首都	キルギスの首都は？	ビシュケク		正式名称：キルギス共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-gt	首都	グアテマラの首都は？	グアテマラ市		正式名称：グアテマラ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-kw	首都	クウェートの首都は？	クウェート		正式名称：クウェート国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-ck	首都	クック諸島の首都は？	アバルア		"正式名称：クック諸島
+注記：ラロトンガ島（外務省 キッズ「世界の国々 基本情報」）"	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-gd	首都	グレナダの首都は？	セントジョージズ		正式名称：グレナダ	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-hr	首都	クロアチアの首都は？	ザグレブ		正式名称：クロアチア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ke	首都	ケニアの首都は？	ナイロビ		正式名称：ケニア共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ci	首都	コートジボワールの首都は？	ヤムスクロ		"正式名称：コートジボワール共和国
+注記：実質的首都機能はアビジャン（外務省 基礎データ）"	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cr	首都	コスタリカの首都は？	サンホセ		正式名称：コスタリカ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-xk	首都	コソボの首都は？	プリシュティナ		正式名称：コソボ共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-km	首都	コモロの首都は？	モロニ		正式名称：コモロ連合	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-co	首都	コロンビアの首都は？	ボゴタ		正式名称：コロンビア共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-cg	首都	コンゴ共和国の首都は？	ブラザビル		正式名称：コンゴ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cd	首都	コンゴ民主共和国の首都は？	キンシャサ		正式名称：コンゴ民主共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-sa	首都	サウジアラビアの首都は？	リヤド		正式名称：サウジアラビア王国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-ws	首都	サモアの首都は？	アピア		正式名称：サモア独立国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-st	首都	サントメ・プリンシペの首都は？	サントメ		正式名称：サントメ・プリンシペ民主共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-zm	首都	ザンビアの首都は？	ルサカ		正式名称：ザンビア共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-sm	首都	サンマリノの首都は？	サンマリノ		正式名称：サンマリノ共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-sl	首都	シエラレオネの首都は？	フリータウン		正式名称：シエラレオネ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-dj	首都	ジブチの首都は？	ジブチ		正式名称：ジブチ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-jm	首都	ジャマイカの首都は？	キングストン		正式名称：ジャマイカ	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-ge	首都	ジョージアの首都は？	トビリシ		正式名称：ジョージア	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-sy	首都	シリアの首都は？	ダマスカス		正式名称：シリア・アラブ共和国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-sg	首都	シンガポールの首都は？	シンガポール		"正式名称：シンガポール共和国
+注記：都市国家のため、国名と首都名が同じ。"	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-zw	首都	ジンバブエの首都は？	ハラレ		正式名称：ジンバブエ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ch	首都	スイスの首都は？	ベルン		正式名称：スイス連邦	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-se	首都	スウェーデンの首都は？	ストックホルム		正式名称：スウェーデン王国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-sd	首都	スーダンの首都は？	ハルツーム		正式名称：スーダン共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-es	首都	スペインの首都は？	マドリード		正式名称：スペイン王国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-sr	首都	スリナムの首都は？	パラマリボ		正式名称：スリナム共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-lk	首都	スリランカの首都は？	スリ・ジャヤワルダナプラ・コッテ		正式名称：スリランカ民主社会主義共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-sk	首都	スロバキアの首都は？	ブラチスラバ		正式名称：スロバキア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-si	首都	スロベニアの首都は？	リュブリャナ		正式名称：スロベニア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-sc	首都	セーシェルの首都は？	ヴィクトリア		正式名称：セーシェル共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-gq	首都	赤道ギニアの首都は？	シウダ・デ・ラ・パス		"正式名称：赤道ギニア共和国
+注記：2026年1月にマラボからの移転が宣言された。実質的首都機能は引き続きマラボ（外務省 基礎データ）"	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-sn	首都	セネガルの首都は？	ダカール		正式名称：セネガル共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-rs	首都	セルビアの首都は？	ベオグラード		正式名称：セルビア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-kn	首都	セントクリストファー・ネービスの首都は？	バセテール		正式名称：セントクリストファー・ネービス	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-vc	首都	セントビンセント及びグレナディーン諸島の首都は？	キングスタウン		正式名称：セントビンセント及びグレナディーン諸島	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-lc	首都	セントルシアの首都は？	カストリーズ		正式名称：セントルシア	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-so	首都	ソマリアの首都は？	モガディシュ		正式名称：ソマリア連邦共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-sb	首都	ソロモン諸島の首都は？	ホニアラ		正式名称：ソロモン諸島	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-th	首都	タイの首都は？	バンコク		正式名称：タイ王国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-kr	首都	大韓民国の首都は？	ソウル		正式名称：大韓民国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-tj	首都	タジキスタンの首都は？	ドゥシャンベ		正式名称：タジキスタン共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-tz	首都	タンザニアの首都は？	ドドマ		"正式名称：タンザニア連合共和国
+注記：法律上の首都であり、国会議事堂が置かれている。経済面で中心となっているのはダルエスサラーム（外務省 基礎データ）"	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cz	首都	チェコの首都は？	プラハ		正式名称：チェコ共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-td	首都	チャドの首都は？	ウンジャメナ		正式名称：チャド共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cf	首都	中央アフリカの首都は？	バンギ		正式名称：中央アフリカ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cn	首都	中国の首都は？	北京		正式名称：中華人民共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-tn	首都	チュニジアの首都は？	チュニス		正式名称：チュニジア共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-cl	首都	チリの首都は？	サンティアゴ		正式名称：チリ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-tv	首都	ツバルの首都は？	フナフティ		正式名称：ツバル	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-dk	首都	デンマークの首都は？	コペンハーゲン		正式名称：デンマーク王国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-de	首都	ドイツの首都は？	ベルリン		正式名称：ドイツ連邦共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-tg	首都	トーゴの首都は？	ロメ		正式名称：トーゴ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-dm	首都	ドミニカ国の首都は？	ロゾー		正式名称：ドミニカ国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-do	首都	ドミニカ共和国の首都は？	サントドミンゴ		正式名称：ドミニカ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-tt	首都	トリニダード・トバゴの首都は？	ポート・オブ・スペイン		正式名称：トリニダード・トバゴ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-tm	首都	トルクメニスタンの首都は？	アシガバット		正式名称：トルクメニスタン	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-tr	首都	トルコの首都は？	アンカラ		正式名称：トルコ共和国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-to	首都	トンガの首都は？	ヌクアロファ		正式名称：トンガ王国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-ng	首都	ナイジェリアの首都は？	アブジャ		正式名称：ナイジェリア連邦共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-nr	首都	ナウルの首都は？	ヤレン		正式名称：ナウル共和国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-na	首都	ナミビアの首都は？	ウィントフック		正式名称：ナミビア共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-nu	首都	ニウエの首都は？	アロフィ		正式名称：ニウエ	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-ni	首都	ニカラグアの首都は？	マナグア		正式名称：ニカラグア共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-ne	首都	ニジェールの首都は？	ニアメ		正式名称：ニジェール共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-jp	首都	日本の首都は？	東京		正式名称：日本	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-nz	首都	ニュージーランドの首都は？	ウェリントン		正式名称：ニュージーランド	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-np	首都	ネパールの首都は？	カトマンズ		正式名称：ネパール	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-no	首都	ノルウェーの首都は？	オスロ		正式名称：ノルウェー王国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-bh	首都	バーレーンの首都は？	マナーマ市		正式名称：バーレーン王国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-ht	首都	ハイチの首都は？	ポルトープランス		正式名称：ハイチ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-pk	首都	パキスタンの首都は？	イスラマバード		正式名称：パキスタン・イスラム共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-va	首都	バチカンの首都は？	バチカン市国		"正式名称：バチカン市国
+注記：都市国家のため、国名に首都の名称が含まれる。"	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-pa	首都	パナマの首都は？	パナマシティー		正式名称：パナマ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-vu	首都	バヌアツの首都は？	ポートビラ		正式名称：バヌアツ共和国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-bs	首都	バハマの首都は？	ナッソー		正式名称：バハマ国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-pg	首都	パプアニューギニアの首都は？	ポートモレスビー		正式名称：パプアニューギニア独立国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-pw	首都	パラオの首都は？	マルキョク		正式名称：パラオ共和国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-py	首都	パラグアイの首都は？	アスンシオン		正式名称：パラグアイ共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-bb	首都	バルバドスの首都は？	ブリッジタウン		正式名称：バルバドス	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-hu	首都	ハンガリーの首都は？	ブダペスト		正式名称：ハンガリー	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-bd	首都	バングラデシュの首都は？	ダッカ		正式名称：バングラデシュ人民共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-tl	首都	東ティモールの首都は？	ディリ		正式名称：東ティモール民主共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-fj	首都	フィジーの首都は？	スバ		正式名称：フィジー共和国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-ph	首都	フィリピンの首都は？	マニラ		正式名称：フィリピン共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-fi	首都	フィンランドの首都は？	ヘルシンキ		正式名称：フィンランド共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-bt	首都	ブータンの首都は？	ティンプー		正式名称：ブータン王国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-br	首都	ブラジルの首都は？	ブラジリア		正式名称：ブラジル連邦共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-fr	首都	フランスの首都は？	パリ		正式名称：フランス共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-bg	首都	ブルガリアの首都は？	ソフィア		正式名称：ブルガリア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-bf	首都	ブルキナファソの首都は？	ワガドゥグ		正式名称：ブルキナファソ	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-bn	首都	ブルネイの首都は？	バンダル・スリ・ブガワン		正式名称：ブルネイ・ダルサラーム国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-bi	首都	ブルンジの首都は？	ギテガ		"正式名称：ブルンジ共和国
+注記：経済の中心はブジュンブラ（外務省 基礎データ）"	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-vn	首都	ベトナムの首都は？	ハノイ		正式名称：ベトナム社会主義共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-bj	首都	ベナンの首都は？	ポルトノボ		"正式名称：ベナン共和国
+注記：実質的首都機能はコトヌ（外務省 基礎データ）"	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ve	首都	ベネズエラ・ボリバルの首都は？	カラカス		正式名称：ベネズエラ・ボリバル共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-by	首都	ベラルーシの首都は？	ミンスク		正式名称：ベラルーシ共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-bz	首都	ベリーズの首都は？	ベルモパン		正式名称：ベリーズ	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-pe	首都	ペルーの首都は？	リマ		正式名称：ペルー共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-be	首都	ベルギーの首都は？	ブリュッセル		正式名称：ベルギー王国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-pl	首都	ポーランドの首都は？	ワルシャワ		正式名称：ポーランド共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ba	首都	ボスニア・ヘルツェゴビナの首都は？	サラエボ		正式名称：ボスニア・ヘルツェゴビナ	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-bw	首都	ボツワナの首都は？	ハボローネ		正式名称：ボツワナ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-bo	首都	ボリビアの首都は？	ラパス		"正式名称：ボリビア多民族国
+注記：憲法上の首都はスクレ（外務省 基礎データ）"	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-pt	首都	ポルトガルの首都は？	リスボン		正式名称：ポルトガル共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-hn	首都	ホンジュラスの首都は？	テグシガルパ		正式名称：ホンジュラス共和国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-mh	首都	マーシャル諸島の首都は？	マジュロ		正式名称：マーシャル諸島共和国	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-mg	首都	マダガスカルの首都は？	アンタナナリボ		正式名称：マダガスカル共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-mw	首都	マラウイの首都は？	リロングウェ		正式名称：マラウイ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ml	首都	マリの首都は？	バマコ		正式名称：マリ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-mt	首都	マルタの首都は？	バレッタ		正式名称：マルタ共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-my	首都	マレーシアの首都は？	クアラルンプール		正式名称：マレーシア	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-fm	首都	ミクロネシアの首都は？	パリキール		正式名称：ミクロネシア連邦	mofa_region_pacific	country country-capital 大洋州 country-capital-starter
+country-capital-za	首都	南アフリカの首都は？	プレトリア		正式名称：南アフリカ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ss	首都	南スーダンの首都は？	ジュバ		正式名称：南スーダン共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-mm	首都	ミャンマーの首都は？	ネーピードー		正式名称：ミャンマー連邦共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-mx	首都	メキシコの首都は？	メキシコ市		正式名称：メキシコ合衆国	mofa_region_latinamerica	country country-capital 中南米 country-capital-starter
+country-capital-mu	首都	モーリシャスの首都は？	ポートルイス		正式名称：モーリシャス共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-mr	首都	モーリタニアの首都は？	ヌアクショット		正式名称：モーリタニア・イスラム共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-mz	首都	モザンビークの首都は？	マプト		正式名称：モザンビーク共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-mc	首都	モナコの首都は？	モナコ		正式名称：モナコ公国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-mv	首都	モルディブの首都は？	マレ		正式名称：モルディブ共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-md	首都	モルドバの首都は？	キシナウ		正式名称：モルドバ共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ma	首都	モロッコの首都は？	ラバト		正式名称：モロッコ王国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-mn	首都	モンゴルの首都は？	ウランバートル		正式名称：モンゴル国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-me	首都	モンテネグロの首都は？	ポドゴリツァ		正式名称：モンテネグロ	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-jo	首都	ヨルダンの首都は？	アンマン		正式名称：ヨルダン	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-la	首都	ラオスの首都は？	ビエンチャン		正式名称：ラオス人民民主共和国	mofa_region_asia	country country-capital アジア country-capital-starter
+country-capital-lv	首都	ラトビアの首都は？	リガ		正式名称：ラトビア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-lt	首都	リトアニアの首都は？	ビリニュス		正式名称：リトアニア共和国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-ly	首都	リビア国の首都は？	トリポリ		正式名称：リビア	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-li	首都	リヒテンシュタインの首都は？	ファドーツ		正式名称：リヒテンシュタイン公国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-lr	首都	リベリアの首都は？	モンロビア		正式名称：リベリア共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ro	首都	ルーマニアの首都は？	ブカレスト		正式名称：ルーマニア	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-lu	首都	ルクセンブルクの首都は？	ルクセンブルク		正式名称：ルクセンブルク大公国	mofa_region_europe	country country-capital 欧州 country-capital-starter
+country-capital-rw	首都	ルワンダの首都は？	キガリ		正式名称：ルワンダ共和国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-ls	首都	レソトの首都は？	マセル		正式名称：レソト王国	mofa_region_africa	country country-capital アフリカ country-capital-starter
+country-capital-lb	首都	レバノンの首都は？	ベイルート		正式名称：レバノン共和国	mofa_region_middleeast	country country-capital 中東 country-capital-starter
+country-capital-ru	首都	ロシアの首都は？	モスクワ		正式名称：ロシア連邦	mofa_region_europe	country country-capital 欧州 country-capital-starter

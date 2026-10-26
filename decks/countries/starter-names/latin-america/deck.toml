@@ -1,0 +1,15 @@
+[deck]
+id = 2601020306
+model_id = 2601020102
+name = "国名スターター::中南米"
+slug = "country-name-latin-america"
+model_name = "Country Fact"
+data_file = "../../data/starter-country-name-facts.tsv"
+sources_file = "../../data/starter-sources.tsv"
+include_reverse = false
+fact_id_prefix = "starter-"
+required_tags = ["中南米"]
+
+[validation]
+expected_rows = 33
+required_categories = ["国名"]

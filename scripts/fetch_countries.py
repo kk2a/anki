@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import csv
 import re
+import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin
@@ -16,7 +18,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "decks/countries/data"
 FLAGS_DIR = ROOT / "decks/countries/assets/flags"
 LIST_URL = "https://tools.digrart.jp/world-flags/"
-FLAG_BASE_URL = "https://cdn.jsdelivr.net/npm/flag-icons@7.3.2/flags/4x3/"
+FLAG_BASE_URL = "https://flagcdn.com/"
+FLAG_SOURCE_URL = "https://www.sekainokokki.jp/organization/un#toc-members"
 EXPECTED_COUNTRIES = 196
 
 ENTRY_RE = re.compile(
@@ -158,8 +161,8 @@ def make_facts(rows: list[dict[str, str]]) -> dict[str, list[dict[str, str]]]:
                 name,
                 detail,
                 f"{base_tags} country-name",
-                f"{name}の首都は？",
-                capital,
+                "",
+                "",
             )
         )
         capital_facts.append(
@@ -170,8 +173,8 @@ def make_facts(rows: list[dict[str, str]]) -> dict[str, list[dict[str, str]]]:
                 capital,
                 detail,
                 f"{base_tags} country-capital",
-                f"首都が{capital}の国名は？",
-                name,
+                "",
+                "",
             )
         )
         flag_facts.append(
@@ -184,9 +187,10 @@ def make_facts(rows: list[dict[str, str]]) -> dict[str, list[dict[str, str]]]:
                 f"{base_tags} country-flag",
                 "",
                 "",
-                prompt_media=f"{country_id}.svg",
+                prompt_media=f"flagpedia-{row['flag_code']}.svg",
             )
         )
+        flag_facts[-1]["source_id"] = "country_flags"
     return {"country-name": name_facts, "capital": capital_facts, "flag": flag_facts}
 
 
@@ -198,7 +202,7 @@ def write_tsv(path: Path, fields: list[str], rows: list[dict[str, str]]) -> None
         writer.writerows({field: row.get(field, "") for field in fields} for row in rows)
 
 
-def write_sources(accessed_at: str) -> None:
+def write_sources(accessed_at: str, *, cached_countries: bool = False) -> None:
     rows = [
         {
             "source_id": "country_list",
@@ -215,29 +219,51 @@ def write_sources(accessed_at: str) -> None:
             "rights_note": "国名・首都の照合用。外務省の注記を優先して個別カードの注記を更新する。",
         },
         {
-            "source_id": "flag_icons",
-            "title": "flag-icons（MIT License）4:3 SVG flags v7.3.2",
-            "url": "https://github.com/lipis/flag-icons/tree/v7.3.2/flags/4x3",
+            "source_id": "country_flags",
+            "title": "Sekainokokki.jp 国旗画像（Flagpedia / flagcdn.com）",
+            "url": FLAG_SOURCE_URL,
             "accessed_at": accessed_at,
-            "rights_note": "SVGは取得スクリプトで生成物として用意し、Gitでは管理しない。MIT Licenseに従う。",
+            "rights_note": "国旗画像はパブリックドメイン（https://flagpedia.net/terms）。公式CDN（https://www.sekainokokki.jp/download/api）から元の縦横比のSVGを取得しAPKGに同梱。国名・首都はcountry_listを参照。対象196か国は既存の外務省基準を維持し、国連加盟193か国に限定しない。",
         },
     ]
+    if cached_countries:
+        with (DATA_DIR / "sources.tsv").open(encoding="utf-8", newline="") as handle:
+            previous = {row["source_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+        rows = [
+            previous.get(row["source_id"], row)
+            if row["source_id"] != "country_flags" else row
+            for row in rows
+        ]
     write_tsv(DATA_DIR / "sources.tsv", SOURCE_FIELDS, rows)
 
 
 def download_flags(rows: list[dict[str, str]]) -> None:
     FLAGS_DIR.mkdir(parents=True, exist_ok=True)
-    for index, row in enumerate(rows, start=1):
+
+    def download(row: dict[str, str]) -> str:
         filename = f"{row['flag_code']}.svg"
-        target = FLAGS_DIR / filename
+        target = FLAGS_DIR / f"flagpedia-{filename}"
         if not target.exists():
-            target.write_bytes(fetch_bytes(urljoin(FLAG_BASE_URL, filename)))
-        print(f"flag {index}/{len(rows)} {filename}")
+            content = fetch_bytes(urljoin(FLAG_BASE_URL, filename))
+            if ET.fromstring(content).tag != "{http://www.w3.org/2000/svg}svg":
+                raise ValueError(f"Invalid flag SVG: {filename}")
+            temporary = target.with_suffix(".svg.tmp")
+            temporary.write_bytes(content)
+            temporary.replace(target)
+        return target.name
+
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        for index, filename in enumerate(executor.map(download, rows), start=1):
+            print(f"flag {index}/{len(rows)} {filename}", flush=True)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--skip-flags", action="store_true", help="do not download SVG flags")
+    parser.add_argument(
+        "--cached-countries", action="store_true",
+        help="reuse countries.tsv without fetching country names or capitals",
+    )
     parser.add_argument(
         "--accessed-at",
         default=date.today().isoformat(),
@@ -245,25 +271,40 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    page_html = fetch_text(LIST_URL)
-    app_match = re.search(r'<script type="module" src="([^"]+world-flags[^"/]*\.js)"', page_html)
-    if not app_match:
-        raise ValueError("Could not find the world-flags data script in the source page")
-    app_url = urljoin(LIST_URL, app_match.group(1))
-    app_js = fetch_text(app_url)
-    data_match = re.search(r'from"([^"]*countries\.[^"]+\.js)"', app_js)
-    if not data_match:
-        raise ValueError("Could not find the country data module in the app script")
-    data_js = fetch_text(urljoin(app_url, data_match.group(1)))
-    rows = parse_countries(data_js)
+    if args.cached_countries:
+        with (DATA_DIR / "countries.tsv").open(encoding="utf-8", newline="") as handle:
+            rows = list(csv.DictReader(handle, delimiter="\t"))
+        if (
+            len(rows) != EXPECTED_COUNTRIES
+            or len({row["country_id"] for row in rows}) != EXPECTED_COUNTRIES
+        ):
+            raise ValueError("Expected 196 unique countries in countries.tsv")
+    else:
+        page_html = fetch_text(LIST_URL)
+        app_match = re.search(r'<script type="module" src="([^"]+world-flags[^"/]*\.js)"', page_html)
+        if not app_match:
+            raise ValueError("Could not find the world-flags data script in the source page")
+        app_url = urljoin(LIST_URL, app_match.group(1))
+        app_js = fetch_text(app_url)
+        data_match = re.search(r'from"([^"]*countries\.[^"]+\.js)"', app_js)
+        if not data_match:
+            raise ValueError("Could not find the country data module in the app script")
+        data_js = fetch_text(urljoin(app_url, data_match.group(1)))
+        rows = parse_countries(data_js)
     facts = make_facts(rows)
+    if not args.skip_flags:
+        download_flags(rows)
 
     write_tsv(DATA_DIR / "countries.tsv", COUNTRY_FIELDS, rows)
     for slug, slug_facts in facts.items():
-        write_tsv(DATA_DIR / f"{slug}-facts.tsv", FACT_FIELDS, slug_facts)
-    write_sources(args.accessed_at)
-    if not args.skip_flags:
-        download_flags(rows)
+        fields = [
+            field for field in FACT_FIELDS
+            if not field.startswith("reverse_") and not field.endswith("_media")
+        ]
+        if slug == "flag":
+            fields.append("prompt_media")
+        write_tsv(DATA_DIR / f"{slug}-facts.tsv", fields, slug_facts)
+    write_sources(args.accessed_at, cached_countries=args.cached_countries)
     print(f"Prepared {len(rows)} countries under {DATA_DIR}")
     return 0
 

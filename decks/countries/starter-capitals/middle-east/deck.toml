@@ -1,0 +1,15 @@
+[deck]
+id = 2601020402
+model_id = 2601020106
+name = "首都スターター::中東"
+slug = "country-capital-middle-east"
+model_name = "Country Fact"
+data_file = "../../data/starter-capital-facts.tsv"
+sources_file = "../../data/starter-sources.tsv"
+include_reverse = false
+fact_id_prefix = "starter-"
+required_tags = ["中東"]
+
+[validation]
+expected_rows = 15
+required_categories = ["首都"]
