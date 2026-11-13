@@ -1,7 +1,7 @@
 [deck]
 id = 2601050101
 model_id = 2601050102
-name = "魚介ビジュアル"
+name = "生き物::魚介"
 slug = "fish-visual"
 model_name = "Visual Nature Fact"
 data_file = "../data/facts.tsv"

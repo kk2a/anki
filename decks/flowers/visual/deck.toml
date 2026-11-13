@@ -1,7 +1,7 @@
 [deck]
 id = 2601050301
 model_id = 2601050302
-name = "花ビジュアル"
+name = "生き物::花"
 slug = "flowers-visual"
 model_name = "Visual Nature Fact"
 data_file = "../data/facts.tsv"

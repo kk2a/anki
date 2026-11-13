@@ -1,7 +1,7 @@
 [deck]
 id = 2601031107
 model_id = 2601030102
-name = "星座スターター::冬::日本語名→学名・略号"
+name = "星座・恒星::星座名::冬::日本語名→学名・略号"
 slug = "constellation-name-starter-winter"
 model_name = "Constellation Fact"
 data_file = "../../data/starter-name-facts.tsv"
@@ -12,7 +12,7 @@ required_tags = ["season-winter"]
 
 [deck.reverse_deck]
 id = 2601031108
-name = "星座スターター::冬::学名・略号→日本語名"
+name = "星座・恒星::星座名::冬::学名・略号→日本語名"
 
 [validation]
 expected_rows = 22

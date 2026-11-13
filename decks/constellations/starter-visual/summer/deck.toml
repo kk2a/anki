@@ -1,7 +1,7 @@
 [deck]
 id = 2601031203
 model_id = 2601030202
-name = "星座（星図）スターター::夏"
+name = "星座・恒星::星図::夏"
 slug = "constellation-visual-starter-summer"
 model_name = "Constellation Visual Fact"
 data_file = "../../data/starter-visual-facts.tsv"

@@ -64,6 +64,11 @@ def build_kitauji() -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
+        "--skip-kitauji",
+        action="store_true",
+        help="build only the topic packages used by the public release",
+    )
+    parser.add_argument(
         "--refresh-countries",
         action="store_true",
         help="download the country data and flag SVGs before building",
@@ -120,8 +125,10 @@ def main() -> int:
     topic_count = build_topic_decks()
     run([sys.executable, str(COUNTRY_BUNDLE_BUILDER)])
     run([sys.executable, str(CONSTELLATION_BUNDLE_BUILDER)])
-    build_kitauji()
-    print(f"PASS all builds: {topic_count} topic configs and 2 Kitauji packages")
+    if not args.skip_kitauji:
+        build_kitauji()
+    kitauji_count = 0 if args.skip_kitauji else 2
+    print(f"PASS all builds: {topic_count} topic configs and {kitauji_count} Kitauji packages")
     return 0
 
 

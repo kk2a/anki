@@ -1,13 +1,17 @@
 [deck]
 id = 2601010105
 model_id = 2601010106
-name = "二十四節気"
+name = "暦::二十四節気::太陽黄経→節気"
 slug = "sekki"
 model_name = "Japanese Calendar Fact"
 data_file = "../data/facts.tsv"
 sources_file = "../data/sources.tsv"
 categories = ["二十四節気"]
 include_reverse = true
+
+[deck.reverse_deck]
+id = 2601010205
+name = "暦::二十四節気::節気→太陽黄経"
 
 [validation]
 expected_rows = 24

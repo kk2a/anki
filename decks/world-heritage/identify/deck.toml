@@ -1,9 +1,9 @@
 [deck]
 id = 2601040101
 model_id = 2601040102
-name = "世界遺産（公式一覧・手がかりから）"
+name = "世界遺産::手がかり→名称"
 slug = "world-heritage-identify"
-model_name = "World Heritage Fact"
+model_name = "World Heritage Identify Fact"
 data_file = "../data/facts.tsv"
 sources_file = "../data/sources.tsv"
 card_direction = "forward"

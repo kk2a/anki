@@ -1,7 +1,7 @@
 [deck]
 id = 2601020401
 model_id = 2601020106
-name = "首都スターター::アジア"
+name = "国・地域::首都::アジア::国名→首都"
 slug = "country-capital-asia"
 model_name = "Country Fact"
 data_file = "../../data/starter-capital-facts.tsv"

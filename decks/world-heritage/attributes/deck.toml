@@ -1,12 +1,13 @@
 [deck]
 id = 2601040103
 model_id = 2601040104
-name = "世界遺産（公式一覧・名称から情報）"
+name = "世界遺産::名称→登録情報"
 slug = "world-heritage-attributes"
-model_name = "World Heritage Fact"
+model_name = "World Heritage Attributes Fact"
 data_file = "../data/facts.tsv"
 sources_file = "../data/sources.tsv"
 card_direction = "reverse"
+fact_id_prefix = "attributes-"
 include_reverse = false
 
 [validation]

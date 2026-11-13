@@ -1,7 +1,7 @@
 [deck]
 id = 2601020307
 model_id = 2601020102
-name = "国名スターター::大洋州"
+name = "国・地域::首都::大洋州::首都→国名"
 slug = "country-name-oceania"
 model_name = "Country Fact"
 data_file = "../../data/starter-country-name-facts.tsv"

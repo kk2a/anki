@@ -12,20 +12,22 @@ COUNTRIES = ROOT / "decks/countries"
 
 def main() -> int:
     groups = {
-        f"{slug}-pack": [COUNTRIES / full] + sorted(path.parent for path in (COUNTRIES / kind).glob("*/deck.toml"))
-        for slug, full, kind in (
-            ("country-name", "country-name", "starter-names"),
-            ("country-flag", "country-flag", "starter-flags"),
-            ("country-capital", "capital", "starter-capitals"),
-        )
+        "country-capital-pack": sorted(
+            path.parent for kind in ("starter-capitals", "starter-names")
+            for path in (COUNTRIES / kind).glob("*/deck.toml")
+        ),
+        "country-flag-pack": sorted(
+            path.parent for path in (COUNTRIES / "starter-flags").glob("*/deck.toml")
+        ),
     }
     for name, decks in groups.items():
-        if len(decks) != 8:
-            raise ValueError(f"Expected 1 full and 7 regional deck configurations in {name}")
+        expected = 392 if name == "country-capital-pack" else 196
+        if len(decks) != (14 if expected == 392 else 7):
+            raise ValueError(f"Expected seven regions per direction in {name}")
         output = COUNTRIES / "build" / f"{name}.apkg"
         notes, cards = build_package(decks, output)
-        if notes != 392 or cards != 392:
-            raise ValueError(f"Expected 392 notes/cards in {name}, found {notes}/{cards}")
+        if notes != expected or cards != expected:
+            raise ValueError(f"Expected {expected} notes/cards in {name}, found {notes}/{cards}")
         print(f"Wrote {len(decks)} decks, {notes} notes and {cards} cards to {output}")
     return 0
 

@@ -81,7 +81,7 @@ def main() -> int:
         for index, (season, label) in enumerate(SEASONS):
             path = BASE / f"starter-{kind}" / season / "deck.toml"
             path.parent.mkdir(parents=True, exist_ok=True)
-            title = {"name": "星座スターター", "visual": "星座（星図）スターター", "main-stars": "主要恒星スターター"}[kind]
+            title = "星座・恒星::" + {"name": "星座名", "visual": "星図", "main-stars": "主要恒星"}[kind]
             forward = f"{title}::{label}"
             if kind == "name":
                 forward += "::日本語名→学名・略号"

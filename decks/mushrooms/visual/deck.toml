@@ -1,7 +1,7 @@
 [deck]
 id = 2601050401
 model_id = 2601050402
-name = "きのこビジュアル"
+name = "生き物::きのこ"
 slug = "mushrooms-visual"
 model_name = "Visual Nature Fact"
 data_file = "../data/facts.tsv"

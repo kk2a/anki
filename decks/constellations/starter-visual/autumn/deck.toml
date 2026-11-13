@@ -1,7 +1,7 @@
 [deck]
 id = 2601031205
 model_id = 2601030202
-name = "星座（星図）スターター::秋"
+name = "星座・恒星::星図::秋"
 slug = "constellation-visual-starter-autumn"
 model_name = "Constellation Visual Fact"
 data_file = "../../data/starter-visual-facts.tsv"

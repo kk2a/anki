@@ -12,3 +12,4 @@ decks/**/assets/**/*.jpg
 decks/**/assets/**/*.jpeg
 decks/**/assets/**/*.png
 decks/**/assets/**/*.webp
+/dist/

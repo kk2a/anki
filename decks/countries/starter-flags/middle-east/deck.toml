@@ -1,7 +1,7 @@
 [deck]
 id = 2601020202
 model_id = 2601020104
-name = "国旗スターター::中東"
+name = "国・地域::国旗::中東"
 slug = "country-flag-middle-east"
 model_name = "Country Fact"
 data_file = "../../data/starter-flag-facts.tsv"

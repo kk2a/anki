@@ -1,7 +1,7 @@
 [deck]
 id = 2601020304
 model_id = 2601020102
-name = "国名スターター::アフリカ"
+name = "国・地域::首都::アフリカ::首都→国名"
 slug = "country-name-africa"
 model_name = "Country Fact"
 data_file = "../../data/starter-country-name-facts.tsv"

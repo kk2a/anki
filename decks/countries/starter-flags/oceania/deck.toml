@@ -1,7 +1,7 @@
 [deck]
 id = 2601020207
 model_id = 2601020104
-name = "国旗スターター::大洋州"
+name = "国・地域::国旗::大洋州"
 slug = "country-flag-oceania"
 model_name = "Country Fact"
 data_file = "../../data/starter-flag-facts.tsv"
